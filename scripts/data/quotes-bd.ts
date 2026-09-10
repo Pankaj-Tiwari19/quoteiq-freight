@@ -44,7 +44,7 @@ export const VENDOR_D = {
   vendorId: 'vendor-D',
   name: 'SeaCrest Freight & Logistics',
   currency: 'INR',
-  basisNote: 'Rates include BAF/CAF. Origin THC, documentation and customs charges are extra at actuals.',
+  basisNote: 'All rates ALL-IN: include THC both ends, BAF/CAF and documentation. Customs clearance extra.',
   validity: 'Valid till 31 Dec 2026',
   fcl: [
     { route: 'Nhava Sheva – Jebel Ali', p20: 44500, p40: 68900, map20: 'L01', map40: 'L02' },

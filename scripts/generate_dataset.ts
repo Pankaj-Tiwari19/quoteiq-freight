@@ -73,12 +73,12 @@ const C_PRICES: Record<string, number> = { L01: 45200, L02: 69800, L03: 43500, L
     new Paragraph({ text: "CorriGlobe Freight Services", heading: HeadingLevel.TITLE }),
     new Paragraph({ children: [new TextRun({ text: "Ref CGF/2026/RFX-FRT · 14 September 2026", italics: true })] }),
     new Paragraph("Dear Sir,"),
-    new Paragraph("Thank you for your enquiry for annual freight lanes. We are pleased to offer the following rates in Indian Rupees. All ocean rates include terminal handling at origin and documentation; destination terminal handling and any BAF/CAF adjustment after 31 December 2026 will be charged at actuals. Air rates include origin handling. Rates are valid for 60 days."),
+    new Paragraph("Thank you for your enquiry for annual freight lanes. We are pleased to offer the following rates in Indian Rupees. All ocean and air rates are all-in port to port: terminal handling at both ends, BAF/CAF and documentation are included. Customs clearance and duties are excluded. Rates are valid for 60 days."),
     new Paragraph({ text: "Ocean freight – FCL", heading: HeadingLevel.HEADING_2 }),
   ];
-  for (const l of LANES.filter(l => l.mode === "FCL")) { if (C_SKIP.includes(l.lineId)) continue; paras.push(new Paragraph(`For ${label(l.lineId)} we can offer INR ${C_PRICES[l.lineId].toLocaleString("en-IN")} per ${l.stdUnit === "40HC" ? "forty-foot high cube" : "twenty-foot standard"} container including THC at origin, transit approximately ${A_TRANSIT[l.lineId] + 2} days, 10 free days at destination.`)); }
+  for (const l of LANES.filter(l => l.mode === "FCL")) { if (C_SKIP.includes(l.lineId)) continue; paras.push(new Paragraph(`For ${label(l.lineId)} we can offer INR ${C_PRICES[l.lineId].toLocaleString("en-IN")} per ${l.stdUnit === "40HC" ? "forty-foot high cube" : "twenty-foot standard"} container all-in, transit approximately ${A_TRANSIT[l.lineId] + 2} days, 10 free days at destination.`)); }
   paras.push(new Paragraph({ text: "Ocean freight – LCL", heading: HeadingLevel.HEADING_2 }));
-  for (const l of LANES.filter(l => l.mode === "LCL")) { if (C_SKIP.includes(l.lineId)) continue; paras.push(new Paragraph(`For LCL ${label(l.lineId)} our rate is INR ${C_PRICES[l.lineId].toLocaleString("en-IN")} per cubic metre, minimum one cubic metre, including origin CFS charges and documentation.`)); }
+  for (const l of LANES.filter(l => l.mode === "LCL")) { if (C_SKIP.includes(l.lineId)) continue; paras.push(new Paragraph(`For LCL ${label(l.lineId)} our rate is INR ${C_PRICES[l.lineId].toLocaleString("en-IN")} per cubic metre all-in, minimum one cubic metre.`)); }
   paras.push(new Paragraph({ text: "Air freight", heading: HeadingLevel.HEADING_2 }));
   for (const l of LANES.filter(l => l.mode === "AIR")) { if (C_SKIP.includes(l.lineId)) continue; paras.push(new Paragraph(`Air freight ${label(l.lineId)}: INR ${C_PRICES[l.lineId]} per chargeable kilogram, minimum 100 kg, transit ${A_TRANSIT[l.lineId] + 1} days.`)); }
   paras.push(new Paragraph({ text: "Your questionnaire", heading: HeadingLevel.HEADING_2 }));
@@ -116,19 +116,29 @@ Harbourline Shipping & Air, Mundra
   fs.writeFileSync(path.join(DOCS, "vendor-E-reference-letter.txt"), `To whom it may concern\n\nMaharashtra Agro Exports Ltd has used Harbourline Shipping & Air for its FCL exports to the Gulf and Europe since 2021, approximately 620 TEU per year. Service has been reliable and claims minimal.\n\nR. Kulkarni, Head of Logistics, 2 September 2026\n`);
 }
 
+// ---------- Vendor D: photographed rate card (rendered flat, then "photographed" at an angle; the clean render never ships) ----------
+{
+  const { execFileSync } = await import("child_process"); const os = await import("os");
+  const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "card-")); const spec = path.join(tmp, "spec.json");
+  fs.writeFileSync(spec, JSON.stringify({ name: VENDOR_D.name, validity: VENDOR_D.validity, basisNote: VENDOR_D.basisNote,
+    fcl: VENDOR_D.fcl.map(r => ({ route: r.route, p20: r.p20, p40: r.p40, smudge: r.smudge ?? [] })), lcl: VENDOR_D.lcl.map(r => ({ route: r.route, price: r.price, smudge: !!r.smudge })), air: VENDOR_D.air.map(r => ({ route: r.route, price: r.price, smudge: !!r.smudge })) }));
+  const res = execFileSync("python3", [path.join(process.cwd(), "scripts", "render_rate_card.py"), spec, path.join(tmp, "clean.png"), path.join(DOCS, "vendor-D-photo-rate-card.png")], { encoding: "utf8" });
+  console.log("vendor-D photo:", res.trim());
+}
+
 // ---------- Answer key (never read by the app) ----------
 type Cell = { expect: "value" | "missing" | "low_confidence" | "ambiguous_lane_match" | "prior_rate_reference"; price?: number; currency?: string; unitBasis?: string; illegible?: boolean; candidates?: string[] };
 const unitOf = (id: string) => ({ "20GP": "per_20GP", "40HC": "per_40HC", CBM: "per_CBM", KG: "per_kg" } as Record<string, string>)[lane(id).stdUnit];
 const truth: Record<string, any> = {};
 truth["vendor-A"] = { file: "vendor-A-excel-ignores-template.xlsx", currency: "INR", basis: "all_in", cells: Object.fromEntries(LANES.map(l => [l.lineId, { expect: "value", price: A_PRICES[l.lineId], currency: "INR", unitBasis: unitOf(l.lineId) } as Cell])), questionnaire: { Q1: "yes", Q2: "yes", Q3: "partial", Q4: "yes", Q5: "yes", Q6: "partial", Q7: "yes", Q8: "partial" } };
 truth["vendor-B"] = { file: "vendor-B-pdf-footnote-discount.pdf", currency: "USD", basis: "freight_only", cells: Object.fromEntries(LANES.map(l => [l.lineId, { expect: "value", price: VENDOR_B.prices[l.lineId], currency: "USD", unitBasis: unitOf(l.lineId) } as Cell])), conditions: [{ kind: "volume_discount", mustBeFlaggedNotApplied: true, pct: 4, thresholdTeu: 200, page: 2 }], questionnaire: Object.fromEntries(questionnaire.map(q => [q.id, "unanswered"])) };
-truth["vendor-C"] = { file: "vendor-C-word-prose.docx", currency: "INR", basis: "partial", cells: Object.fromEntries(LANES.map(l => [l.lineId, C_SKIP.includes(l.lineId) ? { expect: "missing" } : { expect: "value", price: C_PRICES[l.lineId], currency: "INR", unitBasis: unitOf(l.lineId) }])), questionnaire: { Q1: "yes", Q2: "partial", Q3: "partial", Q4: "yes", Q5: "partial", Q6: "partial", Q7: "partial", Q8: "partial" }, notes: "Q5 is INR 8 crore against a USD rule: cross-currency, buyer decides." };
+truth["vendor-C"] = { file: "vendor-C-word-prose.docx", currency: "INR", basis: "all_in", cells: Object.fromEntries(LANES.map(l => [l.lineId, C_SKIP.includes(l.lineId) ? { expect: "missing" } : { expect: "value", price: C_PRICES[l.lineId], currency: "INR", unitBasis: unitOf(l.lineId) }])), questionnaire: { Q1: "yes", Q2: "partial", Q3: "partial", Q4: "yes", Q5: "partial", Q6: "partial", Q7: "partial", Q8: "partial" }, notes: "Q5 is INR 8 crore against a USD rule: cross-currency, buyer decides." };
 {
   const d: Record<string, Cell> = {}; for (const l of LANES) d[l.lineId] = { expect: "missing" };
   for (const r of VENDOR_D.fcl) { if (r.map20) d[r.map20] = { expect: r.smudge?.includes("p20") ? "low_confidence" : "value", price: r.p20, currency: "INR", unitBasis: "per_20ft", illegible: r.smudge?.includes("p20") || undefined }; if (r.map40) d[r.map40] = { expect: r.smudge?.includes("p40") ? "low_confidence" : "value", price: r.p40, currency: "INR", unitBasis: "per_40ft", illegible: r.smudge?.includes("p40") || undefined }; }
   for (const r of VENDOR_D.lcl) if (r.map) d[r.map] = { expect: r.smudge ? "low_confidence" : "value", price: r.price, currency: "INR", unitBasis: "per_wm", illegible: r.smudge || undefined };
   for (const r of VENDOR_D.air) if (r.map) d[r.map] = { expect: r.smudge ? "low_confidence" : "value", price: r.price, currency: "INR", unitBasis: "per_kg", illegible: r.smudge || undefined };
-  truth["vendor-D"] = { file: "vendor-D-photo-rate-card.png", currency: "INR", basis: "partial", cells: d, questionnaire: Object.fromEntries(questionnaire.map(q => [q.id, "unanswered"])) };
+  truth["vendor-D"] = { file: "vendor-D-photo-rate-card.png", currency: "INR", basis: "all_in", cells: d, questionnaire: Object.fromEntries(questionnaire.map(q => [q.id, "unanswered"])) };
 }
 {
   const E: Record<string, number> = { L07: 1780, L08: 1760, L09: 2590, L10: 365, L11: 470, L12: 1860, L13: 1900, L14: 245, L15: 1060, L16: 630, L17: 1010, L18: 390, L27: 1.4, L28: 1.9, L29: 2.75, L30: 3.45 };

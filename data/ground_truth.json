@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T15:32:46.264Z",
+  "generated_at": "2026-09-10T18:42:51.045Z",
   "programme_teu": 434,
   "vendors": {
     "vendor-A": {
@@ -408,7 +408,7 @@
     "vendor-C": {
       "file": "vendor-C-word-prose.docx",
       "currency": "INR",
-      "basis": "partial",
+      "basis": "all_in",
       "cells": {
         "L01": {
           "expect": "value",
@@ -597,7 +597,7 @@
     "vendor-D": {
       "file": "vendor-D-photo-rate-card.png",
       "currency": "INR",
-      "basis": "partial",
+      "basis": "all_in",
       "cells": {
         "L01": {
           "expect": "value",

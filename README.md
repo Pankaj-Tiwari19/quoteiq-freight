@@ -24,9 +24,9 @@ Standalone scripts load `.env.local` / `.env` through Next.js's own loader (`scr
 | Supplier | Format | The ugly edge |
 |---|---|---|
 | A · Bluewater Global | Excel, own layout, own lane codes (`NSA-JEA`) | INR, all-in, all 30, questionnaire on a second tab |
-| B · Meridian Ocean Lines | PDF on letterhead | USD, **freight only**, 4% rebate above 200 TEU only in a **page-2 footnote** – captured as a condition, applied by code at programme level, never by the model |
-| C · CorriGlobe | Word, commercials in prose | INR, THC at origin included (partial basis), quotes 27/30 and silently skips 3, insurance stated in INR against a USD rule |
-| D · SeaCrest | Phone photo of a rate card | per 20'/40' (unit variants), LCL **per w/m**, four smudged cells, two lanes absent |
+| B · Meridian Ocean Lines | PDF on letterhead | USD, freight only (buyer can accept the basis as comparable), 4% rebate above 200 TEU only in a **page-2 footnote** – captured as a condition, applied by code at programme level, never by the model |
+| C · CorriGlobe | Word, commercials in prose | INR, all-in, quotes 27/30 and silently skips 3, insurance stated in INR against a USD rule |
+| D · SeaCrest | Phone photo of a rate card | INR all-in, per 20'/40' (unit variants), LCL **per w/m**, four smudged cells, two lanes absent |
 | E · Harbourline | Plain email | USD freight only, "the Jebel Ali 20s" (ambiguous between two lanes), "Singapore same as last year +3%", LCL passed |
 
 ## The flow, screen by screen
