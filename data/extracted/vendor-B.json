@@ -1,0 +1,1488 @@
+{
+  "vendor_id": "vendor-B",
+  "source_file": "vendor-B-pdf-footnote-discount.pdf",
+  "extracted_at": "2026-09-10T19:34:40.283Z",
+  "model": "gemini/gemini-3.6-flash · prompt v0.3.0",
+  "lines": [
+    {
+      "lineId": "L01",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Nhava Sheva – Jebel Ali",
+      "matchedLineConfidence": "high",
+      "price": 515,
+      "currency": "USD",
+      "unitBasis": "per_20GP",
+      "unitBasisRaw": "20' GP",
+      "inclusions": [
+        "freight only"
+      ],
+      "exclusions": [
+        "Origin THC",
+        "Destination THC",
+        "documentation",
+        "ISPS",
+        "BAF/CAF adjustments after 31 December 2026"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-B-pdf-footnote-discount.pdf",
+        "excerpt": "1 Nhava Sheva – Jebel Ali 20' GP 515 freight only",
+        "page": 1,
+        "locationHint": "Table row 1",
+        "boundingBox": {
+          "x": 115,
+          "y": 300,
+          "w": 770,
+          "h": 18
+        }
+      },
+      "flags": [
+        "partial_basis",
+        "footnote_applies",
+        "discount_reference"
+      ],
+      "note": "Rate marked with asterisk referencing 4% volume rebate note on page 2.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L02",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Nhava Sheva – Jebel Ali",
+      "matchedLineConfidence": "high",
+      "price": 790,
+      "currency": "USD",
+      "unitBasis": "per_40HC",
+      "unitBasisRaw": "40' HC",
+      "inclusions": [
+        "freight only"
+      ],
+      "exclusions": [
+        "Origin THC",
+        "Destination THC",
+        "documentation",
+        "ISPS",
+        "BAF/CAF adjustments after 31 December 2026"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-B-pdf-footnote-discount.pdf",
+        "excerpt": "2 Nhava Sheva – Jebel Ali 40' HC 790 freight only",
+        "page": 1,
+        "locationHint": "Table row 2",
+        "boundingBox": {
+          "x": 115,
+          "y": 320,
+          "w": 770,
+          "h": 18
+        }
+      },
+      "flags": [
+        "partial_basis",
+        "footnote_applies",
+        "discount_reference"
+      ],
+      "note": "Rate marked with asterisk referencing 4% volume rebate note on page 2.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L03",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Mundra – Jebel Ali",
+      "matchedLineConfidence": "high",
+      "price": 495,
+      "currency": "USD",
+      "unitBasis": "per_20GP",
+      "unitBasisRaw": "20' GP",
+      "inclusions": [
+        "freight only"
+      ],
+      "exclusions": [
+        "Origin THC",
+        "Destination THC",
+        "documentation",
+        "ISPS",
+        "BAF/CAF adjustments after 31 December 2026"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-B-pdf-footnote-discount.pdf",
+        "excerpt": "3 Mundra – Jebel Ali 20' GP 495 freight only",
+        "page": 1,
+        "locationHint": "Table row 3",
+        "boundingBox": {
+          "x": 115,
+          "y": 340,
+          "w": 770,
+          "h": 18
+        }
+      },
+      "flags": [
+        "partial_basis",
+        "footnote_applies",
+        "discount_reference"
+      ],
+      "note": "Rate marked with asterisk referencing 4% volume rebate note on page 2.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L04",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Mundra – Jebel Ali",
+      "matchedLineConfidence": "high",
+      "price": 760,
+      "currency": "USD",
+      "unitBasis": "per_40HC",
+      "unitBasisRaw": "40' HC",
+      "inclusions": [
+        "freight only"
+      ],
+      "exclusions": [
+        "Origin THC",
+        "Destination THC",
+        "documentation",
+        "ISPS",
+        "BAF/CAF adjustments after 31 December 2026"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-B-pdf-footnote-discount.pdf",
+        "excerpt": "4 Mundra – Jebel Ali 40' HC 760 freight only",
+        "page": 1,
+        "locationHint": "Table row 4",
+        "boundingBox": {
+          "x": 115,
+          "y": 360,
+          "w": 770,
+          "h": 18
+        }
+      },
+      "flags": [
+        "partial_basis",
+        "footnote_applies",
+        "discount_reference"
+      ],
+      "note": "Rate marked with asterisk referencing 4% volume rebate note on page 2.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L05",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Nhava Sheva – Singapore",
+      "matchedLineConfidence": "high",
+      "price": 430,
+      "currency": "USD",
+      "unitBasis": "per_20GP",
+      "unitBasisRaw": "20' GP",
+      "inclusions": [
+        "freight only"
+      ],
+      "exclusions": [
+        "Origin THC",
+        "Destination THC",
+        "documentation",
+        "ISPS",
+        "BAF/CAF adjustments after 31 December 2026"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-B-pdf-footnote-discount.pdf",
+        "excerpt": "5 Nhava Sheva – Singapore 20' GP 430 freight only",
+        "page": 1,
+        "locationHint": "Table row 5",
+        "boundingBox": {
+          "x": 115,
+          "y": 380,
+          "w": 770,
+          "h": 18
+        }
+      },
+      "flags": [
+        "partial_basis",
+        "footnote_applies",
+        "discount_reference"
+      ],
+      "note": "Rate marked with asterisk referencing 4% volume rebate note on page 2.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L06",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Nhava Sheva – Singapore",
+      "matchedLineConfidence": "high",
+      "price": 640,
+      "currency": "USD",
+      "unitBasis": "per_40HC",
+      "unitBasisRaw": "40' HC",
+      "inclusions": [
+        "freight only"
+      ],
+      "exclusions": [
+        "Origin THC",
+        "Destination THC",
+        "documentation",
+        "ISPS",
+        "BAF/CAF adjustments after 31 December 2026"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-B-pdf-footnote-discount.pdf",
+        "excerpt": "6 Nhava Sheva – Singapore 40' HC 640 freight only",
+        "page": 1,
+        "locationHint": "Table row 6",
+        "boundingBox": {
+          "x": 115,
+          "y": 400,
+          "w": 770,
+          "h": 18
+        }
+      },
+      "flags": [
+        "partial_basis",
+        "footnote_applies",
+        "discount_reference"
+      ],
+      "note": "Rate marked with asterisk referencing 4% volume rebate note on page 2.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L07",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Nhava Sheva – Rotterdam",
+      "matchedLineConfidence": "high",
+      "price": 1850,
+      "currency": "USD",
+      "unitBasis": "per_40HC",
+      "unitBasisRaw": "40' HC",
+      "inclusions": [
+        "freight only"
+      ],
+      "exclusions": [
+        "Origin THC",
+        "Destination THC",
+        "documentation",
+        "ISPS",
+        "BAF/CAF adjustments after 31 December 2026"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-B-pdf-footnote-discount.pdf",
+        "excerpt": "7 Nhava Sheva – Rotterdam 40' HC 1,850 freight only",
+        "page": 1,
+        "locationHint": "Table row 7",
+        "boundingBox": {
+          "x": 115,
+          "y": 420,
+          "w": 770,
+          "h": 18
+        }
+      },
+      "flags": [
+        "partial_basis",
+        "footnote_applies",
+        "discount_reference"
+      ],
+      "note": "Rate marked with asterisk referencing 4% volume rebate note on page 2.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L08",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Mundra – Rotterdam",
+      "matchedLineConfidence": "high",
+      "price": 1820,
+      "currency": "USD",
+      "unitBasis": "per_40HC",
+      "unitBasisRaw": "40' HC",
+      "inclusions": [
+        "freight only"
+      ],
+      "exclusions": [
+        "Origin THC",
+        "Destination THC",
+        "documentation",
+        "ISPS",
+        "BAF/CAF adjustments after 31 December 2026"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-B-pdf-footnote-discount.pdf",
+        "excerpt": "8 Mundra – Rotterdam 40' HC 1,820 freight only",
+        "page": 1,
+        "locationHint": "Table row 8",
+        "boundingBox": {
+          "x": 115,
+          "y": 440,
+          "w": 770,
+          "h": 18
+        }
+      },
+      "flags": [
+        "partial_basis",
+        "footnote_applies",
+        "discount_reference"
+      ],
+      "note": "Rate marked with asterisk referencing 4% volume rebate note on page 2.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L09",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Nhava Sheva – Los Angeles",
+      "matchedLineConfidence": "high",
+      "price": 2650,
+      "currency": "USD",
+      "unitBasis": "per_40HC",
+      "unitBasisRaw": "40' HC",
+      "inclusions": [
+        "freight only"
+      ],
+      "exclusions": [
+        "Origin THC",
+        "Destination THC",
+        "documentation",
+        "ISPS",
+        "BAF/CAF adjustments after 31 December 2026"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-B-pdf-footnote-discount.pdf",
+        "excerpt": "9 Nhava Sheva – Los Angeles 40' HC 2,650 freight only",
+        "page": 1,
+        "locationHint": "Table row 9",
+        "boundingBox": {
+          "x": 115,
+          "y": 460,
+          "w": 770,
+          "h": 18
+        }
+      },
+      "flags": [
+        "partial_basis",
+        "footnote_applies",
+        "discount_reference"
+      ],
+      "note": "Rate marked with asterisk referencing 4% volume rebate note on page 2.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L10",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Chennai – Singapore",
+      "matchedLineConfidence": "high",
+      "price": 380,
+      "currency": "USD",
+      "unitBasis": "per_20GP",
+      "unitBasisRaw": "20' GP",
+      "inclusions": [
+        "freight only"
+      ],
+      "exclusions": [
+        "Origin THC",
+        "Destination THC",
+        "documentation",
+        "ISPS",
+        "BAF/CAF adjustments after 31 December 2026"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-B-pdf-footnote-discount.pdf",
+        "excerpt": "10 Chennai – Singapore 20' GP 380 freight only",
+        "page": 1,
+        "locationHint": "Table row 10",
+        "boundingBox": {
+          "x": 115,
+          "y": 480,
+          "w": 770,
+          "h": 18
+        }
+      },
+      "flags": [
+        "partial_basis",
+        "footnote_applies",
+        "discount_reference"
+      ],
+      "note": "Rate marked with asterisk referencing 4% volume rebate note on page 2.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L11",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Chennai – Port Klang",
+      "matchedLineConfidence": "high",
+      "price": 480,
+      "currency": "USD",
+      "unitBasis": "per_40HC",
+      "unitBasisRaw": "40' HC",
+      "inclusions": [
+        "freight only"
+      ],
+      "exclusions": [
+        "Origin THC",
+        "Destination THC",
+        "documentation",
+        "ISPS",
+        "BAF/CAF adjustments after 31 December 2026"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-B-pdf-footnote-discount.pdf",
+        "excerpt": "11 Chennai – Port Klang 40' HC 480 freight only",
+        "page": 1,
+        "locationHint": "Table row 11",
+        "boundingBox": {
+          "x": 115,
+          "y": 500,
+          "w": 770,
+          "h": 18
+        }
+      },
+      "flags": [
+        "partial_basis",
+        "footnote_applies",
+        "discount_reference"
+      ],
+      "note": "Rate marked with asterisk referencing 4% volume rebate note on page 2.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L12",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Nhava Sheva – Hamburg",
+      "matchedLineConfidence": "high",
+      "price": 1900,
+      "currency": "USD",
+      "unitBasis": "per_40HC",
+      "unitBasisRaw": "40' HC",
+      "inclusions": [
+        "freight only"
+      ],
+      "exclusions": [
+        "Origin THC",
+        "Destination THC",
+        "documentation",
+        "ISPS",
+        "BAF/CAF adjustments after 31 December 2026"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-B-pdf-footnote-discount.pdf",
+        "excerpt": "12 Nhava Sheva – Hamburg 40' HC 1,900 freight only",
+        "page": 1,
+        "locationHint": "Table row 12",
+        "boundingBox": {
+          "x": 115,
+          "y": 520,
+          "w": 770,
+          "h": 18
+        }
+      },
+      "flags": [
+        "partial_basis",
+        "footnote_applies",
+        "discount_reference"
+      ],
+      "note": "Rate marked with asterisk referencing 4% volume rebate note on page 2.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L13",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Nhava Sheva – Felixstowe",
+      "matchedLineConfidence": "high",
+      "price": 1950,
+      "currency": "USD",
+      "unitBasis": "per_40HC",
+      "unitBasisRaw": "40' HC",
+      "inclusions": [
+        "freight only"
+      ],
+      "exclusions": [
+        "Origin THC",
+        "Destination THC",
+        "documentation",
+        "ISPS",
+        "BAF/CAF adjustments after 31 December 2026"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-B-pdf-footnote-discount.pdf",
+        "excerpt": "13 Nhava Sheva – Felixstowe 40' HC 1,950 freight only",
+        "page": 1,
+        "locationHint": "Table row 13",
+        "boundingBox": {
+          "x": 115,
+          "y": 540,
+          "w": 770,
+          "h": 18
+        }
+      },
+      "flags": [
+        "partial_basis",
+        "footnote_applies",
+        "discount_reference"
+      ],
+      "note": "Rate marked with asterisk referencing 4% volume rebate note on page 2.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L14",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Nhava Sheva – Colombo",
+      "matchedLineConfidence": "high",
+      "price": 260,
+      "currency": "USD",
+      "unitBasis": "per_20GP",
+      "unitBasisRaw": "20' GP",
+      "inclusions": [
+        "freight only"
+      ],
+      "exclusions": [
+        "Origin THC",
+        "Destination THC",
+        "documentation",
+        "ISPS",
+        "BAF/CAF adjustments after 31 December 2026"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-B-pdf-footnote-discount.pdf",
+        "excerpt": "14 Nhava Sheva – Colombo 20' GP 260 freight only",
+        "page": 1,
+        "locationHint": "Table row 14",
+        "boundingBox": {
+          "x": 115,
+          "y": 560,
+          "w": 770,
+          "h": 18
+        }
+      },
+      "flags": [
+        "partial_basis",
+        "footnote_applies",
+        "discount_reference"
+      ],
+      "note": "Rate marked with asterisk referencing 4% volume rebate note on page 2.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L15",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Shanghai – Nhava Sheva (import)",
+      "matchedLineConfidence": "high",
+      "price": 1100,
+      "currency": "USD",
+      "unitBasis": "per_40HC",
+      "unitBasisRaw": "40' HC",
+      "inclusions": [
+        "freight only"
+      ],
+      "exclusions": [
+        "Origin THC",
+        "Destination THC",
+        "documentation",
+        "ISPS",
+        "BAF/CAF adjustments after 31 December 2026"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-B-pdf-footnote-discount.pdf",
+        "excerpt": "15 Shanghai – Nhava Sheva (import) 40' HC 1,100 freight only",
+        "page": 1,
+        "locationHint": "Table row 15",
+        "boundingBox": {
+          "x": 115,
+          "y": 580,
+          "w": 770,
+          "h": 18
+        }
+      },
+      "flags": [
+        "partial_basis",
+        "footnote_applies",
+        "discount_reference"
+      ],
+      "note": "Rate marked with asterisk referencing 4% volume rebate note on page 2.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L16",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Shanghai – Nhava Sheva (import)",
+      "matchedLineConfidence": "high",
+      "price": 650,
+      "currency": "USD",
+      "unitBasis": "per_20GP",
+      "unitBasisRaw": "20' GP",
+      "inclusions": [
+        "freight only"
+      ],
+      "exclusions": [
+        "Origin THC",
+        "Destination THC",
+        "documentation",
+        "ISPS",
+        "BAF/CAF adjustments after 31 December 2026"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-B-pdf-footnote-discount.pdf",
+        "excerpt": "16 Shanghai – Nhava Sheva (import) 20' GP 650 freight only",
+        "page": 1,
+        "locationHint": "Table row 16",
+        "boundingBox": {
+          "x": 115,
+          "y": 600,
+          "w": 770,
+          "h": 18
+        }
+      },
+      "flags": [
+        "partial_basis",
+        "footnote_applies",
+        "discount_reference"
+      ],
+      "note": "Rate marked with asterisk referencing 4% volume rebate note on page 2.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L17",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Busan – Chennai (import)",
+      "matchedLineConfidence": "high",
+      "price": 1050,
+      "currency": "USD",
+      "unitBasis": "per_40HC",
+      "unitBasisRaw": "40' HC",
+      "inclusions": [
+        "freight only"
+      ],
+      "exclusions": [
+        "Origin THC",
+        "Destination THC",
+        "documentation",
+        "ISPS",
+        "BAF/CAF adjustments after 31 December 2026"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-B-pdf-footnote-discount.pdf",
+        "excerpt": "17 Busan – Chennai (import) 40' HC 1,050 freight only",
+        "page": 1,
+        "locationHint": "Table row 17",
+        "boundingBox": {
+          "x": 115,
+          "y": 620,
+          "w": 770,
+          "h": 18
+        }
+      },
+      "flags": [
+        "partial_basis",
+        "footnote_applies",
+        "discount_reference"
+      ],
+      "note": "Rate marked with asterisk referencing 4% volume rebate note on page 2.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L18",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Jebel Ali – Mundra (import)",
+      "matchedLineConfidence": "high",
+      "price": 400,
+      "currency": "USD",
+      "unitBasis": "per_20GP",
+      "unitBasisRaw": "20' GP",
+      "inclusions": [
+        "freight only"
+      ],
+      "exclusions": [
+        "Origin THC",
+        "Destination THC",
+        "documentation",
+        "ISPS",
+        "BAF/CAF adjustments after 31 December 2026"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-B-pdf-footnote-discount.pdf",
+        "excerpt": "18 Jebel Ali – Mundra (import) 20' GP 400 freight only",
+        "page": 1,
+        "locationHint": "Table row 18",
+        "boundingBox": {
+          "x": 115,
+          "y": 640,
+          "w": 770,
+          "h": 18
+        }
+      },
+      "flags": [
+        "partial_basis",
+        "footnote_applies",
+        "discount_reference"
+      ],
+      "note": "Rate marked with asterisk referencing 4% volume rebate note on page 2.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L19",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Nhava Sheva – Jebel Ali",
+      "matchedLineConfidence": "high",
+      "price": 22,
+      "currency": "USD",
+      "unitBasis": "per_CBM",
+      "unitBasisRaw": "LCL / CBM",
+      "inclusions": [
+        "freight only"
+      ],
+      "exclusions": [
+        "Origin THC",
+        "Destination THC",
+        "documentation",
+        "ISPS",
+        "BAF/CAF adjustments after 31 December 2026"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-B-pdf-footnote-discount.pdf",
+        "excerpt": "19 Nhava Sheva – Jebel Ali LCL / CBM 22 freight only",
+        "page": 1,
+        "locationHint": "Table row 19",
+        "boundingBox": {
+          "x": 115,
+          "y": 660,
+          "w": 770,
+          "h": 18
+        }
+      },
+      "flags": [
+        "partial_basis"
+      ],
+      "note": "LCL rate, minimum 1 CBM per shipment.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L20",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Nhava Sheva – Singapore",
+      "matchedLineConfidence": "high",
+      "price": 28,
+      "currency": "USD",
+      "unitBasis": "per_CBM",
+      "unitBasisRaw": "LCL / CBM",
+      "inclusions": [
+        "freight only"
+      ],
+      "exclusions": [
+        "Origin THC",
+        "Destination THC",
+        "documentation",
+        "ISPS",
+        "BAF/CAF adjustments after 31 December 2026"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-B-pdf-footnote-discount.pdf",
+        "excerpt": "20 Nhava Sheva – Singapore LCL / CBM 28 freight only",
+        "page": 1,
+        "locationHint": "Table row 20",
+        "boundingBox": {
+          "x": 115,
+          "y": 680,
+          "w": 770,
+          "h": 18
+        }
+      },
+      "flags": [
+        "partial_basis"
+      ],
+      "note": "LCL rate, minimum 1 CBM per shipment.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L21",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Chennai – Singapore",
+      "matchedLineConfidence": "high",
+      "price": 26,
+      "currency": "USD",
+      "unitBasis": "per_CBM",
+      "unitBasisRaw": "LCL / CBM",
+      "inclusions": [
+        "freight only"
+      ],
+      "exclusions": [
+        "Origin THC",
+        "Destination THC",
+        "documentation",
+        "ISPS",
+        "BAF/CAF adjustments after 31 December 2026"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-B-pdf-footnote-discount.pdf",
+        "excerpt": "21 Chennai – Singapore LCL / CBM 26 freight only",
+        "page": 1,
+        "locationHint": "Table row 21",
+        "boundingBox": {
+          "x": 115,
+          "y": 700,
+          "w": 770,
+          "h": 18
+        }
+      },
+      "flags": [
+        "partial_basis"
+      ],
+      "note": "LCL rate, minimum 1 CBM per shipment.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L22",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Nhava Sheva – Rotterdam",
+      "matchedLineConfidence": "high",
+      "price": 45,
+      "currency": "USD",
+      "unitBasis": "per_CBM",
+      "unitBasisRaw": "LCL / CBM",
+      "inclusions": [
+        "freight only"
+      ],
+      "exclusions": [
+        "Origin THC",
+        "Destination THC",
+        "documentation",
+        "ISPS",
+        "BAF/CAF adjustments after 31 December 2026"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-B-pdf-footnote-discount.pdf",
+        "excerpt": "22 Nhava Sheva – Rotterdam LCL / CBM 45 freight only",
+        "page": 1,
+        "locationHint": "Table row 22",
+        "boundingBox": {
+          "x": 115,
+          "y": 720,
+          "w": 770,
+          "h": 18
+        }
+      },
+      "flags": [
+        "partial_basis"
+      ],
+      "note": "LCL rate, minimum 1 CBM per shipment.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L23",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Nhava Sheva – Los Angeles",
+      "matchedLineConfidence": "high",
+      "price": 62,
+      "currency": "USD",
+      "unitBasis": "per_CBM",
+      "unitBasisRaw": "LCL / CBM",
+      "inclusions": [
+        "freight only"
+      ],
+      "exclusions": [
+        "Origin THC",
+        "Destination THC",
+        "documentation",
+        "ISPS",
+        "BAF/CAF adjustments after 31 December 2026"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-B-pdf-footnote-discount.pdf",
+        "excerpt": "23 Nhava Sheva – Los Angeles LCL / CBM 62 freight only",
+        "page": 1,
+        "locationHint": "Table row 23",
+        "boundingBox": {
+          "x": 115,
+          "y": 740,
+          "w": 770,
+          "h": 18
+        }
+      },
+      "flags": [
+        "partial_basis"
+      ],
+      "note": "LCL rate, minimum 1 CBM per shipment.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L24",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Mundra – Hamburg",
+      "matchedLineConfidence": "high",
+      "price": 44,
+      "currency": "USD",
+      "unitBasis": "per_CBM",
+      "unitBasisRaw": "LCL / CBM",
+      "inclusions": [
+        "freight only"
+      ],
+      "exclusions": [
+        "Origin THC",
+        "Destination THC",
+        "documentation",
+        "ISPS",
+        "BAF/CAF adjustments after 31 December 2026"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-B-pdf-footnote-discount.pdf",
+        "excerpt": "24 Mundra – Hamburg LCL / CBM 44 freight only",
+        "page": 1,
+        "locationHint": "Table row 24",
+        "boundingBox": {
+          "x": 115,
+          "y": 760,
+          "w": 770,
+          "h": 18
+        }
+      },
+      "flags": [
+        "partial_basis"
+      ],
+      "note": "LCL rate, minimum 1 CBM per shipment.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L25",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Singapore – Nhava Sheva (import)",
+      "matchedLineConfidence": "high",
+      "price": 30,
+      "currency": "USD",
+      "unitBasis": "per_CBM",
+      "unitBasisRaw": "LCL / CBM",
+      "inclusions": [
+        "freight only"
+      ],
+      "exclusions": [
+        "Origin THC",
+        "Destination THC",
+        "documentation",
+        "ISPS",
+        "BAF/CAF adjustments after 31 December 2026"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-B-pdf-footnote-discount.pdf",
+        "excerpt": "25 Singapore – Nhava Sheva (import) LCL / CBM 30 freight only",
+        "page": 1,
+        "locationHint": "Table row 25",
+        "boundingBox": {
+          "x": 115,
+          "y": 780,
+          "w": 770,
+          "h": 18
+        }
+      },
+      "flags": [
+        "partial_basis"
+      ],
+      "note": "LCL rate, minimum 1 CBM per shipment.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L26",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Shanghai – Nhava Sheva (import)",
+      "matchedLineConfidence": "high",
+      "price": 26,
+      "currency": "USD",
+      "unitBasis": "per_CBM",
+      "unitBasisRaw": "LCL / CBM",
+      "inclusions": [
+        "freight only"
+      ],
+      "exclusions": [
+        "Origin THC",
+        "Destination THC",
+        "documentation",
+        "ISPS",
+        "BAF/CAF adjustments after 31 December 2026"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-B-pdf-footnote-discount.pdf",
+        "excerpt": "26 Shanghai – Nhava Sheva (import) LCL / CBM 26 freight only",
+        "page": 1,
+        "locationHint": "Table row 26",
+        "boundingBox": {
+          "x": 115,
+          "y": 800,
+          "w": 770,
+          "h": 18
+        }
+      },
+      "flags": [
+        "partial_basis"
+      ],
+      "note": "LCL rate, minimum 1 CBM per shipment.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L27",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Mumbai (BOM) – Dubai (DXB)",
+      "matchedLineConfidence": "high",
+      "price": 1.45,
+      "currency": "USD",
+      "unitBasis": "per_kg",
+      "unitBasisRaw": "Air / kg",
+      "inclusions": [
+        "freight only"
+      ],
+      "exclusions": [
+        "Origin THC",
+        "Destination THC",
+        "documentation",
+        "ISPS",
+        "BAF/CAF adjustments after 31 December 2026"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-B-pdf-footnote-discount.pdf",
+        "excerpt": "27 Mumbai (BOM) – Dubai (DXB) Air / kg 1.45 freight only",
+        "page": 1,
+        "locationHint": "Table row 27",
+        "boundingBox": {
+          "x": 115,
+          "y": 820,
+          "w": 770,
+          "h": 18
+        }
+      },
+      "flags": [
+        "partial_basis"
+      ],
+      "note": "Air rate, minimum 100 kg per shipment.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L28",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Mumbai (BOM) – Singapore",
+      "matchedLineConfidence": "high",
+      "price": 1.95,
+      "currency": "USD",
+      "unitBasis": "per_kg",
+      "unitBasisRaw": "Air / kg",
+      "inclusions": [
+        "freight only"
+      ],
+      "exclusions": [
+        "Origin THC",
+        "Destination THC",
+        "documentation",
+        "ISPS",
+        "BAF/CAF adjustments after 31 December 2026"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-B-pdf-footnote-discount.pdf",
+        "excerpt": "28 Mumbai (BOM) – Singapore Air / kg 1.95 freight only",
+        "page": 1,
+        "locationHint": "Table row 28",
+        "boundingBox": {
+          "x": 115,
+          "y": 840,
+          "w": 770,
+          "h": 18
+        }
+      },
+      "flags": [
+        "partial_basis"
+      ],
+      "note": "Air rate, minimum 100 kg per shipment.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L29",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Mumbai (BOM) – Amsterdam (AMS)",
+      "matchedLineConfidence": "high",
+      "price": 2.85,
+      "currency": "USD",
+      "unitBasis": "per_kg",
+      "unitBasisRaw": "Air / kg",
+      "inclusions": [
+        "freight only"
+      ],
+      "exclusions": [
+        "Origin THC",
+        "Destination THC",
+        "documentation",
+        "ISPS",
+        "BAF/CAF adjustments after 31 December 2026"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-B-pdf-footnote-discount.pdf",
+        "excerpt": "29 Mumbai (BOM) – Amsterdam (AMS) Air / kg 2.85 freight only",
+        "page": 2,
+        "locationHint": "Table row 29",
+        "boundingBox": {
+          "x": 115,
+          "y": 140,
+          "w": 770,
+          "h": 18
+        }
+      },
+      "flags": [
+        "partial_basis"
+      ],
+      "note": "Air rate, minimum 100 kg per shipment.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L30",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Mumbai (BOM) – Chicago (ORD)",
+      "matchedLineConfidence": "high",
+      "price": 3.6,
+      "currency": "USD",
+      "unitBasis": "per_kg",
+      "unitBasisRaw": "Air / kg",
+      "inclusions": [
+        "freight only"
+      ],
+      "exclusions": [
+        "Origin THC",
+        "Destination THC",
+        "documentation",
+        "ISPS",
+        "BAF/CAF adjustments after 31 December 2026"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-B-pdf-footnote-discount.pdf",
+        "excerpt": "30 Mumbai (BOM) – Chicago (ORD) Air / kg 3.60 freight only",
+        "page": 2,
+        "locationHint": "Table row 30",
+        "boundingBox": {
+          "x": 115,
+          "y": 160,
+          "w": 770,
+          "h": 18
+        }
+      },
+      "flags": [
+        "partial_basis"
+      ],
+      "note": "Air rate, minimum 100 kg per shipment.",
+      "transitDays": null,
+      "freeDays": null
+    }
+  ],
+  "conditions": [
+    {
+      "kind": "volume_discount",
+      "text": "* A volume rebate of 4% applies to all FCL rates where the committed annual programme exceeds 200 TEU across the lanes awarded to Meridian (40'HC counted as 2 TEU). Rebate is settled quarterly in arrears against actual liftings.",
+      "evidence": {
+        "file": "vendor-B-pdf-footnote-discount.pdf",
+        "excerpt": "* A volume rebate of 4% applies to all FCL rates where the committed annual programme exceeds 200 TEU across the lanes awarded to Meridian (40'HC counted as 2 TEU). Rebate is settled quarterly in arrears against actual liftings.",
+        "page": 2,
+        "locationHint": "Notes section, item 1",
+        "boundingBox": {
+          "x": 90,
+          "y": 210,
+          "w": 800,
+          "h": 35
+        }
+      },
+      "appliesTo": [
+        "L01",
+        "L02",
+        "L03",
+        "L04",
+        "L05",
+        "L06",
+        "L07",
+        "L08",
+        "L09",
+        "L10",
+        "L11",
+        "L12",
+        "L13",
+        "L14",
+        "L15",
+        "L16",
+        "L17",
+        "L18"
+      ],
+      "confidence": "high",
+      "discountPct": 4,
+      "thresholdQty": 200,
+      "thresholdUnit": "TEU",
+      "thresholdScope": "programme"
+    },
+    {
+      "kind": "validity",
+      "text": "Valid for shipments effected up to 31 March 2027.",
+      "evidence": {
+        "file": "vendor-B-pdf-footnote-discount.pdf",
+        "excerpt": "Valid for shipments effected up to 31 March 2027.",
+        "page": 1,
+        "locationHint": "Cover letter paragraph 1",
+        "boundingBox": {
+          "x": 90,
+          "y": 235,
+          "w": 800,
+          "h": 30
+        }
+      },
+      "appliesTo": "all",
+      "confidence": "high"
+    },
+    {
+      "kind": "global_exclusion",
+      "text": "All rates are ocean/air freight only. Origin and destination THC, documentation, ISPS, and any BAF/CAF adjustments after 31 December 2026 are charged as per tariff at time of shipment.",
+      "evidence": {
+        "file": "vendor-B-pdf-footnote-discount.pdf",
+        "excerpt": "All rates are ocean/air freight only. Origin and destination THC, documentation, ISPS, and any BAF/CAF adjustments after 31 December 2026 are charged as per tariff at time of shipment.",
+        "page": 2,
+        "locationHint": "Notes section, item 2",
+        "boundingBox": {
+          "x": 90,
+          "y": 245,
+          "w": 800,
+          "h": 35
+        }
+      },
+      "appliesTo": "all",
+      "confidence": "high"
+    },
+    {
+      "kind": "other",
+      "text": "LCL rates are per revenue CBM, minimum 1 CBM per shipment. Air rates are per chargeable kg, minimum 100 kg.",
+      "evidence": {
+        "file": "vendor-B-pdf-footnote-discount.pdf",
+        "excerpt": "LCL rates are per revenue CBM, minimum 1 CBM per shipment. Air rates are per chargeable kg, minimum 100 kg.",
+        "page": 2,
+        "locationHint": "Notes section, item 3",
+        "boundingBox": {
+          "x": 90,
+          "y": 280,
+          "w": 800,
+          "h": 20
+        }
+      },
+      "appliesTo": [
+        "L19",
+        "L20",
+        "L21",
+        "L22",
+        "L23",
+        "L24",
+        "L25",
+        "L26",
+        "L27",
+        "L28",
+        "L29",
+        "L30"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "questionnaire": [
+    {
+      "questionId": "Q1",
+      "answerText": null,
+      "evidence": {
+        "file": "vendor-B-pdf-footnote-discount.pdf",
+        "excerpt": "Our questionnaire responses and copies of our ISO 9001:2015 certificate and marine liability cover note are attached separately.",
+        "page": 1,
+        "locationHint": "Cover letter paragraph 1",
+        "boundingBox": {
+          "x": 90,
+          "y": 220,
+          "w": 800,
+          "h": 30
+        }
+      },
+      "confidence": "high",
+      "flags": [
+        "missing"
+      ]
+    },
+    {
+      "questionId": "Q2",
+      "answerText": null,
+      "evidence": {
+        "file": "vendor-B-pdf-footnote-discount.pdf",
+        "excerpt": "Our questionnaire responses and copies of our ISO 9001:2015 certificate and marine liability cover note are attached separately.",
+        "page": 1,
+        "locationHint": "Cover letter paragraph 1",
+        "boundingBox": {
+          "x": 90,
+          "y": 220,
+          "w": 800,
+          "h": 30
+        }
+      },
+      "confidence": "high",
+      "flags": [
+        "missing"
+      ]
+    },
+    {
+      "questionId": "Q3",
+      "answerText": null,
+      "evidence": {
+        "file": "vendor-B-pdf-footnote-discount.pdf",
+        "excerpt": "Our questionnaire responses and copies of our ISO 9001:2015 certificate and marine liability cover note are attached separately.",
+        "page": 1,
+        "locationHint": "Cover letter paragraph 1",
+        "boundingBox": {
+          "x": 90,
+          "y": 220,
+          "w": 800,
+          "h": 30
+        }
+      },
+      "confidence": "high",
+      "flags": [
+        "missing"
+      ]
+    },
+    {
+      "questionId": "Q4",
+      "answerText": null,
+      "evidence": {
+        "file": "vendor-B-pdf-footnote-discount.pdf",
+        "excerpt": "Our questionnaire responses and copies of our ISO 9001:2015 certificate and marine liability cover note are attached separately.",
+        "page": 1,
+        "locationHint": "Cover letter paragraph 1",
+        "boundingBox": {
+          "x": 90,
+          "y": 220,
+          "w": 800,
+          "h": 30
+        }
+      },
+      "confidence": "high",
+      "flags": [
+        "missing"
+      ]
+    },
+    {
+      "questionId": "Q5",
+      "answerText": null,
+      "evidence": {
+        "file": "vendor-B-pdf-footnote-discount.pdf",
+        "excerpt": "Our questionnaire responses and copies of our ISO 9001:2015 certificate and marine liability cover note are attached separately.",
+        "page": 1,
+        "locationHint": "Cover letter paragraph 1",
+        "boundingBox": {
+          "x": 90,
+          "y": 220,
+          "w": 800,
+          "h": 30
+        }
+      },
+      "confidence": "high",
+      "flags": [
+        "missing"
+      ]
+    },
+    {
+      "questionId": "Q6",
+      "answerText": null,
+      "evidence": {
+        "file": "vendor-B-pdf-footnote-discount.pdf",
+        "excerpt": "Our questionnaire responses and copies of our ISO 9001:2015 certificate and marine liability cover note are attached separately.",
+        "page": 1,
+        "locationHint": "Cover letter paragraph 1",
+        "boundingBox": {
+          "x": 90,
+          "y": 220,
+          "w": 800,
+          "h": 30
+        }
+      },
+      "confidence": "high",
+      "flags": [
+        "missing"
+      ]
+    },
+    {
+      "questionId": "Q7",
+      "answerText": null,
+      "evidence": {
+        "file": "vendor-B-pdf-footnote-discount.pdf",
+        "excerpt": "Our questionnaire responses and copies of our ISO 9001:2015 certificate and marine liability cover note are attached separately.",
+        "page": 1,
+        "locationHint": "Cover letter paragraph 1",
+        "boundingBox": {
+          "x": 90,
+          "y": 220,
+          "w": 800,
+          "h": 30
+        }
+      },
+      "confidence": "high",
+      "flags": [
+        "missing"
+      ]
+    },
+    {
+      "questionId": "Q8",
+      "answerText": null,
+      "evidence": {
+        "file": "vendor-B-pdf-footnote-discount.pdf",
+        "excerpt": "Our questionnaire responses and copies of our ISO 9001:2015 certificate and marine liability cover note are attached separately.",
+        "page": 1,
+        "locationHint": "Cover letter paragraph 1",
+        "boundingBox": {
+          "x": 90,
+          "y": 220,
+          "w": 800,
+          "h": 30
+        }
+      },
+      "confidence": "high",
+      "flags": [
+        "missing"
+      ]
+    }
+  ],
+  "docSummaries": [],
+  "readingNotes": "The response document is clear, clean, and fully legible across both pages. All 30 requested lanes were matched exactly without ambiguity. The vendor quoted in USD rather than the requested RFx currency (INR). Questionnaire responses, ISO 9001 certificate, and marine liability cover note were stated as attached separately in the cover text, but are not present in this document."
+}

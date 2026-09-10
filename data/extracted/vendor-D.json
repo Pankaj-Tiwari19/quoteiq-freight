@@ -1,0 +1,1165 @@
+{
+  "vendor_id": "vendor-D",
+  "source_file": "vendor-D-photo-rate-card.png",
+  "extracted_at": "2026-09-10T20:12:42.696Z",
+  "model": "gemini/gemini-3.6-flash · prompt v0.3.1",
+  "lines": [
+    {
+      "lineId": "L01",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Nhava Sheva - Jebel Ali",
+      "matchedLineConfidence": "high",
+      "price": 44500,
+      "currency": "INR",
+      "unitBasis": "per_20ft",
+      "unitBasisRaw": "20'",
+      "inclusions": [
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [
+        "customs clearance"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-D-photo-rate-card.png",
+        "excerpt": "Nhava Sheva - Jebel Ali | 44,500",
+        "locationHint": "FCL table, row 1, 20' col",
+        "boundingBox": {
+          "x": 180,
+          "y": 220,
+          "w": 640,
+          "h": 20
+        }
+      },
+      "flags": [
+        "unit_variant"
+      ],
+      "note": "Quoted per 20' rather than 20GP specifically.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L02",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Nhava Sheva - Jebel Ali",
+      "matchedLineConfidence": "high",
+      "price": 68900,
+      "currency": "INR",
+      "unitBasis": "per_40ft",
+      "unitBasisRaw": "40'",
+      "inclusions": [
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [
+        "customs clearance"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-D-photo-rate-card.png",
+        "excerpt": "Nhava Sheva - Jebel Ali | 68,900",
+        "locationHint": "FCL table, row 1, 40' col",
+        "boundingBox": {
+          "x": 180,
+          "y": 220,
+          "w": 640,
+          "h": 20
+        }
+      },
+      "flags": [
+        "unit_variant"
+      ],
+      "note": "Quoted per 40' rather than 40HC specifically.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L03",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Mundra - Jebel Ali",
+      "matchedLineConfidence": "high",
+      "price": 42800,
+      "currency": "INR",
+      "unitBasis": "per_20ft",
+      "unitBasisRaw": "20'",
+      "inclusions": [
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [
+        "customs clearance"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-D-photo-rate-card.png",
+        "excerpt": "Mundra - Jebel Ali | 42,800",
+        "locationHint": "FCL table, row 2, 20' col",
+        "boundingBox": {
+          "x": 180,
+          "y": 240,
+          "w": 640,
+          "h": 20
+        }
+      },
+      "flags": [
+        "unit_variant"
+      ],
+      "note": "Quoted per 20' rather than 20GP specifically.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L04",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Mundra - Jebel Ali",
+      "matchedLineConfidence": "high",
+      "price": 66200,
+      "currency": "INR",
+      "unitBasis": "per_40ft",
+      "unitBasisRaw": "40'",
+      "inclusions": [
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [
+        "customs clearance"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-D-photo-rate-card.png",
+        "excerpt": "Mundra - Jebel Ali | 66,200",
+        "locationHint": "FCL table, row 2, 40' col",
+        "boundingBox": {
+          "x": 180,
+          "y": 240,
+          "w": 640,
+          "h": 20
+        }
+      },
+      "flags": [
+        "unit_variant"
+      ],
+      "note": "Quoted per 40' rather than 40HC specifically.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L05",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Nhava Sheva - Singapore",
+      "matchedLineConfidence": "high",
+      "price": 36900,
+      "currency": "INR",
+      "unitBasis": "per_20ft",
+      "unitBasisRaw": "20'",
+      "inclusions": [
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [
+        "customs clearance"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-D-photo-rate-card.png",
+        "excerpt": "Nhava Sheva - Singapore | 36,900",
+        "locationHint": "FCL table, row 3, 20' col",
+        "boundingBox": {
+          "x": 180,
+          "y": 260,
+          "w": 640,
+          "h": 20
+        }
+      },
+      "flags": [
+        "unit_variant"
+      ],
+      "note": "Quoted per 20' rather than 20GP specifically.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L06",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Nhava Sheva - Singapore",
+      "matchedLineConfidence": "high",
+      "price": 55400,
+      "currency": "INR",
+      "unitBasis": "per_40ft",
+      "unitBasisRaw": "40'",
+      "inclusions": [
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [
+        "customs clearance"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-D-photo-rate-card.png",
+        "excerpt": "Nhava Sheva - Singapore | 55,400",
+        "locationHint": "FCL table, row 3, 40' col",
+        "boundingBox": {
+          "x": 180,
+          "y": 260,
+          "w": 640,
+          "h": 20
+        }
+      },
+      "flags": [
+        "unit_variant"
+      ],
+      "note": "Quoted per 40' rather than 40HC specifically.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L07",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Nhava Sheva - Rotterdam",
+      "matchedLineConfidence": "high",
+      "price": null,
+      "currency": "INR",
+      "unitBasis": "per_40ft",
+      "unitBasisRaw": "40'",
+      "inclusions": [
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [
+        "customs clearance"
+      ],
+      "confidence": "low",
+      "evidence": {
+        "file": "vendor-D-photo-rate-card.png",
+        "excerpt": "Nhava Sheva - Rotterdam | [smudged]",
+        "locationHint": "FCL table, row 4, 40' col",
+        "boundingBox": {
+          "x": 720,
+          "y": 280,
+          "w": 100,
+          "h": 20
+        }
+      },
+      "flags": [
+        "smudged_or_illegible",
+        "unit_variant"
+      ],
+      "note": "Digit obscured by smudge/censor box in 40' column.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L08",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Mundra - Rotterdam",
+      "matchedLineConfidence": "high",
+      "price": 155500,
+      "currency": "INR",
+      "unitBasis": "per_40ft",
+      "unitBasisRaw": "40'",
+      "inclusions": [
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [
+        "customs clearance"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-D-photo-rate-card.png",
+        "excerpt": "Mundra - Rotterdam | 155,500",
+        "locationHint": "FCL table, row 5, 40' col",
+        "boundingBox": {
+          "x": 180,
+          "y": 300,
+          "w": 640,
+          "h": 20
+        }
+      },
+      "flags": [
+        "unit_variant"
+      ],
+      "note": "Quoted per 40' rather than 40HC specifically.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L09",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Nhava Sheva - Los Angeles",
+      "matchedLineConfidence": "high",
+      "price": 226000,
+      "currency": "INR",
+      "unitBasis": "per_40ft",
+      "unitBasisRaw": "40'",
+      "inclusions": [
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [
+        "customs clearance"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-D-photo-rate-card.png",
+        "excerpt": "Nhava Sheva - Los Angeles | 226,000",
+        "locationHint": "FCL table, row 6, 40' col",
+        "boundingBox": {
+          "x": 180,
+          "y": 320,
+          "w": 640,
+          "h": 20
+        }
+      },
+      "flags": [
+        "unit_variant"
+      ],
+      "note": "Quoted per 40' rather than 40HC specifically.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L10",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Chennai - Singapore",
+      "matchedLineConfidence": "high",
+      "price": 32500,
+      "currency": "INR",
+      "unitBasis": "per_20ft",
+      "unitBasisRaw": "20'",
+      "inclusions": [
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [
+        "customs clearance"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-D-photo-rate-card.png",
+        "excerpt": "Chennai - Singapore | 32,500",
+        "locationHint": "FCL table, row 7, 20' col",
+        "boundingBox": {
+          "x": 180,
+          "y": 340,
+          "w": 640,
+          "h": 20
+        }
+      },
+      "flags": [
+        "unit_variant"
+      ],
+      "note": "Quoted per 20' rather than 20GP specifically.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L11",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Chennai - Port Klang",
+      "matchedLineConfidence": "high",
+      "price": 41500,
+      "currency": "INR",
+      "unitBasis": "per_40ft",
+      "unitBasisRaw": "40'",
+      "inclusions": [
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [
+        "customs clearance"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-D-photo-rate-card.png",
+        "excerpt": "Chennai - Port Klang | 41,500",
+        "locationHint": "FCL table, row 8, 40' col",
+        "boundingBox": {
+          "x": 180,
+          "y": 360,
+          "w": 640,
+          "h": 20
+        }
+      },
+      "flags": [
+        "unit_variant"
+      ],
+      "note": "Quoted per 40' rather than 40HC specifically.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L12",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Nhava Sheva - Hamburg",
+      "matchedLineConfidence": "high",
+      "price": 162000,
+      "currency": "INR",
+      "unitBasis": "per_40ft",
+      "unitBasisRaw": "40'",
+      "inclusions": [
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [
+        "customs clearance"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-D-photo-rate-card.png",
+        "excerpt": "Nhava Sheva - Hamburg | 162,000",
+        "locationHint": "FCL table, row 9, 40' col",
+        "boundingBox": {
+          "x": 180,
+          "y": 380,
+          "w": 640,
+          "h": 20
+        }
+      },
+      "flags": [
+        "unit_variant"
+      ],
+      "note": "Quoted per 40' rather than 40HC specifically.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L13",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Nhava Sheva - Felixstowe",
+      "matchedLineConfidence": "high",
+      "price": null,
+      "currency": null,
+      "unitBasis": "unknown",
+      "unitBasisRaw": "",
+      "inclusions": [],
+      "exclusions": [],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-D-photo-rate-card.png",
+        "excerpt": ""
+      },
+      "flags": [
+        "missing"
+      ],
+      "note": "Lane not present in rate card.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L14",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Nhava Sheva - Colombo",
+      "matchedLineConfidence": "high",
+      "price": 21800,
+      "currency": "INR",
+      "unitBasis": "per_20ft",
+      "unitBasisRaw": "20'",
+      "inclusions": [
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [
+        "customs clearance"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-D-photo-rate-card.png",
+        "excerpt": "Nhava Sheva - Colombo | 21,800",
+        "locationHint": "FCL table, row 10, 20' col",
+        "boundingBox": {
+          "x": 180,
+          "y": 400,
+          "w": 640,
+          "h": 20
+        }
+      },
+      "flags": [
+        "unit_variant"
+      ],
+      "note": "Quoted per 20' rather than 20GP specifically.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L15",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Shanghai - Nhava Sheva (import)",
+      "matchedLineConfidence": "high",
+      "price": null,
+      "currency": "INR",
+      "unitBasis": "per_40ft",
+      "unitBasisRaw": "40'",
+      "inclusions": [
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [
+        "customs clearance"
+      ],
+      "confidence": "low",
+      "evidence": {
+        "file": "vendor-D-photo-rate-card.png",
+        "excerpt": "Shanghai - Nhava Sheva (import) | [smudged]",
+        "locationHint": "FCL table, row 11, 40' col",
+        "boundingBox": {
+          "x": 720,
+          "y": 420,
+          "w": 100,
+          "h": 20
+        }
+      },
+      "flags": [
+        "smudged_or_illegible",
+        "unit_variant"
+      ],
+      "note": "Digit obscured by smudge/censor box in 40' column.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L16",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Shanghai - Nhava Sheva (import)",
+      "matchedLineConfidence": "high",
+      "price": 56500,
+      "currency": "INR",
+      "unitBasis": "per_20ft",
+      "unitBasisRaw": "20'",
+      "inclusions": [
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [
+        "customs clearance"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-D-photo-rate-card.png",
+        "excerpt": "Shanghai - Nhava Sheva (import) | 56,500",
+        "locationHint": "FCL table, row 11, 20' col",
+        "boundingBox": {
+          "x": 180,
+          "y": 420,
+          "w": 640,
+          "h": 20
+        }
+      },
+      "flags": [
+        "unit_variant"
+      ],
+      "note": "Quoted per 20' rather than 20GP specifically.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L17",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Busan - Chennai (import)",
+      "matchedLineConfidence": "high",
+      "price": 90500,
+      "currency": "INR",
+      "unitBasis": "per_40ft",
+      "unitBasisRaw": "40'",
+      "inclusions": [
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [
+        "customs clearance"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-D-photo-rate-card.png",
+        "excerpt": "Busan - Chennai (import) | 90,500",
+        "locationHint": "FCL table, row 12, 40' col",
+        "boundingBox": {
+          "x": 180,
+          "y": 440,
+          "w": 640,
+          "h": 20
+        }
+      },
+      "flags": [
+        "unit_variant"
+      ],
+      "note": "Quoted per 40' rather than 40HC specifically.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L18",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Jebel Ali - Mundra (import)",
+      "matchedLineConfidence": "high",
+      "price": 34200,
+      "currency": "INR",
+      "unitBasis": "per_20ft",
+      "unitBasisRaw": "20'",
+      "inclusions": [
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [
+        "customs clearance"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-D-photo-rate-card.png",
+        "excerpt": "Jebel Ali - Mundra (import) | 34,200",
+        "locationHint": "FCL table, row 13, 20' col",
+        "boundingBox": {
+          "x": 180,
+          "y": 460,
+          "w": 640,
+          "h": 20
+        }
+      },
+      "flags": [
+        "unit_variant"
+      ],
+      "note": "Quoted per 20' rather than 20GP specifically.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L19",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Nhava Sheva - Jebel Ali",
+      "matchedLineConfidence": "high",
+      "price": null,
+      "currency": "INR",
+      "unitBasis": "per_wm",
+      "unitBasisRaw": "per w/m",
+      "inclusions": [
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [
+        "customs clearance"
+      ],
+      "confidence": "low",
+      "evidence": {
+        "file": "vendor-D-photo-rate-card.png",
+        "excerpt": "Nhava Sheva - Jebel Ali | [smudged]",
+        "locationHint": "LCL table, row 1, Rate col",
+        "boundingBox": {
+          "x": 580,
+          "y": 510,
+          "w": 100,
+          "h": 20
+        }
+      },
+      "flags": [
+        "smudged_or_illegible"
+      ],
+      "note": "Rate cell obscured by smudge/censor box.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L20",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Nhava Sheva - Singapore",
+      "matchedLineConfidence": "high",
+      "price": 2450,
+      "currency": "INR",
+      "unitBasis": "per_wm",
+      "unitBasisRaw": "per w/m",
+      "inclusions": [
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [
+        "customs clearance"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-D-photo-rate-card.png",
+        "excerpt": "Nhava Sheva - Singapore | 2,450",
+        "locationHint": "LCL table, row 2",
+        "boundingBox": {
+          "x": 180,
+          "y": 530,
+          "w": 640,
+          "h": 20
+        }
+      },
+      "flags": [],
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L21",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Chennai - Singapore",
+      "matchedLineConfidence": "high",
+      "price": 2300,
+      "currency": "INR",
+      "unitBasis": "per_wm",
+      "unitBasisRaw": "per w/m",
+      "inclusions": [
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [
+        "customs clearance"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-D-photo-rate-card.png",
+        "excerpt": "Chennai - Singapore | 2,300",
+        "locationHint": "LCL table, row 3",
+        "boundingBox": {
+          "x": 180,
+          "y": 550,
+          "w": 640,
+          "h": 20
+        }
+      },
+      "flags": [],
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L22",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Nhava Sheva - Rotterdam",
+      "matchedLineConfidence": "high",
+      "price": 3900,
+      "currency": "INR",
+      "unitBasis": "per_wm",
+      "unitBasisRaw": "per w/m",
+      "inclusions": [
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [
+        "customs clearance"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-D-photo-rate-card.png",
+        "excerpt": "Nhava Sheva - Rotterdam | 3,900",
+        "locationHint": "LCL table, row 4",
+        "boundingBox": {
+          "x": 180,
+          "y": 570,
+          "w": 640,
+          "h": 20
+        }
+      },
+      "flags": [],
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L23",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Nhava Sheva - Los Angeles",
+      "matchedLineConfidence": "high",
+      "price": 5400,
+      "currency": "INR",
+      "unitBasis": "per_wm",
+      "unitBasisRaw": "per w/m",
+      "inclusions": [
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [
+        "customs clearance"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-D-photo-rate-card.png",
+        "excerpt": "Nhava Sheva - Los Angeles | 5,400",
+        "locationHint": "LCL table, row 5",
+        "boundingBox": {
+          "x": 180,
+          "y": 590,
+          "w": 640,
+          "h": 20
+        }
+      },
+      "flags": [],
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L24",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Mundra - Hamburg",
+      "matchedLineConfidence": "high",
+      "price": 3800,
+      "currency": "INR",
+      "unitBasis": "per_wm",
+      "unitBasisRaw": "per w/m",
+      "inclusions": [
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [
+        "customs clearance"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-D-photo-rate-card.png",
+        "excerpt": "Mundra - Hamburg | 3,800",
+        "locationHint": "LCL table, row 6",
+        "boundingBox": {
+          "x": 180,
+          "y": 610,
+          "w": 640,
+          "h": 20
+        }
+      },
+      "flags": [],
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L25",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Singapore - Nhava Sheva (import)",
+      "matchedLineConfidence": "high",
+      "price": 2600,
+      "currency": "INR",
+      "unitBasis": "per_wm",
+      "unitBasisRaw": "per w/m",
+      "inclusions": [
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [
+        "customs clearance"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-D-photo-rate-card.png",
+        "excerpt": "Singapore - Nhava Sheva (import) | 2,600",
+        "locationHint": "LCL table, row 7",
+        "boundingBox": {
+          "x": 180,
+          "y": 630,
+          "w": 640,
+          "h": 20
+        }
+      },
+      "flags": [],
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L26",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "Shanghai - Nhava Sheva (import)",
+      "matchedLineConfidence": "high",
+      "price": 2250,
+      "currency": "INR",
+      "unitBasis": "per_wm",
+      "unitBasisRaw": "per w/m",
+      "inclusions": [
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [
+        "customs clearance"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-D-photo-rate-card.png",
+        "excerpt": "Shanghai - Nhava Sheva (import) | 2,250",
+        "locationHint": "LCL table, row 8",
+        "boundingBox": {
+          "x": 180,
+          "y": 650,
+          "w": 640,
+          "h": 20
+        }
+      },
+      "flags": [],
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L27",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "BOM - DXB",
+      "matchedLineConfidence": "high",
+      "price": 124,
+      "currency": "INR",
+      "unitBasis": "per_kg",
+      "unitBasisRaw": "per kg chargeable, min. 100 kg",
+      "inclusions": [
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [
+        "customs clearance"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-D-photo-rate-card.png",
+        "excerpt": "BOM - DXB | 124",
+        "locationHint": "Air table, row 1",
+        "boundingBox": {
+          "x": 180,
+          "y": 710,
+          "w": 640,
+          "h": 20
+        }
+      },
+      "flags": [],
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L28",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "BOM - SIN",
+      "matchedLineConfidence": "high",
+      "price": null,
+      "currency": "INR",
+      "unitBasis": "per_kg",
+      "unitBasisRaw": "per kg chargeable, min. 100 kg",
+      "inclusions": [
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [
+        "customs clearance"
+      ],
+      "confidence": "low",
+      "evidence": {
+        "file": "vendor-D-photo-rate-card.png",
+        "excerpt": "BOM - SIN | [smudged]",
+        "locationHint": "Air table, row 2",
+        "boundingBox": {
+          "x": 580,
+          "y": 730,
+          "w": 100,
+          "h": 20
+        }
+      },
+      "flags": [
+        "smudged_or_illegible"
+      ],
+      "note": "Rate cell obscured by smudge/censor box.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L29",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "BOM - AMS",
+      "matchedLineConfidence": "high",
+      "price": 245,
+      "currency": "INR",
+      "unitBasis": "per_kg",
+      "unitBasisRaw": "per kg chargeable, min. 100 kg",
+      "inclusions": [
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [
+        "customs clearance"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-D-photo-rate-card.png",
+        "excerpt": "BOM - AMS | 245",
+        "locationHint": "Air table, row 3",
+        "boundingBox": {
+          "x": 180,
+          "y": 750,
+          "w": 640,
+          "h": 20
+        }
+      },
+      "flags": [],
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L30",
+      "candidateLineIds": [],
+      "vendorLaneLabel": "BOM - ORD",
+      "matchedLineConfidence": "high",
+      "price": null,
+      "currency": null,
+      "unitBasis": "unknown",
+      "unitBasisRaw": "",
+      "inclusions": [],
+      "exclusions": [],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor-D-photo-rate-card.png",
+        "excerpt": ""
+      },
+      "flags": [
+        "missing"
+      ],
+      "note": "Lane not present in rate card.",
+      "transitDays": null,
+      "freeDays": null
+    }
+  ],
+  "conditions": [
+    {
+      "kind": "validity",
+      "text": "Valid till 31 Dec 2026",
+      "evidence": {
+        "file": "vendor-D-photo-rate-card.png",
+        "excerpt": "Valid till 31 Dec 2026",
+        "locationHint": "Header, line 2",
+        "boundingBox": {
+          "x": 320,
+          "y": 140,
+          "w": 200,
+          "h": 20
+        }
+      },
+      "appliesTo": "all",
+      "confidence": "high"
+    },
+    {
+      "kind": "global_inclusion",
+      "text": "All rates ALL-IN: include THC both ends, BAF/CAF and documentation. Customs clearance extra.",
+      "evidence": {
+        "file": "vendor-D-photo-rate-card.png",
+        "excerpt": "All rates ALL-IN: include THC both ends, BAF/CAF and documentation. Customs clearance extra.",
+        "locationHint": "Footer text, line 1",
+        "boundingBox": {
+          "x": 130,
+          "y": 780,
+          "w": 500,
+          "h": 20
+        }
+      },
+      "appliesTo": "all",
+      "confidence": "high"
+    }
+  ],
+  "questionnaire": [
+    {
+      "questionId": "Q1",
+      "answerText": null,
+      "confidence": "high",
+      "flags": [
+        "missing"
+      ]
+    },
+    {
+      "questionId": "Q2",
+      "answerText": null,
+      "confidence": "high",
+      "flags": [
+        "missing"
+      ]
+    },
+    {
+      "questionId": "Q3",
+      "answerText": null,
+      "confidence": "high",
+      "flags": [
+        "missing"
+      ]
+    },
+    {
+      "questionId": "Q4",
+      "answerText": null,
+      "confidence": "high",
+      "flags": [
+        "missing"
+      ]
+    },
+    {
+      "questionId": "Q5",
+      "answerText": null,
+      "confidence": "high",
+      "flags": [
+        "missing"
+      ]
+    },
+    {
+      "questionId": "Q6",
+      "answerText": null,
+      "confidence": "high",
+      "flags": [
+        "missing"
+      ]
+    },
+    {
+      "questionId": "Q7",
+      "answerText": null,
+      "confidence": "high",
+      "flags": [
+        "missing"
+      ]
+    },
+    {
+      "questionId": "Q8",
+      "answerText": null,
+      "confidence": "high",
+      "flags": [
+        "missing"
+      ]
+    }
+  ],
+  "docSummaries": [
+    {
+      "file": "vendor-D-photo-rate-card.png",
+      "kind": "rate_card",
+      "summary": "Printed Ocean & Air Rate Card for SeaCrest Freight & Logistics valid till 31 Dec 2026.",
+      "keyFacts": [
+        {
+          "label": "Validity",
+          "value": "31 Dec 2026",
+          "evidence": {
+            "file": "vendor-D-photo-rate-card.png",
+            "excerpt": "Valid till 31 Dec 2026"
+          }
+        },
+        {
+          "label": "Inclusions",
+          "value": "All-in (THC both ends, BAF/CAF, documentation); customs clearance extra",
+          "evidence": {
+            "file": "vendor-D-photo-rate-card.png",
+            "excerpt": "All rates ALL-IN: include THC both ends, BAF/CAF and documentation."
+          }
+        }
+      ]
+    }
+  ],
+  "readingNotes": "Photographed rate card. Four rate entries have grey smudges obscuring digits (L07 40', L15 40', L19 LCL, L28 Air BOM-SIN) and are recorded as null with flag smudged_or_illegible. Lanes L13 (Felixstowe FCL) and L30 (ORD Air) are omitted from the document."
+}

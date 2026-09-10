@@ -8,7 +8,6 @@ data/draft
 data/rfqs
 data/eval
 data/decisions.json
-data/extracted/*.json
 data/eval/
 data/decisions.json
 data/draft/

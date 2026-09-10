@@ -1,0 +1,1099 @@
+{
+  "vendor_id": "vendor-E",
+  "source_file": "vendor-E-email-only.eml",
+  "extracted_at": "2026-09-10T19:57:15.522Z",
+  "model": "gemini/gemini-3.6-flash · prompt v0.3.0",
+  "lines": [
+    {
+      "lineId": "L01",
+      "vendorLaneLabel": "Jebel Ali 20s",
+      "matchedLineConfidence": "low",
+      "price": null,
+      "currency": "USD",
+      "unitBasis": "per_20ft",
+      "unitBasisRaw": "20s",
+      "inclusions": [
+        "freight"
+      ],
+      "exclusions": [
+        "THC",
+        "documentation"
+      ],
+      "confidence": "low",
+      "evidence": {
+        "file": "email",
+        "excerpt": "USD 1,250 for the Jebel Ali 20s",
+        "page": 1,
+        "locationHint": "line 10"
+      },
+      "flags": [
+        "missing"
+      ],
+      "note": "Vendor quoted 'Jebel Ali 20s' without origin port. Unclear if L01 (Nhava Sheva) or L03 (Mundra).",
+      "transitDays": null,
+      "freeDays": 7
+    },
+    {
+      "lineId": "L02",
+      "vendorLaneLabel": "Jebel Ali 40s",
+      "matchedLineConfidence": "low",
+      "price": null,
+      "currency": "USD",
+      "unitBasis": "per_40ft",
+      "unitBasisRaw": "40s",
+      "inclusions": [
+        "freight"
+      ],
+      "exclusions": [
+        "THC",
+        "documentation"
+      ],
+      "confidence": "low",
+      "evidence": {
+        "file": "email",
+        "excerpt": "1,900 for the 40s",
+        "page": 1,
+        "locationHint": "line 10"
+      },
+      "flags": [
+        "missing"
+      ],
+      "note": "Vendor quoted 'Jebel Ali 40s' without origin port. Unclear if L02 (Nhava Sheva) or L04 (Mundra).",
+      "transitDays": null,
+      "freeDays": 7
+    },
+    {
+      "lineId": "L03",
+      "vendorLaneLabel": "Jebel Ali 20s",
+      "matchedLineConfidence": "low",
+      "price": null,
+      "currency": "USD",
+      "unitBasis": "per_20ft",
+      "unitBasisRaw": "20s",
+      "inclusions": [
+        "freight"
+      ],
+      "exclusions": [
+        "THC",
+        "documentation"
+      ],
+      "confidence": "low",
+      "evidence": {
+        "file": "email",
+        "excerpt": "USD 1,250 for the Jebel Ali 20s",
+        "page": 1,
+        "locationHint": "line 10"
+      },
+      "flags": [
+        "missing"
+      ],
+      "note": "Vendor quoted 'Jebel Ali 20s' without origin port. Unclear if L01 (Nhava Sheva) or L03 (Mundra).",
+      "transitDays": null,
+      "freeDays": 7
+    },
+    {
+      "lineId": "L04",
+      "vendorLaneLabel": "Jebel Ali 40s",
+      "matchedLineConfidence": "low",
+      "price": null,
+      "currency": "USD",
+      "unitBasis": "per_40ft",
+      "unitBasisRaw": "40s",
+      "inclusions": [
+        "freight"
+      ],
+      "exclusions": [
+        "THC",
+        "documentation"
+      ],
+      "confidence": "low",
+      "evidence": {
+        "file": "email",
+        "excerpt": "1,900 for the 40s",
+        "page": 1,
+        "locationHint": "line 10"
+      },
+      "flags": [
+        "missing"
+      ],
+      "note": "Vendor quoted 'Jebel Ali 40s' without origin port. Unclear if L02 (Nhava Sheva) or L04 (Mundra).",
+      "transitDays": null,
+      "freeDays": 7
+    },
+    {
+      "lineId": null,
+      "candidateLineIds": [
+        "L01",
+        "L03"
+      ],
+      "vendorLaneLabel": "Jebel Ali 20s",
+      "matchedLineConfidence": "low",
+      "price": 1250,
+      "currency": "USD",
+      "unitBasis": "per_20ft",
+      "unitBasisRaw": "20s",
+      "inclusions": [
+        "freight"
+      ],
+      "exclusions": [
+        "THC",
+        "documentation"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "file": "email",
+        "excerpt": "USD 1,250 for the Jebel Ali 20s",
+        "page": 1,
+        "locationHint": "line 10"
+      },
+      "flags": [
+        "ambiguous_lane_match",
+        "unit_variant",
+        "partial_basis"
+      ],
+      "note": "Origin not specified between Nhava Sheva and Mundra.",
+      "transitDays": null,
+      "freeDays": 7
+    },
+    {
+      "lineId": null,
+      "candidateLineIds": [
+        "L02",
+        "L04"
+      ],
+      "vendorLaneLabel": "Jebel Ali 40s",
+      "matchedLineConfidence": "low",
+      "price": 1900,
+      "currency": "USD",
+      "unitBasis": "per_40ft",
+      "unitBasisRaw": "40s",
+      "inclusions": [
+        "freight"
+      ],
+      "exclusions": [
+        "THC",
+        "documentation"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "file": "email",
+        "excerpt": "1,900 for the 40s",
+        "page": 1,
+        "locationHint": "line 10"
+      },
+      "flags": [
+        "ambiguous_lane_match",
+        "unit_variant",
+        "partial_basis"
+      ],
+      "note": "Origin not specified between Nhava Sheva and Mundra.",
+      "transitDays": null,
+      "freeDays": 7
+    },
+    {
+      "lineId": "L05",
+      "vendorLaneLabel": "Singapore",
+      "matchedLineConfidence": "high",
+      "price": null,
+      "currency": "USD",
+      "unitBasis": "per_20GP",
+      "unitBasisRaw": "Singapore",
+      "inclusions": [
+        "freight"
+      ],
+      "exclusions": [
+        "THC",
+        "documentation"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "file": "email",
+        "excerpt": "Singapore same as last year plus 3%",
+        "page": 1,
+        "locationHint": "line 10"
+      },
+      "flags": [
+        "prior_rate_reference"
+      ],
+      "note": "Reference to last year's rate plus 3%. No absolute price quoted.",
+      "transitDays": null,
+      "freeDays": 7
+    },
+    {
+      "lineId": "L06",
+      "vendorLaneLabel": "Singapore",
+      "matchedLineConfidence": "high",
+      "price": null,
+      "currency": "USD",
+      "unitBasis": "per_40HC",
+      "unitBasisRaw": "Singapore",
+      "inclusions": [
+        "freight"
+      ],
+      "exclusions": [
+        "THC",
+        "documentation"
+      ],
+      "confidence": "medium",
+      "evidence": {
+        "file": "email",
+        "excerpt": "Singapore same as last year plus 3%",
+        "page": 1,
+        "locationHint": "line 10"
+      },
+      "flags": [
+        "prior_rate_reference"
+      ],
+      "note": "Reference to last year's rate plus 3%. No absolute price quoted.",
+      "transitDays": null,
+      "freeDays": 7
+    },
+    {
+      "lineId": "L07",
+      "vendorLaneLabel": "Rotterdam 40 HC ex Nhava Sheva",
+      "matchedLineConfidence": "high",
+      "price": 1780,
+      "currency": "USD",
+      "unitBasis": "per_40HC",
+      "unitBasisRaw": "40 HC",
+      "inclusions": [
+        "freight"
+      ],
+      "exclusions": [
+        "THC",
+        "documentation"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "email",
+        "excerpt": "Rotterdam 40 HC ex Nhava Sheva USD 1,780",
+        "page": 1,
+        "locationHint": "line 10"
+      },
+      "flags": [
+        "partial_basis"
+      ],
+      "note": "THC and doc extra at actuals.",
+      "transitDays": null,
+      "freeDays": 7
+    },
+    {
+      "lineId": "L08",
+      "vendorLaneLabel": "Rotterdam 40 HC ex Mundra",
+      "matchedLineConfidence": "high",
+      "price": 1760,
+      "currency": "USD",
+      "unitBasis": "per_40HC",
+      "unitBasisRaw": "40 HC",
+      "inclusions": [
+        "freight"
+      ],
+      "exclusions": [
+        "THC",
+        "documentation"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "email",
+        "excerpt": "ex Mundra USD 1,760",
+        "page": 1,
+        "locationHint": "line 10"
+      },
+      "flags": [
+        "partial_basis"
+      ],
+      "note": "THC and doc extra at actuals.",
+      "transitDays": null,
+      "freeDays": 7
+    },
+    {
+      "lineId": "L09",
+      "vendorLaneLabel": "LA 40 HC",
+      "matchedLineConfidence": "high",
+      "price": 2590,
+      "currency": "USD",
+      "unitBasis": "per_40HC",
+      "unitBasisRaw": "40 HC",
+      "inclusions": [
+        "freight"
+      ],
+      "exclusions": [
+        "THC",
+        "documentation"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "email",
+        "excerpt": "LA 40 HC USD 2,590",
+        "page": 1,
+        "locationHint": "line 10"
+      },
+      "flags": [
+        "partial_basis"
+      ],
+      "note": "THC and doc extra at actuals.",
+      "transitDays": null,
+      "freeDays": 7
+    },
+    {
+      "lineId": "L10",
+      "vendorLaneLabel": "Chennai to Singapore 20 GP",
+      "matchedLineConfidence": "high",
+      "price": 365,
+      "currency": "USD",
+      "unitBasis": "per_20GP",
+      "unitBasisRaw": "20 GP",
+      "inclusions": [
+        "freight"
+      ],
+      "exclusions": [
+        "THC",
+        "documentation"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "email",
+        "excerpt": "Chennai to Singapore 20 GP USD 365",
+        "page": 1,
+        "locationHint": "line 10"
+      },
+      "flags": [
+        "partial_basis"
+      ],
+      "note": "THC and doc extra at actuals.",
+      "transitDays": null,
+      "freeDays": 7
+    },
+    {
+      "lineId": "L11",
+      "vendorLaneLabel": "Chennai to Port Klang 40 HC",
+      "matchedLineConfidence": "high",
+      "price": 470,
+      "currency": "USD",
+      "unitBasis": "per_40HC",
+      "unitBasisRaw": "40 HC",
+      "inclusions": [
+        "freight"
+      ],
+      "exclusions": [
+        "THC",
+        "documentation"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "email",
+        "excerpt": "Chennai to Port Klang 40 HC USD 470",
+        "page": 1,
+        "locationHint": "line 10"
+      },
+      "flags": [
+        "partial_basis"
+      ],
+      "note": "THC and doc extra at actuals.",
+      "transitDays": null,
+      "freeDays": 7
+    },
+    {
+      "lineId": "L12",
+      "vendorLaneLabel": "Hamburg 40 HC",
+      "matchedLineConfidence": "high",
+      "price": 1860,
+      "currency": "USD",
+      "unitBasis": "per_40HC",
+      "unitBasisRaw": "40 HC",
+      "inclusions": [
+        "freight"
+      ],
+      "exclusions": [
+        "THC",
+        "documentation"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "email",
+        "excerpt": "Hamburg 40 HC USD 1,860",
+        "page": 1,
+        "locationHint": "line 10"
+      },
+      "flags": [
+        "partial_basis"
+      ],
+      "note": "THC and doc extra at actuals.",
+      "transitDays": null,
+      "freeDays": 7
+    },
+    {
+      "lineId": "L13",
+      "vendorLaneLabel": "Felixstowe 40 HC",
+      "matchedLineConfidence": "high",
+      "price": 1900,
+      "currency": "USD",
+      "unitBasis": "per_40HC",
+      "unitBasisRaw": "40 HC",
+      "inclusions": [
+        "freight"
+      ],
+      "exclusions": [
+        "THC",
+        "documentation"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "email",
+        "excerpt": "Felixstowe 40 HC USD 1,900",
+        "page": 1,
+        "locationHint": "line 10"
+      },
+      "flags": [
+        "partial_basis"
+      ],
+      "note": "THC and doc extra at actuals.",
+      "transitDays": null,
+      "freeDays": 7
+    },
+    {
+      "lineId": "L14",
+      "vendorLaneLabel": "Colombo 20 GP",
+      "matchedLineConfidence": "high",
+      "price": 245,
+      "currency": "USD",
+      "unitBasis": "per_20GP",
+      "unitBasisRaw": "20 GP",
+      "inclusions": [
+        "freight"
+      ],
+      "exclusions": [
+        "THC",
+        "documentation"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "email",
+        "excerpt": "Colombo 20 GP USD 245",
+        "page": 1,
+        "locationHint": "line 10"
+      },
+      "flags": [
+        "partial_basis"
+      ],
+      "note": "THC and doc extra at actuals.",
+      "transitDays": null,
+      "freeDays": 7
+    },
+    {
+      "lineId": "L15",
+      "vendorLaneLabel": "Shanghai to Nhava Sheva 40 HC",
+      "matchedLineConfidence": "high",
+      "price": 1060,
+      "currency": "USD",
+      "unitBasis": "per_40HC",
+      "unitBasisRaw": "40 HC",
+      "inclusions": [
+        "freight"
+      ],
+      "exclusions": [
+        "THC",
+        "documentation"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "email",
+        "excerpt": "Shanghai to Nhava Sheva 40 HC USD 1,060",
+        "page": 1,
+        "locationHint": "line 10"
+      },
+      "flags": [
+        "partial_basis"
+      ],
+      "note": "THC and doc extra at actuals.",
+      "transitDays": null,
+      "freeDays": 7
+    },
+    {
+      "lineId": "L16",
+      "vendorLaneLabel": "Shanghai to Nhava Sheva 20 GP",
+      "matchedLineConfidence": "high",
+      "price": 630,
+      "currency": "USD",
+      "unitBasis": "per_20GP",
+      "unitBasisRaw": "20 GP",
+      "inclusions": [
+        "freight"
+      ],
+      "exclusions": [
+        "THC",
+        "documentation"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "email",
+        "excerpt": "20 GP USD 630",
+        "page": 1,
+        "locationHint": "line 10"
+      },
+      "flags": [
+        "partial_basis"
+      ],
+      "note": "THC and doc extra at actuals.",
+      "transitDays": null,
+      "freeDays": 7
+    },
+    {
+      "lineId": "L17",
+      "vendorLaneLabel": "Busan to Chennai 40 HC",
+      "matchedLineConfidence": "high",
+      "price": 1010,
+      "currency": "USD",
+      "unitBasis": "per_40HC",
+      "unitBasisRaw": "40 HC",
+      "inclusions": [
+        "freight"
+      ],
+      "exclusions": [
+        "THC",
+        "documentation"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "email",
+        "excerpt": "Busan to Chennai 40 HC USD 1,010",
+        "page": 1,
+        "locationHint": "line 10"
+      },
+      "flags": [
+        "partial_basis"
+      ],
+      "note": "THC and doc extra at actuals.",
+      "transitDays": null,
+      "freeDays": 7
+    },
+    {
+      "lineId": "L18",
+      "vendorLaneLabel": "Jebel Ali to Mundra 20 GP",
+      "matchedLineConfidence": "high",
+      "price": 390,
+      "currency": "USD",
+      "unitBasis": "per_20GP",
+      "unitBasisRaw": "20 GP",
+      "inclusions": [
+        "freight"
+      ],
+      "exclusions": [
+        "THC",
+        "documentation"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "email",
+        "excerpt": "Jebel Ali to Mundra 20 GP USD 390",
+        "page": 1,
+        "locationHint": "line 10"
+      },
+      "flags": [
+        "partial_basis"
+      ],
+      "note": "THC and doc extra at actuals.",
+      "transitDays": null,
+      "freeDays": 7
+    },
+    {
+      "lineId": "L19",
+      "vendorLaneLabel": "LCL lanes",
+      "matchedLineConfidence": "high",
+      "price": null,
+      "currency": null,
+      "unitBasis": "unknown",
+      "unitBasisRaw": "per CBM",
+      "inclusions": [],
+      "exclusions": [],
+      "confidence": "high",
+      "evidence": {
+        "file": "email",
+        "excerpt": "LCL lanes we pass this year.",
+        "page": 1,
+        "locationHint": "line 12"
+      },
+      "flags": [
+        "missing"
+      ],
+      "note": "Vendor explicitly passed on LCL lanes.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L20",
+      "vendorLaneLabel": "LCL lanes",
+      "matchedLineConfidence": "high",
+      "price": null,
+      "currency": null,
+      "unitBasis": "unknown",
+      "unitBasisRaw": "per CBM",
+      "inclusions": [],
+      "exclusions": [],
+      "confidence": "high",
+      "evidence": {
+        "file": "email",
+        "excerpt": "LCL lanes we pass this year.",
+        "page": 1,
+        "locationHint": "line 12"
+      },
+      "flags": [
+        "missing"
+      ],
+      "note": "Vendor explicitly passed on LCL lanes.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L21",
+      "vendorLaneLabel": "LCL lanes",
+      "matchedLineConfidence": "high",
+      "price": null,
+      "currency": null,
+      "unitBasis": "unknown",
+      "unitBasisRaw": "per CBM",
+      "inclusions": [],
+      "exclusions": [],
+      "confidence": "high",
+      "evidence": {
+        "file": "email",
+        "excerpt": "LCL lanes we pass this year.",
+        "page": 1,
+        "locationHint": "line 12"
+      },
+      "flags": [
+        "missing"
+      ],
+      "note": "Vendor explicitly passed on LCL lanes.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L22",
+      "vendorLaneLabel": "LCL lanes",
+      "matchedLineConfidence": "high",
+      "price": null,
+      "currency": null,
+      "unitBasis": "unknown",
+      "unitBasisRaw": "per CBM",
+      "inclusions": [],
+      "exclusions": [],
+      "confidence": "high",
+      "evidence": {
+        "file": "email",
+        "excerpt": "LCL lanes we pass this year.",
+        "page": 1,
+        "locationHint": "line 12"
+      },
+      "flags": [
+        "missing"
+      ],
+      "note": "Vendor explicitly passed on LCL lanes.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L23",
+      "vendorLaneLabel": "LCL lanes",
+      "matchedLineConfidence": "high",
+      "price": null,
+      "currency": null,
+      "unitBasis": "unknown",
+      "unitBasisRaw": "per CBM",
+      "inclusions": [],
+      "exclusions": [],
+      "confidence": "high",
+      "evidence": {
+        "file": "email",
+        "excerpt": "LCL lanes we pass this year.",
+        "page": 1,
+        "locationHint": "line 12"
+      },
+      "flags": [
+        "missing"
+      ],
+      "note": "Vendor explicitly passed on LCL lanes.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L24",
+      "vendorLaneLabel": "LCL lanes",
+      "matchedLineConfidence": "high",
+      "price": null,
+      "currency": null,
+      "unitBasis": "unknown",
+      "unitBasisRaw": "per CBM",
+      "inclusions": [],
+      "exclusions": [],
+      "confidence": "high",
+      "evidence": {
+        "file": "email",
+        "excerpt": "LCL lanes we pass this year.",
+        "page": 1,
+        "locationHint": "line 12"
+      },
+      "flags": [
+        "missing"
+      ],
+      "note": "Vendor explicitly passed on LCL lanes.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L25",
+      "vendorLaneLabel": "LCL lanes",
+      "matchedLineConfidence": "high",
+      "price": null,
+      "currency": null,
+      "unitBasis": "unknown",
+      "unitBasisRaw": "per CBM",
+      "inclusions": [],
+      "exclusions": [],
+      "confidence": "high",
+      "evidence": {
+        "file": "email",
+        "excerpt": "LCL lanes we pass this year.",
+        "page": 1,
+        "locationHint": "line 12"
+      },
+      "flags": [
+        "missing"
+      ],
+      "note": "Vendor explicitly passed on LCL lanes.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L26",
+      "vendorLaneLabel": "LCL lanes",
+      "matchedLineConfidence": "high",
+      "price": null,
+      "currency": null,
+      "unitBasis": "unknown",
+      "unitBasisRaw": "per CBM",
+      "inclusions": [],
+      "exclusions": [],
+      "confidence": "high",
+      "evidence": {
+        "file": "email",
+        "excerpt": "LCL lanes we pass this year.",
+        "page": 1,
+        "locationHint": "line 12"
+      },
+      "flags": [
+        "missing"
+      ],
+      "note": "Vendor explicitly passed on LCL lanes.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L27",
+      "vendorLaneLabel": "Air ex BOM DXB",
+      "matchedLineConfidence": "high",
+      "price": 1.4,
+      "currency": "USD",
+      "unitBasis": "per_kg",
+      "unitBasisRaw": "per kg chargeable",
+      "inclusions": [
+        "freight"
+      ],
+      "exclusions": [],
+      "confidence": "high",
+      "evidence": {
+        "file": "email",
+        "excerpt": "Air ex BOM per kg chargeable: DXB USD 1.40",
+        "page": 1,
+        "locationHint": "line 14"
+      },
+      "flags": [],
+      "note": "Min 100 kg requirement stated.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L28",
+      "vendorLaneLabel": "Air ex BOM SIN",
+      "matchedLineConfidence": "high",
+      "price": 1.9,
+      "currency": "USD",
+      "unitBasis": "per_kg",
+      "unitBasisRaw": "per kg chargeable",
+      "inclusions": [
+        "freight"
+      ],
+      "exclusions": [],
+      "confidence": "high",
+      "evidence": {
+        "file": "email",
+        "excerpt": "SIN USD 1.90",
+        "page": 1,
+        "locationHint": "line 14"
+      },
+      "flags": [],
+      "note": "Min 100 kg requirement stated.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L29",
+      "vendorLaneLabel": "Air ex BOM AMS",
+      "matchedLineConfidence": "high",
+      "price": 2.75,
+      "currency": "USD",
+      "unitBasis": "per_kg",
+      "unitBasisRaw": "per kg chargeable",
+      "inclusions": [
+        "freight"
+      ],
+      "exclusions": [],
+      "confidence": "high",
+      "evidence": {
+        "file": "email",
+        "excerpt": "AMS USD 2.75",
+        "page": 1,
+        "locationHint": "line 14"
+      },
+      "flags": [],
+      "note": "Min 100 kg requirement stated.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L30",
+      "vendorLaneLabel": "Air ex BOM ORD",
+      "matchedLineConfidence": "high",
+      "price": 3.45,
+      "currency": "USD",
+      "unitBasis": "per_kg",
+      "unitBasisRaw": "per kg chargeable",
+      "inclusions": [
+        "freight"
+      ],
+      "exclusions": [],
+      "confidence": "high",
+      "evidence": {
+        "file": "email",
+        "excerpt": "ORD USD 3.45",
+        "page": 1,
+        "locationHint": "line 14"
+      },
+      "flags": [],
+      "note": "Min 100 kg requirement stated.",
+      "transitDays": null,
+      "freeDays": null
+    }
+  ],
+  "conditions": [
+    {
+      "kind": "global_exclusion",
+      "text": "THC and documentation extra at actuals",
+      "evidence": {
+        "file": "email",
+        "excerpt": "THC and documentation extra at actuals",
+        "page": 1,
+        "locationHint": "line 8"
+      },
+      "appliesTo": "all",
+      "confidence": "high"
+    },
+    {
+      "kind": "free_days",
+      "text": "7 free days destination",
+      "evidence": {
+        "file": "email",
+        "excerpt": "7 free days destination",
+        "page": 1,
+        "locationHint": "line 8"
+      },
+      "appliesTo": [
+        "L01",
+        "L02",
+        "L03",
+        "L04",
+        "L05",
+        "L06",
+        "L07",
+        "L08",
+        "L09",
+        "L10",
+        "L11",
+        "L12",
+        "L13",
+        "L14",
+        "L15",
+        "L16",
+        "L17",
+        "L18"
+      ],
+      "confidence": "high"
+    },
+    {
+      "kind": "other",
+      "text": "Singapore same as last year plus 3%",
+      "evidence": {
+        "file": "email",
+        "excerpt": "Singapore same as last year plus 3%",
+        "page": 1,
+        "locationHint": "line 10"
+      },
+      "appliesTo": [
+        "L05",
+        "L06"
+      ],
+      "confidence": "high"
+    },
+    {
+      "kind": "other",
+      "text": "Air ex BOM min 100 kg",
+      "evidence": {
+        "file": "email",
+        "excerpt": "Min 100 kg.",
+        "page": 1,
+        "locationHint": "line 14"
+      },
+      "appliesTo": [
+        "L27",
+        "L28",
+        "L29",
+        "L30"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "questionnaire": [
+    {
+      "questionId": "Q1",
+      "answerText": "we are ISO 9001 certified (cert attached separately, will send Monday)",
+      "evidence": {
+        "file": "email",
+        "excerpt": "we are ISO 9001 certified (cert attached separately, will send Monday)",
+        "page": 1,
+        "locationHint": "line 16"
+      },
+      "confidence": "high",
+      "flags": []
+    },
+    {
+      "questionId": "Q2",
+      "answerText": "IATA agent yes",
+      "evidence": {
+        "file": "email",
+        "excerpt": "IATA agent yes",
+        "page": 1,
+        "locationHint": "line 16"
+      },
+      "confidence": "high",
+      "flags": []
+    },
+    {
+      "questionId": "Q3",
+      "answerText": "we use Continental CFS at Nhava Sheva",
+      "evidence": {
+        "file": "email",
+        "excerpt": "we use Continental CFS at Nhava Sheva",
+        "page": 1,
+        "locationHint": "line 16"
+      },
+      "confidence": "high",
+      "flags": []
+    },
+    {
+      "questionId": "Q4",
+      "answerText": null,
+      "evidence": {
+        "file": "email",
+        "excerpt": "Rest we can discuss on the call.",
+        "page": 1,
+        "locationHint": "line 16"
+      },
+      "confidence": "high",
+      "flags": [
+        "missing"
+      ]
+    },
+    {
+      "questionId": "Q5",
+      "answerText": "insurance is USD 1.5M with New India",
+      "evidence": {
+        "file": "email",
+        "excerpt": "insurance is USD 1.5M with New India",
+        "page": 1,
+        "locationHint": "line 16"
+      },
+      "confidence": "high",
+      "flags": []
+    },
+    {
+      "questionId": "Q6",
+      "answerText": null,
+      "evidence": {
+        "file": "email",
+        "excerpt": "Rest we can discuss on the call.",
+        "page": 1,
+        "locationHint": "line 16"
+      },
+      "confidence": "high",
+      "flags": [
+        "missing"
+      ]
+    },
+    {
+      "questionId": "Q7",
+      "answerText": null,
+      "evidence": {
+        "file": "email",
+        "excerpt": "Rest we can discuss on the call.",
+        "page": 1,
+        "locationHint": "line 16"
+      },
+      "confidence": "high",
+      "flags": [
+        "missing"
+      ]
+    },
+    {
+      "questionId": "Q8",
+      "answerText": "Maharashtra Agro Exports Ltd has used Harbourline Shipping & Air for its FCL exports to the Gulf and Europe since 2021, approximately 620 TEU per year.",
+      "evidence": {
+        "file": "vendor-E-reference-letter.txt",
+        "excerpt": "Maharashtra Agro Exports Ltd has used Harbourline Shipping & Air for its FCL exports to the Gulf and Europe since 2021, approximately 620 TEU per year.",
+        "page": 1,
+        "locationHint": "attachment line 3"
+      },
+      "confidence": "medium",
+      "flags": []
+    }
+  ],
+  "docSummaries": [
+    {
+      "file": "vendor-E-reference-letter.txt",
+      "kind": "reference_letter",
+      "summary": "Reference letter from Maharashtra Agro Exports Ltd confirming FCL export shipping services since 2021 with ~620 TEU annual volume.",
+      "keyFacts": [
+        {
+          "label": "Issuer",
+          "value": "Maharashtra Agro Exports Ltd (R. Kulkarni, Head of Logistics)",
+          "evidence": {
+            "file": "vendor-E-reference-letter.txt",
+            "excerpt": "R. Kulkarni, Head of Logistics, 2 September 2026",
+            "page": 1,
+            "locationHint": "attachment line 5"
+          }
+        },
+        {
+          "label": "Volume",
+          "value": "approximately 620 TEU per year",
+          "evidence": {
+            "file": "vendor-E-reference-letter.txt",
+            "excerpt": "approximately 620 TEU per year",
+            "page": 1,
+            "locationHint": "attachment line 3"
+          }
+        }
+      ]
+    }
+  ],
+  "readingNotes": "The response was provided in an email format. Prices were quoted in USD. Jebel Ali export 20ft and 40ft quotes did not specify origin port (Nhava Sheva vs Mundra), resulting in ambiguous lane matching for L01/L03 and L02/L04. Singapore export lanes (L05/L06) referenced last year's rate plus 3% without specifying an absolute price. Vendor explicitly declined to quote LCL lanes. ISO 9001 certificate copy was mentioned as pending send on Monday."
+}

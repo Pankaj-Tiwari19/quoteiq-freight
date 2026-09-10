@@ -1,0 +1,885 @@
+{
+  "vendor_id": "vendor-A",
+  "source_file": "vendor-A-excel-ignores-template.xlsx",
+  "extracted_at": "2026-09-10T18:56:03.045Z",
+  "model": "gemini/gemini-3.6-flash · prompt v0.3.0",
+  "lines": [
+    {
+      "lineId": "L01",
+      "vendorLaneLabel": "NSA-JEA",
+      "matchedLineConfidence": "high",
+      "price": 43800,
+      "currency": "INR",
+      "unitBasis": "per_20GP",
+      "unitBasisRaw": "20GP",
+      "inclusions": [
+        "port to port",
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [],
+      "confidence": "high",
+      "evidence": {
+        "file": "Rates.xlsx",
+        "excerpt": "row 5: 1 | NSA-JEA | FCL | 20GP | 43800 | 7 | 14",
+        "locationHint": "Sheet 'Rates', row 5"
+      },
+      "flags": [],
+      "transitDays": 7,
+      "freeDays": 14
+    },
+    {
+      "lineId": "L02",
+      "vendorLaneLabel": "NSA-JEA",
+      "matchedLineConfidence": "high",
+      "price": 66500,
+      "currency": "INR",
+      "unitBasis": "per_40HC",
+      "unitBasisRaw": "40HC",
+      "inclusions": [
+        "port to port",
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [],
+      "confidence": "high",
+      "evidence": {
+        "file": "Rates.xlsx",
+        "excerpt": "row 6: 2 | NSA-JEA | FCL | 40HC | 66500 | 7 | 14",
+        "locationHint": "Sheet 'Rates', row 6"
+      },
+      "flags": [],
+      "transitDays": 7,
+      "freeDays": 14
+    },
+    {
+      "lineId": "L03",
+      "vendorLaneLabel": "MUN-JEA",
+      "matchedLineConfidence": "high",
+      "price": 41900,
+      "currency": "INR",
+      "unitBasis": "per_20GP",
+      "unitBasisRaw": "20GP",
+      "inclusions": [
+        "port to port",
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [],
+      "confidence": "high",
+      "evidence": {
+        "file": "Rates.xlsx",
+        "excerpt": "row 7: 3 | MUN-JEA | FCL | 20GP | 41900 | 6 | 14",
+        "locationHint": "Sheet 'Rates', row 7"
+      },
+      "flags": [],
+      "transitDays": 6,
+      "freeDays": 14
+    },
+    {
+      "lineId": "L04",
+      "vendorLaneLabel": "MUN-JEA",
+      "matchedLineConfidence": "high",
+      "price": 64200,
+      "currency": "INR",
+      "unitBasis": "per_40HC",
+      "unitBasisRaw": "40HC",
+      "inclusions": [
+        "port to port",
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [],
+      "confidence": "high",
+      "evidence": {
+        "file": "Rates.xlsx",
+        "excerpt": "row 8: 4 | MUN-JEA | FCL | 40HC | 64200 | 6 | 14",
+        "locationHint": "Sheet 'Rates', row 8"
+      },
+      "flags": [],
+      "transitDays": 6,
+      "freeDays": 14
+    },
+    {
+      "lineId": "L05",
+      "vendorLaneLabel": "NSA-SIN",
+      "matchedLineConfidence": "high",
+      "price": 37500,
+      "currency": "INR",
+      "unitBasis": "per_20GP",
+      "unitBasisRaw": "20GP",
+      "inclusions": [
+        "port to port",
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [],
+      "confidence": "high",
+      "evidence": {
+        "file": "Rates.xlsx",
+        "excerpt": "row 9: 5 | NSA-SIN | FCL | 20GP | 37500 | 12 | 14",
+        "locationHint": "Sheet 'Rates', row 9"
+      },
+      "flags": [],
+      "transitDays": 12,
+      "freeDays": 14
+    },
+    {
+      "lineId": "L06",
+      "vendorLaneLabel": "NSA-SIN",
+      "matchedLineConfidence": "high",
+      "price": 56200,
+      "currency": "INR",
+      "unitBasis": "per_40HC",
+      "unitBasisRaw": "40HC",
+      "inclusions": [
+        "port to port",
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [],
+      "confidence": "high",
+      "evidence": {
+        "file": "Rates.xlsx",
+        "excerpt": "row 10: 6 | NSA-SIN | FCL | 40HC | 56200 | 12 | 14",
+        "locationHint": "Sheet 'Rates', row 10"
+      },
+      "flags": [],
+      "transitDays": 12,
+      "freeDays": 14
+    },
+    {
+      "lineId": "L07",
+      "vendorLaneLabel": "NSA-RTM",
+      "matchedLineConfidence": "high",
+      "price": 161000,
+      "currency": "INR",
+      "unitBasis": "per_40HC",
+      "unitBasisRaw": "40HC",
+      "inclusions": [
+        "port to port",
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [],
+      "confidence": "high",
+      "evidence": {
+        "file": "Rates.xlsx",
+        "excerpt": "row 11: 7 | NSA-RTM | FCL | 40HC | 161000 | 26 | 14",
+        "locationHint": "Sheet 'Rates', row 11"
+      },
+      "flags": [],
+      "transitDays": 26,
+      "freeDays": 14
+    },
+    {
+      "lineId": "L08",
+      "vendorLaneLabel": "MUN-RTM",
+      "matchedLineConfidence": "high",
+      "price": 158500,
+      "currency": "INR",
+      "unitBasis": "per_40HC",
+      "unitBasisRaw": "40HC",
+      "inclusions": [
+        "port to port",
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [],
+      "confidence": "high",
+      "evidence": {
+        "file": "Rates.xlsx",
+        "excerpt": "row 12: 8 | MUN-RTM | FCL | 40HC | 158500 | 27 | 14",
+        "locationHint": "Sheet 'Rates', row 12"
+      },
+      "flags": [],
+      "transitDays": 27,
+      "freeDays": 14
+    },
+    {
+      "lineId": "L09",
+      "vendorLaneLabel": "NSA-LAX",
+      "matchedLineConfidence": "high",
+      "price": 231000,
+      "currency": "INR",
+      "unitBasis": "per_40HC",
+      "unitBasisRaw": "40HC",
+      "inclusions": [
+        "port to port",
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [],
+      "confidence": "high",
+      "evidence": {
+        "file": "Rates.xlsx",
+        "excerpt": "row 13: 9 | NSA-LAX | FCL | 40HC | 231000 | 34 | 14",
+        "locationHint": "Sheet 'Rates', row 13"
+      },
+      "flags": [],
+      "transitDays": 34,
+      "freeDays": 14
+    },
+    {
+      "lineId": "L10",
+      "vendorLaneLabel": "MAA-SIN",
+      "matchedLineConfidence": "high",
+      "price": 31800,
+      "currency": "INR",
+      "unitBasis": "per_20GP",
+      "unitBasisRaw": "20GP",
+      "inclusions": [
+        "port to port",
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [],
+      "confidence": "high",
+      "evidence": {
+        "file": "Rates.xlsx",
+        "excerpt": "row 14: 10 | MAA-SIN | FCL | 20GP | 31800 | 9 | 14",
+        "locationHint": "Sheet 'Rates', row 14"
+      },
+      "flags": [],
+      "transitDays": 9,
+      "freeDays": 14
+    },
+    {
+      "lineId": "L11",
+      "vendorLaneLabel": "MAA-PKG",
+      "matchedLineConfidence": "high",
+      "price": 40200,
+      "currency": "INR",
+      "unitBasis": "per_40HC",
+      "unitBasisRaw": "40HC",
+      "inclusions": [
+        "port to port",
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [],
+      "confidence": "high",
+      "evidence": {
+        "file": "Rates.xlsx",
+        "excerpt": "row 15: 11 | MAA-PKG | FCL | 40HC | 40200 | 7 | 14",
+        "locationHint": "Sheet 'Rates', row 15"
+      },
+      "flags": [],
+      "transitDays": 7,
+      "freeDays": 14
+    },
+    {
+      "lineId": "L12",
+      "vendorLaneLabel": "NSA-HAM",
+      "matchedLineConfidence": "high",
+      "price": 166000,
+      "currency": "INR",
+      "unitBasis": "per_40HC",
+      "unitBasisRaw": "40HC",
+      "inclusions": [
+        "port to port",
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [],
+      "confidence": "high",
+      "evidence": {
+        "file": "Rates.xlsx",
+        "excerpt": "row 16: 12 | NSA-HAM | FCL | 40HC | 166000 | 28 | 14",
+        "locationHint": "Sheet 'Rates', row 16"
+      },
+      "flags": [],
+      "transitDays": 28,
+      "freeDays": 14
+    },
+    {
+      "lineId": "L13",
+      "vendorLaneLabel": "NSA-FXT",
+      "matchedLineConfidence": "high",
+      "price": 169500,
+      "currency": "INR",
+      "unitBasis": "per_40HC",
+      "unitBasisRaw": "40HC",
+      "inclusions": [
+        "port to port",
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [],
+      "confidence": "high",
+      "evidence": {
+        "file": "Rates.xlsx",
+        "excerpt": "row 17: 13 | NSA-FXT | FCL | 40HC | 169500 | 27 | 14",
+        "locationHint": "Sheet 'Rates', row 17"
+      },
+      "flags": [],
+      "transitDays": 27,
+      "freeDays": 14
+    },
+    {
+      "lineId": "L14",
+      "vendorLaneLabel": "NSA-CMB",
+      "matchedLineConfidence": "high",
+      "price": 22100,
+      "currency": "INR",
+      "unitBasis": "per_20GP",
+      "unitBasisRaw": "20GP",
+      "inclusions": [
+        "port to port",
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [],
+      "confidence": "high",
+      "evidence": {
+        "file": "Rates.xlsx",
+        "excerpt": "row 18: 14 | NSA-CMB | FCL | 20GP | 22100 | 4 | 14",
+        "locationHint": "Sheet 'Rates', row 18"
+      },
+      "flags": [],
+      "transitDays": 4,
+      "freeDays": 14
+    },
+    {
+      "lineId": "L15",
+      "vendorLaneLabel": "SHA-NSA",
+      "matchedLineConfidence": "high",
+      "price": 92500,
+      "currency": "INR",
+      "unitBasis": "per_40HC",
+      "unitBasisRaw": "40HC",
+      "inclusions": [
+        "port to port",
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [],
+      "confidence": "high",
+      "evidence": {
+        "file": "Rates.xlsx",
+        "excerpt": "row 19: 15 | SHA-NSA | FCL | 40HC | 92500 | 14 | 14",
+        "locationHint": "Sheet 'Rates', row 19"
+      },
+      "flags": [],
+      "transitDays": 14,
+      "freeDays": 14
+    },
+    {
+      "lineId": "L16",
+      "vendorLaneLabel": "SHA-NSA",
+      "matchedLineConfidence": "high",
+      "price": 54800,
+      "currency": "INR",
+      "unitBasis": "per_20GP",
+      "unitBasisRaw": "20GP",
+      "inclusions": [
+        "port to port",
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [],
+      "confidence": "high",
+      "evidence": {
+        "file": "Rates.xlsx",
+        "excerpt": "row 20: 16 | SHA-NSA | FCL | 20GP | 54800 | 14 | 14",
+        "locationHint": "Sheet 'Rates', row 20"
+      },
+      "flags": [],
+      "transitDays": 14,
+      "freeDays": 14
+    },
+    {
+      "lineId": "L17",
+      "vendorLaneLabel": "PUS-MAA",
+      "matchedLineConfidence": "high",
+      "price": 88900,
+      "currency": "INR",
+      "unitBasis": "per_40HC",
+      "unitBasisRaw": "40HC",
+      "inclusions": [
+        "port to port",
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [],
+      "confidence": "high",
+      "evidence": {
+        "file": "Rates.xlsx",
+        "excerpt": "row 21: 17 | PUS-MAA | FCL | 40HC | 88900 | 16 | 14",
+        "locationHint": "Sheet 'Rates', row 21"
+      },
+      "flags": [],
+      "transitDays": 16,
+      "freeDays": 14
+    },
+    {
+      "lineId": "L18",
+      "vendorLaneLabel": "JEA-MUN",
+      "matchedLineConfidence": "high",
+      "price": 33600,
+      "currency": "INR",
+      "unitBasis": "per_20GP",
+      "unitBasisRaw": "20GP",
+      "inclusions": [
+        "port to port",
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [],
+      "confidence": "high",
+      "evidence": {
+        "file": "Rates.xlsx",
+        "excerpt": "row 22: 18 | JEA-MUN | FCL | 20GP | 33600 | 8 | 14",
+        "locationHint": "Sheet 'Rates', row 22"
+      },
+      "flags": [],
+      "transitDays": 8,
+      "freeDays": 14
+    },
+    {
+      "lineId": "L19",
+      "vendorLaneLabel": "NSA-JEA",
+      "matchedLineConfidence": "high",
+      "price": 1880,
+      "currency": "INR",
+      "unitBasis": "per_CBM",
+      "unitBasisRaw": "LCL per CBM",
+      "inclusions": [
+        "port to port",
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [],
+      "confidence": "high",
+      "evidence": {
+        "file": "Rates.xlsx",
+        "excerpt": "row 23: 19 | NSA-JEA | LCL | LCL per CBM | 1880 | 10 | 7",
+        "locationHint": "Sheet 'Rates', row 23"
+      },
+      "flags": [],
+      "transitDays": 10,
+      "freeDays": 7
+    },
+    {
+      "lineId": "L20",
+      "vendorLaneLabel": "NSA-SIN",
+      "matchedLineConfidence": "high",
+      "price": 2380,
+      "currency": "INR",
+      "unitBasis": "per_CBM",
+      "unitBasisRaw": "LCL per CBM",
+      "inclusions": [
+        "port to port",
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [],
+      "confidence": "high",
+      "evidence": {
+        "file": "Rates.xlsx",
+        "excerpt": "row 24: 20 | NSA-SIN | LCL | LCL per CBM | 2380 | 15 | 7",
+        "locationHint": "Sheet 'Rates', row 24"
+      },
+      "flags": [],
+      "transitDays": 15,
+      "freeDays": 7
+    },
+    {
+      "lineId": "L21",
+      "vendorLaneLabel": "MAA-SIN",
+      "matchedLineConfidence": "high",
+      "price": 2210,
+      "currency": "INR",
+      "unitBasis": "per_CBM",
+      "unitBasisRaw": "LCL per CBM",
+      "inclusions": [
+        "port to port",
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [],
+      "confidence": "high",
+      "evidence": {
+        "file": "Rates.xlsx",
+        "excerpt": "row 25: 21 | MAA-SIN | LCL | LCL per CBM | 2210 | 12 | 7",
+        "locationHint": "Sheet 'Rates', row 25"
+      },
+      "flags": [],
+      "transitDays": 12,
+      "freeDays": 7
+    },
+    {
+      "lineId": "L22",
+      "vendorLaneLabel": "NSA-RTM",
+      "matchedLineConfidence": "high",
+      "price": 4050,
+      "currency": "INR",
+      "unitBasis": "per_CBM",
+      "unitBasisRaw": "LCL per CBM",
+      "inclusions": [
+        "port to port",
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [],
+      "confidence": "high",
+      "evidence": {
+        "file": "Rates.xlsx",
+        "excerpt": "row 26: 22 | NSA-RTM | LCL | LCL per CBM | 4050 | 30 | 7",
+        "locationHint": "Sheet 'Rates', row 26"
+      },
+      "flags": [],
+      "transitDays": 30,
+      "freeDays": 7
+    },
+    {
+      "lineId": "L23",
+      "vendorLaneLabel": "NSA-LAX",
+      "matchedLineConfidence": "high",
+      "price": 5600,
+      "currency": "INR",
+      "unitBasis": "per_CBM",
+      "unitBasisRaw": "LCL per CBM",
+      "inclusions": [
+        "port to port",
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [],
+      "confidence": "high",
+      "evidence": {
+        "file": "Rates.xlsx",
+        "excerpt": "row 27: 23 | NSA-LAX | LCL | LCL per CBM | 5600 | 38 | 7",
+        "locationHint": "Sheet 'Rates', row 27"
+      },
+      "flags": [],
+      "transitDays": 38,
+      "freeDays": 7
+    },
+    {
+      "lineId": "L24",
+      "vendorLaneLabel": "MUN-HAM",
+      "matchedLineConfidence": "high",
+      "price": 3950,
+      "currency": "INR",
+      "unitBasis": "per_CBM",
+      "unitBasisRaw": "LCL per CBM",
+      "inclusions": [
+        "port to port",
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [],
+      "confidence": "high",
+      "evidence": {
+        "file": "Rates.xlsx",
+        "excerpt": "row 28: 24 | MUN-HAM | LCL | LCL per CBM | 3950 | 32 | 7",
+        "locationHint": "Sheet 'Rates', row 28"
+      },
+      "flags": [],
+      "transitDays": 32,
+      "freeDays": 7
+    },
+    {
+      "lineId": "L25",
+      "vendorLaneLabel": "SIN-NSA",
+      "matchedLineConfidence": "high",
+      "price": 2540,
+      "currency": "INR",
+      "unitBasis": "per_CBM",
+      "unitBasisRaw": "LCL per CBM",
+      "inclusions": [
+        "port to port",
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [],
+      "confidence": "high",
+      "evidence": {
+        "file": "Rates.xlsx",
+        "excerpt": "row 29: 25 | SIN-NSA | LCL | LCL per CBM | 2540 | 17 | 7",
+        "locationHint": "Sheet 'Rates', row 29"
+      },
+      "flags": [],
+      "transitDays": 17,
+      "freeDays": 7
+    },
+    {
+      "lineId": "L26",
+      "vendorLaneLabel": "SHA-NSA",
+      "matchedLineConfidence": "high",
+      "price": 2190,
+      "currency": "INR",
+      "unitBasis": "per_CBM",
+      "unitBasisRaw": "LCL per CBM",
+      "inclusions": [
+        "port to port",
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [],
+      "confidence": "high",
+      "evidence": {
+        "file": "Rates.xlsx",
+        "excerpt": "row 30: 26 | SHA-NSA | LCL | LCL per CBM | 2190 | 18 | 7",
+        "locationHint": "Sheet 'Rates', row 30"
+      },
+      "flags": [],
+      "transitDays": 18,
+      "freeDays": 7
+    },
+    {
+      "lineId": "L27",
+      "vendorLaneLabel": "BOM-DXB",
+      "matchedLineConfidence": "high",
+      "price": 126,
+      "currency": "INR",
+      "unitBasis": "per_kg",
+      "unitBasisRaw": "Air per kg chargeable",
+      "inclusions": [
+        "port to port",
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [],
+      "confidence": "high",
+      "evidence": {
+        "file": "Rates.xlsx",
+        "excerpt": "row 31: 27 | BOM-DXB | AIR | Air per kg chargeable | 126 | 2 | 0",
+        "locationHint": "Sheet 'Rates', row 31"
+      },
+      "flags": [],
+      "transitDays": 2,
+      "freeDays": 0
+    },
+    {
+      "lineId": "L28",
+      "vendorLaneLabel": "BOM-SIN",
+      "matchedLineConfidence": "high",
+      "price": 163,
+      "currency": "INR",
+      "unitBasis": "per_kg",
+      "unitBasisRaw": "Air per kg chargeable",
+      "inclusions": [
+        "port to port",
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [],
+      "confidence": "high",
+      "evidence": {
+        "file": "Rates.xlsx",
+        "excerpt": "row 32: 28 | BOM-SIN | AIR | Air per kg chargeable | 163 | 3 | 0",
+        "locationHint": "Sheet 'Rates', row 32"
+      },
+      "flags": [],
+      "transitDays": 3,
+      "freeDays": 0
+    },
+    {
+      "lineId": "L29",
+      "vendorLaneLabel": "BOM-AMS",
+      "matchedLineConfidence": "high",
+      "price": 239,
+      "currency": "INR",
+      "unitBasis": "per_kg",
+      "unitBasisRaw": "Air per kg chargeable",
+      "inclusions": [
+        "port to port",
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [],
+      "confidence": "high",
+      "evidence": {
+        "file": "Rates.xlsx",
+        "excerpt": "row 33: 29 | BOM-AMS | AIR | Air per kg chargeable | 239 | 3 | 0",
+        "locationHint": "Sheet 'Rates', row 33"
+      },
+      "flags": [],
+      "transitDays": 3,
+      "freeDays": 0
+    },
+    {
+      "lineId": "L30",
+      "vendorLaneLabel": "BOM-ORD",
+      "matchedLineConfidence": "high",
+      "price": 302,
+      "currency": "INR",
+      "unitBasis": "per_kg",
+      "unitBasisRaw": "Air per kg chargeable",
+      "inclusions": [
+        "port to port",
+        "THC both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [],
+      "confidence": "high",
+      "evidence": {
+        "file": "Rates.xlsx",
+        "excerpt": "row 34: 30 | BOM-ORD | AIR | Air per kg chargeable | 302 | 4 | 0",
+        "locationHint": "Sheet 'Rates', row 34"
+      },
+      "flags": [],
+      "transitDays": 4,
+      "freeDays": 0
+    }
+  ],
+  "conditions": [
+    {
+      "kind": "validity",
+      "text": "Valid 60 days",
+      "evidence": {
+        "file": "Rates.xlsx",
+        "excerpt": "Valid 60 days",
+        "locationHint": "Sheet 'Rates', row 2"
+      },
+      "appliesTo": "all",
+      "confidence": "high"
+    },
+    {
+      "kind": "global_inclusion",
+      "text": "All rates INR, ALL-IN port to port incl. THC both ends, BAF/CAF, documentation.",
+      "evidence": {
+        "file": "Rates.xlsx",
+        "excerpt": "All rates INR, ALL-IN port to port incl. THC both ends, BAF/CAF, documentation.",
+        "locationHint": "Sheet 'Rates', row 2"
+      },
+      "appliesTo": "all",
+      "confidence": "high"
+    },
+    {
+      "kind": "free_days",
+      "text": "Free days: 14 at destination.",
+      "evidence": {
+        "file": "Rates.xlsx",
+        "excerpt": "Free days: 14 at destination.",
+        "locationHint": "Sheet 'Rates', row 2"
+      },
+      "appliesTo": "all",
+      "confidence": "high"
+    }
+  ],
+  "questionnaire": [
+    {
+      "questionId": "Q1",
+      "answerText": "Yes – ISO 9001:2015 certified, cert no. IN-QMS-44821, valid to Mar 2028 (copy attached)",
+      "confidence": "high",
+      "flags": []
+    },
+    {
+      "questionId": "Q2",
+      "answerText": "FIATA member (FIATA ID 3391); IATA cargo agent no. 14-3 2201",
+      "confidence": "high",
+      "flags": []
+    },
+    {
+      "questionId": "Q3",
+      "answerText": "Own CFS at Dronagiri, Nhava Sheva (Bluewater CFS)",
+      "confidence": "high",
+      "flags": []
+    },
+    {
+      "questionId": "Q4",
+      "answerText": "0.8% of shipments FY26",
+      "confidence": "high",
+      "flags": []
+    },
+    {
+      "questionId": "Q5",
+      "answerText": "Marine liability USD 2,000,000 per occurrence (certificate on request)",
+      "confidence": "high",
+      "flags": []
+    },
+    {
+      "questionId": "Q6",
+      "answerText": "4 hours to branch manager, 24 hours to director",
+      "confidence": "high",
+      "flags": []
+    },
+    {
+      "questionId": "Q7",
+      "answerText": "Yes, per-shipment CO2e statement on invoice",
+      "confidence": "high",
+      "flags": []
+    },
+    {
+      "questionId": "Q8",
+      "answerText": "Two references available on request",
+      "confidence": "high",
+      "flags": []
+    }
+  ],
+  "docSummaries": [
+    {
+      "file": "vendor-A-iso9001-certificate.txt",
+      "kind": "ISO 9001 Certificate",
+      "summary": "ISO 9001:2015 Quality Management System Certificate for Bluewater Global Logistics Pvt Ltd issued by Bharat Quality Registrars.",
+      "keyFacts": [
+        {
+          "label": "Certificate Number",
+          "value": "IN-QMS-44821",
+          "evidence": {
+            "file": "vendor-A-iso9001-certificate.txt",
+            "excerpt": "Certificate No. IN-QMS-44821"
+          }
+        },
+        {
+          "label": "Issue Date",
+          "value": "14 March 2025",
+          "evidence": {
+            "file": "vendor-A-iso9001-certificate.txt",
+            "excerpt": "Issued 14 March 2025"
+          }
+        },
+        {
+          "label": "Valid Until",
+          "value": "13 March 2028",
+          "evidence": {
+            "file": "vendor-A-iso9001-certificate.txt",
+            "excerpt": "Valid until 13 March 2028"
+          }
+        },
+        {
+          "label": "Certification Body",
+          "value": "Bharat Quality Registrars",
+          "evidence": {
+            "file": "vendor-A-iso9001-certificate.txt",
+            "excerpt": "Certification body: Bharat Quality Registrars (accredited)"
+          }
+        }
+      ]
+    }
+  ],
+  "readingNotes": "All 30 lanes quoted clearly with explicit prices, mode, transit days, and free days. Questionnaire completely filled in Sheet 'Questionnaire'. ISO 9001 certificate verified from attached document."
+}

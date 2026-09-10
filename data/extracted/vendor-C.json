@@ -1,0 +1,1005 @@
+{
+  "vendor_id": "vendor-C",
+  "source_file": "vendor-C-word-prose.docx",
+  "extracted_at": "2026-09-10T19:52:42.787Z",
+  "model": "gemini/gemini-3.6-flash · prompt v0.3.0",
+  "lines": [
+    {
+      "lineId": "L01",
+      "vendorLaneLabel": "Nhava Sheva – Jebel Ali",
+      "matchedLineConfidence": "high",
+      "price": 45200,
+      "currency": "INR",
+      "unitBasis": "per_20GP",
+      "unitBasisRaw": "twenty-foot standard container",
+      "inclusions": [
+        "terminal handling at both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [
+        "Customs clearance",
+        "duties"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor response docx",
+        "excerpt": "For Nhava Sheva – Jebel Ali we can offer INR 45,200 per twenty-foot standard container all-in, transit approximately 9 days, 10 free days at destination.",
+        "locationHint": "para 6"
+      },
+      "flags": [],
+      "note": "Quoted as twenty-foot standard container all-in",
+      "transitDays": 9,
+      "freeDays": 10
+    },
+    {
+      "lineId": "L02",
+      "vendorLaneLabel": "Nhava Sheva – Jebel Ali",
+      "matchedLineConfidence": "high",
+      "price": 69800,
+      "currency": "INR",
+      "unitBasis": "per_40HC",
+      "unitBasisRaw": "forty-foot high cube container",
+      "inclusions": [
+        "terminal handling at both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [
+        "Customs clearance",
+        "duties"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor response docx",
+        "excerpt": "For Nhava Sheva – Jebel Ali we can offer INR 69,800 per forty-foot high cube container all-in, transit approximately 9 days, 10 free days at destination.",
+        "locationHint": "para 7"
+      },
+      "flags": [],
+      "note": "Quoted as forty-foot high cube container all-in",
+      "transitDays": 9,
+      "freeDays": 10
+    },
+    {
+      "lineId": "L03",
+      "vendorLaneLabel": "Mundra – Jebel Ali",
+      "matchedLineConfidence": "high",
+      "price": 43500,
+      "currency": "INR",
+      "unitBasis": "per_20GP",
+      "unitBasisRaw": "twenty-foot standard container",
+      "inclusions": [
+        "terminal handling at both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [
+        "Customs clearance",
+        "duties"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor response docx",
+        "excerpt": "For Mundra – Jebel Ali we can offer INR 43,500 per twenty-foot standard container all-in, transit approximately 8 days, 10 free days at destination.",
+        "locationHint": "para 8"
+      },
+      "flags": [],
+      "note": "Quoted as twenty-foot standard container all-in",
+      "transitDays": 8,
+      "freeDays": 10
+    },
+    {
+      "lineId": "L04",
+      "vendorLaneLabel": "Mundra – Jebel Ali",
+      "matchedLineConfidence": "high",
+      "price": 67100,
+      "currency": "INR",
+      "unitBasis": "per_40HC",
+      "unitBasisRaw": "forty-foot high cube container",
+      "inclusions": [
+        "terminal handling at both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [
+        "Customs clearance",
+        "duties"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor response docx",
+        "excerpt": "For Mundra – Jebel Ali we can offer INR 67,100 per forty-foot high cube container all-in, transit approximately 8 days, 10 free days at destination.",
+        "locationHint": "para 9"
+      },
+      "flags": [],
+      "note": "Quoted as forty-foot high cube container all-in",
+      "transitDays": 8,
+      "freeDays": 10
+    },
+    {
+      "lineId": "L05",
+      "vendorLaneLabel": "Nhava Sheva – Singapore",
+      "matchedLineConfidence": "high",
+      "price": 37800,
+      "currency": "INR",
+      "unitBasis": "per_20GP",
+      "unitBasisRaw": "twenty-foot standard container",
+      "inclusions": [
+        "terminal handling at both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [
+        "Customs clearance",
+        "duties"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor response docx",
+        "excerpt": "For Nhava Sheva – Singapore we can offer INR 37,800 per twenty-foot standard container all-in, transit approximately 14 days, 10 free days at destination.",
+        "locationHint": "para 10"
+      },
+      "flags": [],
+      "note": "Quoted as twenty-foot standard container all-in",
+      "transitDays": 14,
+      "freeDays": 10
+    },
+    {
+      "lineId": "L06",
+      "vendorLaneLabel": "Nhava Sheva – Singapore",
+      "matchedLineConfidence": "high",
+      "price": 56500,
+      "currency": "INR",
+      "unitBasis": "per_40HC",
+      "unitBasisRaw": "forty-foot high cube container",
+      "inclusions": [
+        "terminal handling at both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [
+        "Customs clearance",
+        "duties"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor response docx",
+        "excerpt": "For Nhava Sheva – Singapore we can offer INR 56,500 per forty-foot high cube container all-in, transit approximately 14 days, 10 free days at destination.",
+        "locationHint": "para 11"
+      },
+      "flags": [],
+      "note": "Quoted as forty-foot high cube container all-in",
+      "transitDays": 14,
+      "freeDays": 10
+    },
+    {
+      "lineId": "L07",
+      "vendorLaneLabel": "Nhava Sheva – Rotterdam",
+      "matchedLineConfidence": "high",
+      "price": 152000,
+      "currency": "INR",
+      "unitBasis": "per_40HC",
+      "unitBasisRaw": "forty-foot high cube container",
+      "inclusions": [
+        "terminal handling at both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [
+        "Customs clearance",
+        "duties"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor response docx",
+        "excerpt": "For Nhava Sheva – Rotterdam we can offer INR 1,52,000 per forty-foot high cube container all-in, transit approximately 28 days, 10 free days at destination.",
+        "locationHint": "para 12"
+      },
+      "flags": [],
+      "note": "Quoted as forty-foot high cube container all-in",
+      "transitDays": 28,
+      "freeDays": 10
+    },
+    {
+      "lineId": "L08",
+      "vendorLaneLabel": "Mundra – Rotterdam",
+      "matchedLineConfidence": "high",
+      "price": 149500,
+      "currency": "INR",
+      "unitBasis": "per_40HC",
+      "unitBasisRaw": "forty-foot high cube container",
+      "inclusions": [
+        "terminal handling at both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [
+        "Customs clearance",
+        "duties"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor response docx",
+        "excerpt": "For Mundra – Rotterdam we can offer INR 1,49,500 per forty-foot high cube container all-in, transit approximately 29 days, 10 free days at destination.",
+        "locationHint": "para 13"
+      },
+      "flags": [],
+      "note": "Quoted as forty-foot high cube container all-in",
+      "transitDays": 29,
+      "freeDays": 10
+    },
+    {
+      "lineId": "L09",
+      "vendorLaneLabel": "Nhava Sheva – Los Angeles",
+      "matchedLineConfidence": "high",
+      "price": 218000,
+      "currency": "INR",
+      "unitBasis": "per_40HC",
+      "unitBasisRaw": "forty-foot high cube container",
+      "inclusions": [
+        "terminal handling at both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [
+        "Customs clearance",
+        "duties"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor response docx",
+        "excerpt": "For Nhava Sheva – Los Angeles we can offer INR 2,18,000 per forty-foot high cube container all-in, transit approximately 36 days, 10 free days at destination.",
+        "locationHint": "para 14"
+      },
+      "flags": [],
+      "note": "Quoted as forty-foot high cube container all-in",
+      "transitDays": 36,
+      "freeDays": 10
+    },
+    {
+      "lineId": "L10",
+      "vendorLaneLabel": "Chennai – Singapore",
+      "matchedLineConfidence": "high",
+      "price": 33100,
+      "currency": "INR",
+      "unitBasis": "per_20GP",
+      "unitBasisRaw": "twenty-foot standard container",
+      "inclusions": [
+        "terminal handling at both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [
+        "Customs clearance",
+        "duties"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor response docx",
+        "excerpt": "For Chennai – Singapore we can offer INR 33,100 per twenty-foot standard container all-in, transit approximately 11 days, 10 free days at destination.",
+        "locationHint": "para 15"
+      },
+      "flags": [],
+      "note": "Quoted as twenty-foot standard container all-in",
+      "transitDays": 11,
+      "freeDays": 10
+    },
+    {
+      "lineId": "L11",
+      "vendorLaneLabel": "Chennai – Port Klang",
+      "matchedLineConfidence": "low",
+      "price": null,
+      "currency": null,
+      "unitBasis": "unknown",
+      "unitBasisRaw": "",
+      "inclusions": [],
+      "exclusions": [],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor response docx",
+        "excerpt": "Not quoted in document"
+      },
+      "flags": [
+        "missing"
+      ],
+      "note": "Vendor did not offer a quote for Chennai – Port Klang FCL.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L12",
+      "vendorLaneLabel": "Nhava Sheva – Hamburg",
+      "matchedLineConfidence": "high",
+      "price": 156500,
+      "currency": "INR",
+      "unitBasis": "per_40HC",
+      "unitBasisRaw": "forty-foot high cube container",
+      "inclusions": [
+        "terminal handling at both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [
+        "Customs clearance",
+        "duties"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor response docx",
+        "excerpt": "For Nhava Sheva – Hamburg we can offer INR 1,56,500 per forty-foot high cube container all-in, transit approximately 30 days, 10 free days at destination.",
+        "locationHint": "para 16"
+      },
+      "flags": [],
+      "note": "Quoted as forty-foot high cube container all-in",
+      "transitDays": 30,
+      "freeDays": 10
+    },
+    {
+      "lineId": "L13",
+      "vendorLaneLabel": "Nhava Sheva – Felixstowe",
+      "matchedLineConfidence": "high",
+      "price": 160000,
+      "currency": "INR",
+      "unitBasis": "per_40HC",
+      "unitBasisRaw": "forty-foot high cube container",
+      "inclusions": [
+        "terminal handling at both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [
+        "Customs clearance",
+        "duties"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor response docx",
+        "excerpt": "For Nhava Sheva – Felixstowe we can offer INR 1,60,000 per forty-foot high cube container all-in, transit approximately 29 days, 10 free days at destination.",
+        "locationHint": "para 17"
+      },
+      "flags": [],
+      "note": "Quoted as forty-foot high cube container all-in",
+      "transitDays": 29,
+      "freeDays": 10
+    },
+    {
+      "lineId": "L14",
+      "vendorLaneLabel": "Nhava Sheva – Colombo",
+      "matchedLineConfidence": "high",
+      "price": 22300,
+      "currency": "INR",
+      "unitBasis": "per_20GP",
+      "unitBasisRaw": "twenty-foot standard container",
+      "inclusions": [
+        "terminal handling at both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [
+        "Customs clearance",
+        "duties"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor response docx",
+        "excerpt": "For Nhava Sheva – Colombo we can offer INR 22,300 per twenty-foot standard container all-in, transit approximately 6 days, 10 free days at destination.",
+        "locationHint": "para 18"
+      },
+      "flags": [],
+      "note": "Quoted as twenty-foot standard container all-in",
+      "transitDays": 6,
+      "freeDays": 10
+    },
+    {
+      "lineId": "L15",
+      "vendorLaneLabel": "Shanghai – Nhava Sheva (import)",
+      "matchedLineConfidence": "high",
+      "price": 91000,
+      "currency": "INR",
+      "unitBasis": "per_40HC",
+      "unitBasisRaw": "forty-foot high cube container",
+      "inclusions": [
+        "terminal handling at both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [
+        "Customs clearance",
+        "duties"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor response docx",
+        "excerpt": "For Shanghai – Nhava Sheva (import) we can offer INR 91,000 per forty-foot high cube container all-in, transit approximately 16 days, 10 free days at destination.",
+        "locationHint": "para 19"
+      },
+      "flags": [],
+      "note": "Quoted as forty-foot high cube container all-in",
+      "transitDays": 16,
+      "freeDays": 10
+    },
+    {
+      "lineId": "L16",
+      "vendorLaneLabel": "Shanghai – Nhava Sheva (import)",
+      "matchedLineConfidence": "high",
+      "price": 57200,
+      "currency": "INR",
+      "unitBasis": "per_20GP",
+      "unitBasisRaw": "twenty-foot standard container",
+      "inclusions": [
+        "terminal handling at both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [
+        "Customs clearance",
+        "duties"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor response docx",
+        "excerpt": "For Shanghai – Nhava Sheva (import) we can offer INR 57,200 per twenty-foot standard container all-in, transit approximately 16 days, 10 free days at destination.",
+        "locationHint": "para 20"
+      },
+      "flags": [],
+      "note": "Quoted as twenty-foot standard container all-in",
+      "transitDays": 16,
+      "freeDays": 10
+    },
+    {
+      "lineId": "L17",
+      "vendorLaneLabel": "Busan – Chennai (import)",
+      "matchedLineConfidence": "high",
+      "price": 87500,
+      "currency": "INR",
+      "unitBasis": "per_40HC",
+      "unitBasisRaw": "forty-foot high cube container",
+      "inclusions": [
+        "terminal handling at both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [
+        "Customs clearance",
+        "duties"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor response docx",
+        "excerpt": "For Busan – Chennai (import) we can offer INR 87,500 per forty-foot high cube container all-in, transit approximately 18 days, 10 free days at destination.",
+        "locationHint": "para 21"
+      },
+      "flags": [],
+      "note": "Quoted as forty-foot high cube container all-in",
+      "transitDays": 18,
+      "freeDays": 10
+    },
+    {
+      "lineId": "L18",
+      "vendorLaneLabel": "Jebel Ali – Mundra (import)",
+      "matchedLineConfidence": "high",
+      "price": 34900,
+      "currency": "INR",
+      "unitBasis": "per_20GP",
+      "unitBasisRaw": "twenty-foot standard container",
+      "inclusions": [
+        "terminal handling at both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [
+        "Customs clearance",
+        "duties"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor response docx",
+        "excerpt": "For Jebel Ali – Mundra (import) we can offer INR 34,900 per twenty-foot standard container all-in, transit approximately 10 days, 10 free days at destination.",
+        "locationHint": "para 22"
+      },
+      "flags": [],
+      "note": "Quoted as twenty-foot standard container all-in",
+      "transitDays": 10,
+      "freeDays": 10
+    },
+    {
+      "lineId": "L19",
+      "vendorLaneLabel": "LCL Nhava Sheva – Jebel Ali",
+      "matchedLineConfidence": "high",
+      "price": 1990,
+      "currency": "INR",
+      "unitBasis": "per_CBM",
+      "unitBasisRaw": "cubic metre",
+      "inclusions": [
+        "terminal handling at both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [
+        "Customs clearance",
+        "duties"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor response docx",
+        "excerpt": "For LCL Nhava Sheva – Jebel Ali our rate is INR 1,990 per cubic metre all-in, minimum one cubic metre.",
+        "locationHint": "para 24"
+      },
+      "flags": [],
+      "note": "Minimum 1 cubic metre",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L20",
+      "vendorLaneLabel": "LCL Nhava Sheva – Singapore",
+      "matchedLineConfidence": "high",
+      "price": 2490,
+      "currency": "INR",
+      "unitBasis": "per_CBM",
+      "unitBasisRaw": "cubic metre",
+      "inclusions": [
+        "terminal handling at both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [
+        "Customs clearance",
+        "duties"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor response docx",
+        "excerpt": "For LCL Nhava Sheva – Singapore our rate is INR 2,490 per cubic metre all-in, minimum one cubic metre.",
+        "locationHint": "para 25"
+      },
+      "flags": [],
+      "note": "Minimum 1 cubic metre",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L21",
+      "vendorLaneLabel": "LCL Chennai – Singapore",
+      "matchedLineConfidence": "high",
+      "price": 2320,
+      "currency": "INR",
+      "unitBasis": "per_CBM",
+      "unitBasisRaw": "cubic metre",
+      "inclusions": [
+        "terminal handling at both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [
+        "Customs clearance",
+        "duties"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor response docx",
+        "excerpt": "For LCL Chennai – Singapore our rate is INR 2,320 per cubic metre all-in, minimum one cubic metre.",
+        "locationHint": "para 26"
+      },
+      "flags": [],
+      "note": "Minimum 1 cubic metre",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L22",
+      "vendorLaneLabel": "LCL Nhava Sheva – Rotterdam",
+      "matchedLineConfidence": "high",
+      "price": 3750,
+      "currency": "INR",
+      "unitBasis": "per_CBM",
+      "unitBasisRaw": "cubic metre",
+      "inclusions": [
+        "terminal handling at both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [
+        "Customs clearance",
+        "duties"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor response docx",
+        "excerpt": "For LCL Nhava Sheva – Rotterdam our rate is INR 3,750 per cubic metre all-in, minimum one cubic metre.",
+        "locationHint": "para 27"
+      },
+      "flags": [],
+      "note": "Minimum 1 cubic metre",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L23",
+      "vendorLaneLabel": "LCL Nhava Sheva – Los Angeles",
+      "matchedLineConfidence": "low",
+      "price": null,
+      "currency": null,
+      "unitBasis": "unknown",
+      "unitBasisRaw": "",
+      "inclusions": [],
+      "exclusions": [],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor response docx",
+        "excerpt": "Not quoted in document"
+      },
+      "flags": [
+        "missing"
+      ],
+      "note": "Vendor did not offer a quote for LCL Nhava Sheva – Los Angeles.",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L24",
+      "vendorLaneLabel": "LCL Mundra – Hamburg",
+      "matchedLineConfidence": "high",
+      "price": 3600,
+      "currency": "INR",
+      "unitBasis": "per_CBM",
+      "unitBasisRaw": "cubic metre",
+      "inclusions": [
+        "terminal handling at both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [
+        "Customs clearance",
+        "duties"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor response docx",
+        "excerpt": "For LCL Mundra – Hamburg our rate is INR 3,600 per cubic metre all-in, minimum one cubic metre.",
+        "locationHint": "para 28"
+      },
+      "flags": [],
+      "note": "Minimum 1 cubic metre",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L25",
+      "vendorLaneLabel": "LCL Singapore – Nhava Sheva (import)",
+      "matchedLineConfidence": "high",
+      "price": 2640,
+      "currency": "INR",
+      "unitBasis": "per_CBM",
+      "unitBasisRaw": "cubic metre",
+      "inclusions": [
+        "terminal handling at both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [
+        "Customs clearance",
+        "duties"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor response docx",
+        "excerpt": "For LCL Singapore – Nhava Sheva (import) our rate is INR 2,640 per cubic metre all-in, minimum one cubic metre.",
+        "locationHint": "para 29"
+      },
+      "flags": [],
+      "note": "Minimum 1 cubic metre",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L26",
+      "vendorLaneLabel": "LCL Shanghai – Nhava Sheva (import)",
+      "matchedLineConfidence": "high",
+      "price": 2280,
+      "currency": "INR",
+      "unitBasis": "per_CBM",
+      "unitBasisRaw": "cubic metre",
+      "inclusions": [
+        "terminal handling at both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [
+        "Customs clearance",
+        "duties"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor response docx",
+        "excerpt": "For LCL Shanghai – Nhava Sheva (import) our rate is INR 2,280 per cubic metre all-in, minimum one cubic metre.",
+        "locationHint": "para 30"
+      },
+      "flags": [],
+      "note": "Minimum 1 cubic metre",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L27",
+      "vendorLaneLabel": "Air freight Mumbai (BOM) – Dubai (DXB)",
+      "matchedLineConfidence": "high",
+      "price": 127,
+      "currency": "INR",
+      "unitBasis": "per_kg",
+      "unitBasisRaw": "chargeable kilogram",
+      "inclusions": [
+        "terminal handling at both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [
+        "Customs clearance",
+        "duties"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor response docx",
+        "excerpt": "Air freight Mumbai (BOM) – Dubai (DXB): INR 127 per chargeable kilogram, minimum 100 kg, transit 3 days.",
+        "locationHint": "para 32"
+      },
+      "flags": [],
+      "note": "Minimum 100 kg",
+      "transitDays": 3,
+      "freeDays": null
+    },
+    {
+      "lineId": "L28",
+      "vendorLaneLabel": "Air freight Mumbai (BOM) – Singapore",
+      "matchedLineConfidence": "high",
+      "price": 171,
+      "currency": "INR",
+      "unitBasis": "per_kg",
+      "unitBasisRaw": "chargeable kilogram",
+      "inclusions": [
+        "terminal handling at both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [
+        "Customs clearance",
+        "duties"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor response docx",
+        "excerpt": "Air freight Mumbai (BOM) – Singapore: INR 171 per chargeable kilogram, minimum 100 kg, transit 4 days.",
+        "locationHint": "para 33"
+      },
+      "flags": [],
+      "note": "Minimum 100 kg",
+      "transitDays": 4,
+      "freeDays": null
+    },
+    {
+      "lineId": "L29",
+      "vendorLaneLabel": "Air freight Mumbai (BOM) – Amsterdam (AMS)",
+      "matchedLineConfidence": "low",
+      "price": null,
+      "currency": null,
+      "unitBasis": "unknown",
+      "unitBasisRaw": "",
+      "inclusions": [],
+      "exclusions": [],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor response docx",
+        "excerpt": "Not quoted in document"
+      },
+      "flags": [
+        "missing"
+      ],
+      "note": "Vendor did not offer a quote for Air freight Mumbai (BOM) – Amsterdam (AMS).",
+      "transitDays": null,
+      "freeDays": null
+    },
+    {
+      "lineId": "L30",
+      "vendorLaneLabel": "Air freight Mumbai (BOM) – Chicago (ORD)",
+      "matchedLineConfidence": "high",
+      "price": 318,
+      "currency": "INR",
+      "unitBasis": "per_kg",
+      "unitBasisRaw": "chargeable kilogram",
+      "inclusions": [
+        "terminal handling at both ends",
+        "BAF/CAF",
+        "documentation"
+      ],
+      "exclusions": [
+        "Customs clearance",
+        "duties"
+      ],
+      "confidence": "high",
+      "evidence": {
+        "file": "vendor response docx",
+        "excerpt": "Air freight Mumbai (BOM) – Chicago (ORD): INR 318 per chargeable kilogram, minimum 100 kg, transit 5 days.",
+        "locationHint": "para 34"
+      },
+      "flags": [],
+      "note": "Minimum 100 kg",
+      "transitDays": 5,
+      "freeDays": null
+    }
+  ],
+  "conditions": [
+    {
+      "kind": "validity",
+      "text": "Rates are valid for 60 days.",
+      "evidence": {
+        "file": "vendor response docx",
+        "excerpt": "Rates are valid for 60 days.",
+        "locationHint": "para 4"
+      },
+      "appliesTo": "all",
+      "confidence": "high"
+    },
+    {
+      "kind": "global_inclusion",
+      "text": "All ocean and air rates are all-in port to port: terminal handling at both ends, BAF/CAF and documentation are included.",
+      "evidence": {
+        "file": "vendor response docx",
+        "excerpt": "All ocean and air rates are all-in port to port: terminal handling at both ends, BAF/CAF and documentation are included.",
+        "locationHint": "para 4"
+      },
+      "appliesTo": "all",
+      "confidence": "high"
+    },
+    {
+      "kind": "global_exclusion",
+      "text": "Customs clearance and duties are excluded.",
+      "evidence": {
+        "file": "vendor response docx",
+        "excerpt": "Customs clearance and duties are excluded.",
+        "locationHint": "para 4"
+      },
+      "appliesTo": "all",
+      "confidence": "high"
+    }
+  ],
+  "questionnaire": [
+    {
+      "questionId": "Q1",
+      "answerText": "We confirm we are ISO 9001:2015 certified (certificate no. QMS-IN-2211, valid to November 2027).",
+      "evidence": {
+        "file": "vendor response docx",
+        "excerpt": "We confirm we are ISO 9001:2015 certified (certificate no. QMS-IN-2211, valid to November 2027).",
+        "locationHint": "para 36"
+      },
+      "confidence": "high",
+      "flags": []
+    },
+    {
+      "questionId": "Q2",
+      "answerText": "We are a FIATA member but not an IATA agent; air shipments move under our IATA partner's licence.",
+      "evidence": {
+        "file": "vendor response docx",
+        "excerpt": "We are a FIATA member but not an IATA agent; air shipments move under our IATA partner's licence.",
+        "locationHint": "para 36"
+      },
+      "confidence": "high",
+      "flags": []
+    },
+    {
+      "questionId": "Q3",
+      "answerText": "We do not operate our own CFS and use Speedy CFS at Nhava Sheva.",
+      "evidence": {
+        "file": "vendor response docx",
+        "excerpt": "We do not operate our own CFS and use Speedy CFS at Nhava Sheva.",
+        "locationHint": "para 36"
+      },
+      "confidence": "high",
+      "flags": []
+    },
+    {
+      "questionId": "Q4",
+      "answerText": "Our claims ratio last year was 1.4%.",
+      "evidence": {
+        "file": "vendor response docx",
+        "excerpt": "Our claims ratio last year was 1.4%.",
+        "locationHint": "para 36"
+      },
+      "confidence": "high",
+      "flags": []
+    },
+    {
+      "questionId": "Q5",
+      "answerText": "Our marine liability cover is INR 8 crore per occurrence; the cover note is attached.",
+      "evidence": {
+        "file": "vendor response docx",
+        "excerpt": "Our marine liability cover is INR 8 crore per occurrence; the cover note is attached.",
+        "locationHint": "para 36"
+      },
+      "confidence": "high",
+      "flags": []
+    },
+    {
+      "questionId": "Q6",
+      "answerText": "Exceptions are escalated to a named manager within 6 working hours.",
+      "evidence": {
+        "file": "vendor response docx",
+        "excerpt": "Exceptions are escalated to a named manager within 6 working hours.",
+        "locationHint": "para 36"
+      },
+      "confidence": "high",
+      "flags": []
+    },
+    {
+      "questionId": "Q7",
+      "answerText": "We are working towards per-shipment emissions reporting and expect to offer it from Q2 next year.",
+      "evidence": {
+        "file": "vendor response docx",
+        "excerpt": "We are working towards per-shipment emissions reporting and expect to offer it from Q2 next year.",
+        "locationHint": "para 36"
+      },
+      "confidence": "high",
+      "flags": []
+    },
+    {
+      "questionId": "Q8",
+      "answerText": "References can be shared on award.",
+      "evidence": {
+        "file": "vendor response docx",
+        "excerpt": "References can be shared on award.",
+        "locationHint": "para 36"
+      },
+      "confidence": "high",
+      "flags": []
+    }
+  ],
+  "docSummaries": [
+    {
+      "file": "vendor-C-insurance-cover-note.txt",
+      "kind": "insurance_cover_note",
+      "summary": "Marine Liability (Freight Forwarder's Liability) cover note for CorriGlobe Freight Services Pvt Ltd issued by Oriental Marine Assurance Co. Ltd.",
+      "keyFacts": [
+        {
+          "label": "Insured",
+          "value": "CorriGlobe Freight Services Pvt Ltd, Andheri East, Mumbai",
+          "evidence": {
+            "file": "vendor-C-insurance-cover-note.txt",
+            "excerpt": "Insured: CorriGlobe Freight Services Pvt Ltd, Andheri East, Mumbai"
+          }
+        },
+        {
+          "label": "Policy Number",
+          "value": "MFL/2026/00931",
+          "evidence": {
+            "file": "vendor-C-insurance-cover-note.txt",
+            "excerpt": "Policy no. MFL/2026/00931"
+          }
+        },
+        {
+          "label": "Validity Period",
+          "value": "01 Apr 2026 to 31 Mar 2027",
+          "evidence": {
+            "file": "vendor-C-insurance-cover-note.txt",
+            "excerpt": "Period 01 Apr 2026 to 31 Mar 2027"
+          }
+        },
+        {
+          "label": "Limit of Liability",
+          "value": "INR 8,00,00,000 (Rupees eight crore) any one occurrence",
+          "evidence": {
+            "file": "vendor-C-insurance-cover-note.txt",
+            "excerpt": "Limit of liability: INR 8,00,00,000 (Rupees eight crore) any one occurrence"
+          }
+        },
+        {
+          "label": "Insurer",
+          "value": "Oriental Marine Assurance Co. Ltd.",
+          "evidence": {
+            "file": "vendor-C-insurance-cover-note.txt",
+            "excerpt": "Insurer: Oriental Marine Assurance Co. Ltd."
+          }
+        }
+      ]
+    }
+  ],
+  "readingNotes": "The response was received in text/docx paragraph format with high legibility. Out of 30 requested RFX lines, 27 lines were quoted with explicit rates, transit times, and destination free days. 3 lines (L11 Chennai–Port Klang FCL, L23 Nhava Sheva–Los Angeles LCL, and L29 Mumbai–Amsterdam Air) were omitted by the vendor and flagged as missing."
+}
