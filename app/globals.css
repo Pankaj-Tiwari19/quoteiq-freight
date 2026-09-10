@@ -7,7 +7,7 @@
 html, body { margin: 0; background: var(--bg); color: var(--ink); font-family: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif; font-size: 14px; line-height: 1.45; }
 a { color: var(--primary); text-decoration: none; }
 a:hover { text-decoration: underline; }
-.shell { display: grid; grid-template-columns: 220px 1fr; min-height: 100vh; }
+.shell { display: grid; grid-template-columns: 220px minmax(0, 1fr); min-height: 100vh; }
 .nav { border-right: 1px solid var(--line); padding: 20px 16px; background: var(--panel); position: sticky; top: 0; height: 100vh; }
 .nav .brand { font-size: 20px; font-weight: 600; letter-spacing: -0.02em; }
 .nav .brand span { color: var(--primary); }
@@ -16,7 +16,7 @@ a:hover { text-decoration: underline; }
 .nav a:hover { background: var(--bg); text-decoration: none; }
 .nav a.active { background: var(--primary-soft); color: var(--primary); font-weight: 500; }
 .nav .principle { margin-top: 32px; padding: 12px; border-left: 3px solid var(--kraft); background: var(--kraft-soft); font-size: 12px; color: var(--kraft); }
-main { padding: 28px 32px 64px; max-width: 1400px; }
+main { padding: 28px 32px 64px; max-width: 1400px; min-width: 0; }
 h1 { font-size: 24px; font-weight: 600; letter-spacing: -0.02em; margin: 0 0 4px; }
 h2 { font-size: 16px; font-weight: 600; margin: 28px 0 10px; }
 .sub { color: var(--muted); margin: 0 0 20px; max-width: 70ch; }
@@ -76,3 +76,16 @@ button.link:hover { color: var(--fail); }
 .decision select, .decision input { font-size: 12px; padding: 3px 6px; }
 .bar { display: flex; height: 10px; border-radius: 5px; overflow: hidden; background: #e6e8e2; }
 .bar i { display: block; height: 100%; }
+
+/* Comparison grid: horizontal scroll stays inside the panel; lane / unit / qty columns stay pinned on the left. */
+.compare-wrap { overflow-x: auto; max-width: 100%; }
+.compare { border-collapse: separate; border-spacing: 0; width: max-content; min-width: 100%; }
+.compare th, .compare td { white-space: nowrap; }
+.compare th:nth-child(n+4), .compare td:nth-child(n+4) { min-width: 150px; }
+.compare th:nth-child(-n+3), .compare td:nth-child(-n+3) { position: sticky; background: var(--panel); z-index: 1; }
+.compare th:nth-child(1), .compare td:nth-child(1) { left: 0; min-width: 230px; max-width: 230px; overflow: hidden; text-overflow: ellipsis; }
+.compare th:nth-child(2), .compare td:nth-child(2) { left: 230px; min-width: 84px; }
+.compare th:nth-child(3), .compare td:nth-child(3) { left: 314px; min-width: 76px; box-shadow: 1px 0 0 var(--line); }
+.compare thead th { background: var(--panel); z-index: 2; }
+.compare thead th:nth-child(-n+3) { z-index: 3; }
+.compare td.cell-review:nth-child(-n+3), .compare td.cell-best:nth-child(-n+3) { background: var(--panel); }
