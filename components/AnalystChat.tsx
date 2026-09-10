@@ -8,8 +8,9 @@ function csvHref(p: { columns: string[]; rows: any[][] }) { const esc = (v: any)
 function Md({ text }: { text: string }) {
   // minimal markdown: pipe tables and **bold**; everything else stays as text
   const blocks = text.split(/\n(?=\|)|\n(?<=\|)\n/); const out: React.ReactNode[] = []; let tbl: string[] = [];
-  const flush = () => { if (!tbl.length) return; const rows = tbl.map(r => r.split("|").slice(1, -1).map(c => c.trim())).filter(r => !r.every(c => /^:?-+:?$/.test(c))); out.push(<table key={out.length}><thead><tr>{rows[0].map((c, i) => <th key={i}>{c}</th>)}</tr></thead><tbody>{rows.slice(1).map((r, i) => <tr key={i}>{r.map((c, j) => <td key={j}>{c}</td>)}</tr>)}</tbody></table>); tbl = []; };
-  for (const line of text.split("\n")) { if (/^\s*\|/.test(line)) tbl.push(line); else { flush(); out.push(<span key={out.length}>{line.split(/(\*\*[^*]+\*\*)/).map((p, i) => p.startsWith("**") ? <b key={i}>{p.slice(2, -2)}</b> : p)}{"\n"}</span>); } }
+  const inline = (t: string) => t.split(/(\*\*[^*]+\*\*)/).map((p, i) => p.startsWith("**") ? <b key={i}>{p.slice(2, -2)}</b> : p);
+  const flush = () => { if (!tbl.length) return; const rows = tbl.map(r => r.split("|").slice(1, -1).map(c => c.trim())).filter(r => !r.every(c => /^:?-+:?$/.test(c))); out.push(<table key={out.length}><thead><tr>{rows[0].map((c, i) => <th key={i}>{inline(c)}</th>)}</tr></thead><tbody>{rows.slice(1).map((r, i) => <tr key={i}>{r.map((c, j) => <td key={j}>{inline(c)}</td>)}</tr>)}</tbody></table>); tbl = []; };
+  for (const line of text.split("\n")) { if (/^\s*\|/.test(line)) tbl.push(line); else { flush(); const h = line.match(/^\s*#{1,4}\s+(.*)$/); out.push(h ? <h3 key={out.length}>{inline(h[1])}</h3> : <span key={out.length}>{inline(line)}{"\n"}</span>); } }
   flush(); void blocks; return <>{out}</>;
 }
 export default function AnalystChat() {
