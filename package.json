@@ -11,7 +11,8 @@
     "check": "tsx scripts/check_logic.ts",
     "eval": "tsx scripts/eval_extraction.ts",
     "test": "tsx --test tests/*.test.ts",
-    "import-extraction": "tsx scripts/import_extraction.ts"
+    "import-extraction": "tsx scripts/import_extraction.ts",
+    "inspect": "tsx scripts/inspect.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.60.0",

@@ -1,4 +1,5 @@
-// Exercises parsing + normalization + analytics WITHOUT the LLM, by turning the answer key into Extraction-shaped JSON in a temp dir.
+// Exercises parsing + normalization + analytics WITHOUT the LLM, by turning the ANSWER KEY into Extraction-shaped JSON in a temp dir.
+// It does NOT read data/extracted: to see what the pages see for a real extraction, use `npm run inspect -- <vendor>`.
 // Never writes to data/extracted. This is test scaffolding, not extraction.
 import fs from "fs"; import path from "path"; import os from "os";
 import { parseVendorDoc } from "../lib/parse";
