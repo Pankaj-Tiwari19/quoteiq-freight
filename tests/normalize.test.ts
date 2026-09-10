@@ -1,7 +1,7 @@
 // Deterministic logic tests: no LLM, no network. Run: npm test
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { normalizeLine, assessQuality, programmeTeu, interpretAnswer } from "../lib/normalize";
+import { normalizeLine, assessQuality, programmeTeu, interpretAnswer, basisOf } from "../lib/normalize";
 import * as A from "../lib/analytics";
 import { applyDraftTool, emptyDraft, draftReadiness } from "../lib/draft";
 import type { Dataset, Extraction, ExtractedLine, Rfq, RfqLine, Vendor, Decision, DocumentCondition } from "../lib/types";
@@ -111,4 +111,19 @@ test("buyer can accept a vendor's freight-only basis as comparable; the assumpti
   const bd: Decision = { id: "v:basis", vendor_id: "v", target: { kind: "basis" }, action: "accept", reason: "THC schedule received; difference under 2%", decided_by: "buyer", decided_at: "2026-09-10T00:00:00Z" };
   const n = normalizeLine(rfq, vendor, ex(), line({ inclusions: [], exclusions: ["freight only"], flags: ["partial_basis"] }), L07, teu, null, bd);
   assert.equal(n.comparable_value, 1850 * 80); assert.equal(n.review_required, false); assert.ok(n.assumptions.some(a => a.includes("Buyer accepted freight-only basis")));
+});
+
+test("basis: exclusions outside the port-to-port scope keep an all-in quote all_in; in-scope exclusions make it partial", () => {
+  const stated = (inclusions: string[], exclusions: string[]) => basisOf(line({ inclusions, exclusions }));
+  assert.equal(stated(["THC both ends", "BAF/CAF", "documentation"], ["Customs clearance"]), "all_in");             // Vendor D's card
+  assert.equal(stated(["all-in port to port"], ["Customs clearance and duties"]), "all_in");                            // Vendor C's letter
+  assert.equal(stated(["THC both ends"], ["insurance", "inland haulage"]), "all_in");
+  assert.equal(stated(["all-in"], ["destination THC"]), "partial");
+  assert.equal(stated(["all-in"], ["origin THC"]), "partial");
+  assert.equal(stated(["BAF/CAF"], ["documentation"]), "partial");
+  assert.equal(stated([], ["BAF/CAF adjustments after 31 Dec"]), "partial");
+  assert.equal(stated([], ["freight only"]), "freight_only");
+  assert.equal(stated([], []), "unstated");
+  const n = normalizeLine(rfq, vendor, ex(), line({ currency: "INR", price: 158000, inclusions: ["THC both ends", "BAF/CAF", "documentation"], exclusions: ["Customs clearance"] }), L07, teu, null);
+  assert.equal(n.basis, "all_in"); assert.equal(n.comparable_value, 158000); assert.equal(n.review_required, false);
 });

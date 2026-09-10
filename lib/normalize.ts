@@ -35,11 +35,16 @@ export function upgradeExtraction(raw: any): Extraction {
 /** Programme TEU across all FCL lanes: 40HC/40GP = 2 TEU. This is the agreed reading of "above N TEU" footnotes. */
 export function programmeTeu(rfq: Rfq): number { return rfq.lines.filter(l => l.mode === "FCL").reduce((t, l) => t + l.quantity * (l.uom === "40HC" ? 2 : 1), 0); }
 
-function basisOf(el: ExtractedLine): Basis {
+/** Charges inside the RFQ's port-to-port all-in scope. An exclusion naming one of these makes the quote partial;
+ *  exclusions outside the scope (customs clearance, duties, insurance, inland haulage) do not. Closed list, no prose interpretation. */
+const IN_SCOPE_CHARGE = /\b(thc|terminal handling|baf|caf|bunker|documentation|doc(s|umentation)? fee|isps|surcharge|origin handling|destination handling|freight|ocean|port charges?|cfs|ams|ens|seal)\b/;
+export function isInScopeExclusion(text: string): boolean { return IN_SCOPE_CHARGE.test(text.toLowerCase()); }
+export function basisOf(el: ExtractedLine): Basis {
   const ex = el.exclusions.map(x => x.toLowerCase()).join(" | "); const inc = el.inclusions.map(x => x.toLowerCase()).join(" | ");
   if (/freight only/.test(ex) || /freight only/.test(inc)) return "freight_only";
-  if (/all[- ]in/.test(inc)) return "all_in";
-  if (el.flags.includes("partial_basis") || el.exclusions.length) return "partial";
+  const inScope = el.exclusions.filter(isInScopeExclusion);
+  if (/all[- ]in/.test(inc) && !inScope.length) return "all_in";
+  if (el.flags.includes("partial_basis") || inScope.length) return "partial";
   if (el.inclusions.length) return "all_in";
   return "unstated";
 }
