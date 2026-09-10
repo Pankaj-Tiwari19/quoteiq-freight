@@ -1,5 +1,6 @@
 // Scores extractions in data/extracted against the answer key data/ground_truth.json (the answer key is never read by the app).
 //   npm run eval
+import "./env";
 import fs from "fs";
 import { loadExtractions } from "../lib/normalize";
 const truth = JSON.parse(fs.readFileSync("data/ground_truth.json", "utf8")).vendors;

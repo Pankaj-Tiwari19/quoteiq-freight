@@ -16,7 +16,7 @@ npm run eval                      # scores extractions against the answer key (f
 npm run dev                       # http://localhost:3000
 ```
 
-`npm test` runs the deterministic logic tests (no key). `npm run check` exercises parsing + normalisation + analytics end-to-end with answer-key-shaped data in a temp dir (never written to `data/extracted`).
+Standalone scripts load `.env.local` / `.env` through Next.js's own loader (`scripts/env.ts`, `@next/env`), so the same file serves the app and the CLI. `npm test` runs the deterministic logic tests (no key). `npm run check` exercises parsing + normalisation + analytics end-to-end with answer-key-shaped data in a temp dir (never written to `data/extracted`).
 
 ## The scenario
 30 lanes (18 FCL per 20GP/40HC, 8 LCL per CBM at a declared density, 4 air per kg chargeable), programme 434 TEU, five suppliers:

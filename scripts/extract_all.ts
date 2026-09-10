@@ -1,6 +1,7 @@
 // Runs the real LLM extraction for every supplier document and caches results in data/extracted/.
 // Usage: npm run extract            (all vendors)
 //        npx tsx scripts/extract_all.ts vendor-D   (one supplier)
+import "./env";
 import { loadRfq, loadVendors } from "../lib/normalize";
 import { extractVendor } from "../lib/extract";
 (async () => {
