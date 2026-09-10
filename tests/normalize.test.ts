@@ -127,3 +127,12 @@ test("basis: exclusions outside the port-to-port scope keep an all-in quote all_
   const n = normalizeLine(rfq, vendor, ex(), line({ currency: "INR", price: 158000, inclusions: ["THC both ends", "BAF/CAF", "documentation"], exclusions: ["Customs clearance"] }), L07, teu, null);
   assert.equal(n.basis, "all_in"); assert.equal(n.comparable_value, 158000); assert.equal(n.review_required, false);
 });
+test("loadExtractions ignores synthetic / answer-key files so scaffolding can never appear as a supplier's quote", () => {
+  const fs = require("fs"), path = require("path"), os = require("os");
+  const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "qiq-load-")); fs.mkdirSync(path.join(tmp, "data", "extracted"), { recursive: true });
+  const base = { lines: [], conditions: [], questionnaire: [], docSummaries: [], readingNotes: "", source_file: "x" };
+  fs.writeFileSync(path.join(tmp, "data", "extracted", "vendor-X.json"), JSON.stringify({ ...base, vendor_id: "vendor-X", model: "synthetic", extracted_at: "SYNTHETIC" }));
+  fs.writeFileSync(path.join(tmp, "data", "extracted", "vendor-Y.json"), JSON.stringify({ ...base, vendor_id: "vendor-Y", model: "gemini/gemini-3.8-flash · prompt v0.3.0", extracted_at: "2026-09-11T00:00:00Z" }));
+  const cwd = process.cwd(); process.chdir(tmp); const warn = console.warn; console.warn = () => {};
+  try { const got = require("../lib/normalize").loadExtractions(); assert.deepEqual(Object.keys(got), ["vendor-Y"]); } finally { process.chdir(cwd); console.warn = warn; }
+});

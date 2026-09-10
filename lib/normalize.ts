@@ -15,7 +15,12 @@ export function loadExtractions(): Record<string, Extraction> {
   const dir = path.join(process.cwd(), "data", "extracted");
   const out: Record<string, Extraction> = {};
   if (!fs.existsSync(dir)) return out;
-  for (const f of fs.readdirSync(dir)) if (f.endsWith(".json")) { const e = upgradeExtraction(JSON.parse(fs.readFileSync(path.join(dir, f), "utf8"))); out[e.vendor_id] = e; }
+  for (const f of fs.readdirSync(dir)) if (f.endsWith(".json")) {
+    const e = upgradeExtraction(JSON.parse(fs.readFileSync(path.join(dir, f), "utf8")));
+    // Only real extraction runs are loaded. Anything marked synthetic / answer-key is test scaffolding and is ignored (and named), never shown as a supplier's quote.
+    if (/synthetic|answer-key/i.test(`${e.model} ${e.extracted_at}`)) { console.warn(`data/extracted/${f}: ignored – marked "${e.model}", not a real extraction. Delete it or re-extract ${e.vendor_id}.`); continue; }
+    out[e.vendor_id] = e;
+  }
   return out;
 }
 /** Accept the three shapes an extraction can arrive in: this app's Extraction, the CLI spike's {run, result}, or a bare ExtractionResult. */
