@@ -34,7 +34,16 @@ export default function ComparisonTable({ rfq, summaries, normalized }: { rfq: R
             {missing ? <span className="cell-missing">not quoted</span> : price == null ? <span className="tag review">{c!.review_reasons.map(r => reasonLabel[r]).join(", ")}{c!.normalized_value != null && <> · {inr(c!.normalized_value)} as converted</>}</span> : <><span className={!v.quality.passed_mandatory ? "cell-fail" : ""} style={c!.assumptions.length ? { textDecoration: "underline dotted", textUnderlineOffset: 3 } : undefined}>{inr(price)}</span>{rev && <><br /><small style={{ color: "var(--review)" }}>{c!.review_reasons.map(r => reasonLabel[r]).join(", ")}</small></>}</>}
           </td>; })}
         <td>{best ? <>{summaries.find(s => s.vendor_id === best.vendor_id)!.name} · {inr(val(best))}</> : <span className="tag review">needs review</span>}</td></tr>)}
-      <tr><td colSpan={3}><b>Annual total over comparable lanes</b></td>{totals.map(t => <td key={t.v.vendor_id} className="num"><b>{inr0(t.total)}</b><br /><small>{t.count}/{rfq.lines.length} lanes</small></td>)}<td /></tr>
+      <tr className="compare-total">
+        <td colSpan={3}><b>Annual total over comparable lanes</b></td>
+        {totals.map(t => (
+          <td key={t.v.vendor_id} className="num">
+            <b>{inr0(t.total)}</b><br />
+            <small>{t.count}/{rfq.lines.length} lanes</small>
+          </td>
+        ))}
+        <td />
+      </tr>
     </tbody></table></div>
   </>);
 }
