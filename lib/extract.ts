@@ -5,7 +5,7 @@ import type { Extraction, Rfq, Vendor } from "./types";
 import { getLlm, type LlmContent } from "./llm";
 
 export const EXTRACT_DIR = path.join(process.cwd(), "data", "extracted");
-export const EXTRACT_PROMPT_VERSION = "0.3.0";   // 0.2.0 validated on Vendor B; 0.3.0 adds transitDays/freeDays (optional, additive)
+export const EXTRACT_PROMPT_VERSION = "0.3.1";   // 0.2.0 validated on Vendor B; 0.3.0 adds transitDays/freeDays (optional, additive); 0.3.1 adds brevity limits (no field changes)
 
 // Same schema that was validated live on Vendor B (30/30 prices, units, currency; footnote discount captured as a
 // condition, never applied). Kept as plain JSON Schema so both providers can enforce it.
@@ -54,9 +54,11 @@ export async function extractVendor(rfq: Rfq, vendor: Vendor): Promise<Extractio
   const intro = `RFx sent to the vendor:\n${JSON.stringify({ rfxId: rfq.rfq_id, title: rfq.title, currency: rfq.currency, altCurrencyAccepted: ["USD"], lines: lanes, questionnaire: rfq.quality_questionnaire.map(q => ({ questionId: q.id, text: q.question ?? q.label })) }, null, 1)}\n\nVendor: ${vendor.name} (${vendor.id}). Response format: ${vendor.response_format}. ${doc.note}`;
   const content: LlmContent[] = doc.kind === "text"
     ? [{ type: "text", text: `${intro}\n\n--- DOCUMENT START ---\n${doc.text}\n--- DOCUMENT END ---` }, { type: "text", text: "Record the extraction now as a record_extraction object. One entry per RFQ lane." }]
-    : [{ type: "text", text: intro }, { type: "text", text: `Attachment: ${vendor.file} (${doc.media_type})` }, { type: "image", media_type: doc.media_type, base64: doc.base64 }, { type: "text", text: "Record the extraction now as a record_extraction object. One entry per RFQ lane. For every image-sourced value give locationHint and boundingBox." }];
+    : [{ type: "text", text: intro }, { type: "text", text: `Attachment: ${vendor.file} (${doc.media_type})` }, { type: "image", media_type: doc.media_type, base64: doc.base64 }, { type: "text", text: "Record the extraction now as a record_extraction object. One entry per RFQ lane, kept brief as instructed. For every image-sourced value give a short locationHint and a boundingBox; for unquoted lanes give neither." }];
   const data = await llm.extractStructured({ system: SYSTEM, content, schema: EXTRACTION_SCHEMA, toolName: "record_extraction",
-    toolDescription: "Record everything the vendor stated in their response, verbatim, one entry per RFQ lane. Never convert units or currency, never apply discounts or footnotes.", maxTokens: 16000 }) as Omit<Extraction, "vendor_id" | "source_file" | "extracted_at" | "model">;
+    toolDescription: "Record everything the vendor stated in their response, verbatim, one entry per RFQ lane. Never convert units or currency, never apply discounts or footnotes.",
+    // Output budget is shared with the model's reasoning tokens on Gemini 3; photographed documents need the most of both.
+    maxTokens: doc.kind === "image" && doc.media_type !== "application/pdf" ? 32000 : 16000 }) as Omit<Extraction, "vendor_id" | "source_file" | "extracted_at" | "model">;
   // Any lane the model omitted becomes an explicit, labelled placeholder – never a silent gap.
   const have = new Set((data.lines ?? []).map(l => l.lineId));
   for (const l of rfq.lines) if (!have.has(l.sku)) (data.lines ??= []).push({ lineId: l.sku, vendorLaneLabel: "", matchedLineConfidence: "low", price: null, currency: null, unitBasis: "unknown", unitBasisRaw: "", inclusions: [], exclusions: [], confidence: "low", evidence: { file: vendor.file, excerpt: "" }, flags: ["missing", "other"], note: "Extractor emitted no entry for this lane; placeholder added by extractVendor()." });
