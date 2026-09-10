@@ -1,0 +1,1 @@
+export interface RfxLine { lineId: string; mode: 'FCL' | 'LCL' | 'AIR'; origin: string; originName: string; destination: string; destinationName: string; direction: 'export' | 'import'; stdUnit: '20GP' | '40HC' | 'CBM' | 'KG'; annualQty: number; cargoDensityKgPerCbm?: number }

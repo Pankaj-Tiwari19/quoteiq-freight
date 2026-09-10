@@ -1,0 +1,965 @@
+{
+  "generated_at": "2026-09-10T15:32:46.264Z",
+  "programme_teu": 434,
+  "vendors": {
+    "vendor-A": {
+      "file": "vendor-A-excel-ignores-template.xlsx",
+      "currency": "INR",
+      "basis": "all_in",
+      "cells": {
+        "L01": {
+          "expect": "value",
+          "price": 43800,
+          "currency": "INR",
+          "unitBasis": "per_20GP"
+        },
+        "L02": {
+          "expect": "value",
+          "price": 66500,
+          "currency": "INR",
+          "unitBasis": "per_40HC"
+        },
+        "L03": {
+          "expect": "value",
+          "price": 41900,
+          "currency": "INR",
+          "unitBasis": "per_20GP"
+        },
+        "L04": {
+          "expect": "value",
+          "price": 64200,
+          "currency": "INR",
+          "unitBasis": "per_40HC"
+        },
+        "L05": {
+          "expect": "value",
+          "price": 36200,
+          "currency": "INR",
+          "unitBasis": "per_20GP"
+        },
+        "L06": {
+          "expect": "value",
+          "price": 53900,
+          "currency": "INR",
+          "unitBasis": "per_40HC"
+        },
+        "L07": {
+          "expect": "value",
+          "price": 155000,
+          "currency": "INR",
+          "unitBasis": "per_40HC"
+        },
+        "L08": {
+          "expect": "value",
+          "price": 152500,
+          "currency": "INR",
+          "unitBasis": "per_40HC"
+        },
+        "L09": {
+          "expect": "value",
+          "price": 222000,
+          "currency": "INR",
+          "unitBasis": "per_40HC"
+        },
+        "L10": {
+          "expect": "value",
+          "price": 31800,
+          "currency": "INR",
+          "unitBasis": "per_20GP"
+        },
+        "L11": {
+          "expect": "value",
+          "price": 40200,
+          "currency": "INR",
+          "unitBasis": "per_40HC"
+        },
+        "L12": {
+          "expect": "value",
+          "price": 159500,
+          "currency": "INR",
+          "unitBasis": "per_40HC"
+        },
+        "L13": {
+          "expect": "value",
+          "price": 163000,
+          "currency": "INR",
+          "unitBasis": "per_40HC"
+        },
+        "L14": {
+          "expect": "value",
+          "price": 21500,
+          "currency": "INR",
+          "unitBasis": "per_20GP"
+        },
+        "L15": {
+          "expect": "value",
+          "price": 92500,
+          "currency": "INR",
+          "unitBasis": "per_40HC"
+        },
+        "L16": {
+          "expect": "value",
+          "price": 54800,
+          "currency": "INR",
+          "unitBasis": "per_20GP"
+        },
+        "L17": {
+          "expect": "value",
+          "price": 88900,
+          "currency": "INR",
+          "unitBasis": "per_40HC"
+        },
+        "L18": {
+          "expect": "value",
+          "price": 33600,
+          "currency": "INR",
+          "unitBasis": "per_20GP"
+        },
+        "L19": {
+          "expect": "value",
+          "price": 1880,
+          "currency": "INR",
+          "unitBasis": "per_CBM"
+        },
+        "L20": {
+          "expect": "value",
+          "price": 2380,
+          "currency": "INR",
+          "unitBasis": "per_CBM"
+        },
+        "L21": {
+          "expect": "value",
+          "price": 2210,
+          "currency": "INR",
+          "unitBasis": "per_CBM"
+        },
+        "L22": {
+          "expect": "value",
+          "price": 3820,
+          "currency": "INR",
+          "unitBasis": "per_CBM"
+        },
+        "L23": {
+          "expect": "value",
+          "price": 5250,
+          "currency": "INR",
+          "unitBasis": "per_CBM"
+        },
+        "L24": {
+          "expect": "value",
+          "price": 3700,
+          "currency": "INR",
+          "unitBasis": "per_CBM"
+        },
+        "L25": {
+          "expect": "value",
+          "price": 2540,
+          "currency": "INR",
+          "unitBasis": "per_CBM"
+        },
+        "L26": {
+          "expect": "value",
+          "price": 2190,
+          "currency": "INR",
+          "unitBasis": "per_CBM"
+        },
+        "L27": {
+          "expect": "value",
+          "price": 121,
+          "currency": "INR",
+          "unitBasis": "per_kg"
+        },
+        "L28": {
+          "expect": "value",
+          "price": 163,
+          "currency": "INR",
+          "unitBasis": "per_kg"
+        },
+        "L29": {
+          "expect": "value",
+          "price": 239,
+          "currency": "INR",
+          "unitBasis": "per_kg"
+        },
+        "L30": {
+          "expect": "value",
+          "price": 302,
+          "currency": "INR",
+          "unitBasis": "per_kg"
+        }
+      },
+      "questionnaire": {
+        "Q1": "yes",
+        "Q2": "yes",
+        "Q3": "partial",
+        "Q4": "yes",
+        "Q5": "yes",
+        "Q6": "partial",
+        "Q7": "yes",
+        "Q8": "partial"
+      }
+    },
+    "vendor-B": {
+      "file": "vendor-B-pdf-footnote-discount.pdf",
+      "currency": "USD",
+      "basis": "freight_only",
+      "cells": {
+        "L01": {
+          "expect": "value",
+          "price": 515,
+          "currency": "USD",
+          "unitBasis": "per_20GP"
+        },
+        "L02": {
+          "expect": "value",
+          "price": 790,
+          "currency": "USD",
+          "unitBasis": "per_40HC"
+        },
+        "L03": {
+          "expect": "value",
+          "price": 495,
+          "currency": "USD",
+          "unitBasis": "per_20GP"
+        },
+        "L04": {
+          "expect": "value",
+          "price": 760,
+          "currency": "USD",
+          "unitBasis": "per_40HC"
+        },
+        "L05": {
+          "expect": "value",
+          "price": 430,
+          "currency": "USD",
+          "unitBasis": "per_20GP"
+        },
+        "L06": {
+          "expect": "value",
+          "price": 640,
+          "currency": "USD",
+          "unitBasis": "per_40HC"
+        },
+        "L07": {
+          "expect": "value",
+          "price": 1850,
+          "currency": "USD",
+          "unitBasis": "per_40HC"
+        },
+        "L08": {
+          "expect": "value",
+          "price": 1820,
+          "currency": "USD",
+          "unitBasis": "per_40HC"
+        },
+        "L09": {
+          "expect": "value",
+          "price": 2650,
+          "currency": "USD",
+          "unitBasis": "per_40HC"
+        },
+        "L10": {
+          "expect": "value",
+          "price": 380,
+          "currency": "USD",
+          "unitBasis": "per_20GP"
+        },
+        "L11": {
+          "expect": "value",
+          "price": 480,
+          "currency": "USD",
+          "unitBasis": "per_40HC"
+        },
+        "L12": {
+          "expect": "value",
+          "price": 1900,
+          "currency": "USD",
+          "unitBasis": "per_40HC"
+        },
+        "L13": {
+          "expect": "value",
+          "price": 1950,
+          "currency": "USD",
+          "unitBasis": "per_40HC"
+        },
+        "L14": {
+          "expect": "value",
+          "price": 260,
+          "currency": "USD",
+          "unitBasis": "per_20GP"
+        },
+        "L15": {
+          "expect": "value",
+          "price": 1100,
+          "currency": "USD",
+          "unitBasis": "per_40HC"
+        },
+        "L16": {
+          "expect": "value",
+          "price": 650,
+          "currency": "USD",
+          "unitBasis": "per_20GP"
+        },
+        "L17": {
+          "expect": "value",
+          "price": 1050,
+          "currency": "USD",
+          "unitBasis": "per_40HC"
+        },
+        "L18": {
+          "expect": "value",
+          "price": 400,
+          "currency": "USD",
+          "unitBasis": "per_20GP"
+        },
+        "L19": {
+          "expect": "value",
+          "price": 22,
+          "currency": "USD",
+          "unitBasis": "per_CBM"
+        },
+        "L20": {
+          "expect": "value",
+          "price": 28,
+          "currency": "USD",
+          "unitBasis": "per_CBM"
+        },
+        "L21": {
+          "expect": "value",
+          "price": 26,
+          "currency": "USD",
+          "unitBasis": "per_CBM"
+        },
+        "L22": {
+          "expect": "value",
+          "price": 45,
+          "currency": "USD",
+          "unitBasis": "per_CBM"
+        },
+        "L23": {
+          "expect": "value",
+          "price": 62,
+          "currency": "USD",
+          "unitBasis": "per_CBM"
+        },
+        "L24": {
+          "expect": "value",
+          "price": 44,
+          "currency": "USD",
+          "unitBasis": "per_CBM"
+        },
+        "L25": {
+          "expect": "value",
+          "price": 30,
+          "currency": "USD",
+          "unitBasis": "per_CBM"
+        },
+        "L26": {
+          "expect": "value",
+          "price": 26,
+          "currency": "USD",
+          "unitBasis": "per_CBM"
+        },
+        "L27": {
+          "expect": "value",
+          "price": 1.45,
+          "currency": "USD",
+          "unitBasis": "per_kg"
+        },
+        "L28": {
+          "expect": "value",
+          "price": 1.95,
+          "currency": "USD",
+          "unitBasis": "per_kg"
+        },
+        "L29": {
+          "expect": "value",
+          "price": 2.85,
+          "currency": "USD",
+          "unitBasis": "per_kg"
+        },
+        "L30": {
+          "expect": "value",
+          "price": 3.6,
+          "currency": "USD",
+          "unitBasis": "per_kg"
+        }
+      },
+      "conditions": [
+        {
+          "kind": "volume_discount",
+          "mustBeFlaggedNotApplied": true,
+          "pct": 4,
+          "thresholdTeu": 200,
+          "page": 2
+        }
+      ],
+      "questionnaire": {
+        "Q1": "unanswered",
+        "Q2": "unanswered",
+        "Q3": "unanswered",
+        "Q4": "unanswered",
+        "Q5": "unanswered",
+        "Q6": "unanswered",
+        "Q7": "unanswered",
+        "Q8": "unanswered"
+      }
+    },
+    "vendor-C": {
+      "file": "vendor-C-word-prose.docx",
+      "currency": "INR",
+      "basis": "partial",
+      "cells": {
+        "L01": {
+          "expect": "value",
+          "price": 45200,
+          "currency": "INR",
+          "unitBasis": "per_20GP"
+        },
+        "L02": {
+          "expect": "value",
+          "price": 69800,
+          "currency": "INR",
+          "unitBasis": "per_40HC"
+        },
+        "L03": {
+          "expect": "value",
+          "price": 43500,
+          "currency": "INR",
+          "unitBasis": "per_20GP"
+        },
+        "L04": {
+          "expect": "value",
+          "price": 67100,
+          "currency": "INR",
+          "unitBasis": "per_40HC"
+        },
+        "L05": {
+          "expect": "value",
+          "price": 37400,
+          "currency": "INR",
+          "unitBasis": "per_20GP"
+        },
+        "L06": {
+          "expect": "value",
+          "price": 56100,
+          "currency": "INR",
+          "unitBasis": "per_40HC"
+        },
+        "L07": {
+          "expect": "value",
+          "price": 159800,
+          "currency": "INR",
+          "unitBasis": "per_40HC"
+        },
+        "L08": {
+          "expect": "value",
+          "price": 157000,
+          "currency": "INR",
+          "unitBasis": "per_40HC"
+        },
+        "L09": {
+          "expect": "value",
+          "price": 229000,
+          "currency": "INR",
+          "unitBasis": "per_40HC"
+        },
+        "L10": {
+          "expect": "value",
+          "price": 33100,
+          "currency": "INR",
+          "unitBasis": "per_20GP"
+        },
+        "L11": {
+          "expect": "missing"
+        },
+        "L12": {
+          "expect": "value",
+          "price": 164000,
+          "currency": "INR",
+          "unitBasis": "per_40HC"
+        },
+        "L13": {
+          "expect": "value",
+          "price": 167500,
+          "currency": "INR",
+          "unitBasis": "per_40HC"
+        },
+        "L14": {
+          "expect": "value",
+          "price": 22300,
+          "currency": "INR",
+          "unitBasis": "per_20GP"
+        },
+        "L15": {
+          "expect": "value",
+          "price": 95900,
+          "currency": "INR",
+          "unitBasis": "per_40HC"
+        },
+        "L16": {
+          "expect": "value",
+          "price": 57200,
+          "currency": "INR",
+          "unitBasis": "per_20GP"
+        },
+        "L17": {
+          "expect": "value",
+          "price": 91800,
+          "currency": "INR",
+          "unitBasis": "per_40HC"
+        },
+        "L18": {
+          "expect": "value",
+          "price": 34900,
+          "currency": "INR",
+          "unitBasis": "per_20GP"
+        },
+        "L19": {
+          "expect": "value",
+          "price": 1990,
+          "currency": "INR",
+          "unitBasis": "per_CBM"
+        },
+        "L20": {
+          "expect": "value",
+          "price": 2490,
+          "currency": "INR",
+          "unitBasis": "per_CBM"
+        },
+        "L21": {
+          "expect": "value",
+          "price": 2320,
+          "currency": "INR",
+          "unitBasis": "per_CBM"
+        },
+        "L22": {
+          "expect": "value",
+          "price": 3950,
+          "currency": "INR",
+          "unitBasis": "per_CBM"
+        },
+        "L23": {
+          "expect": "missing"
+        },
+        "L24": {
+          "expect": "value",
+          "price": 3860,
+          "currency": "INR",
+          "unitBasis": "per_CBM"
+        },
+        "L25": {
+          "expect": "value",
+          "price": 2640,
+          "currency": "INR",
+          "unitBasis": "per_CBM"
+        },
+        "L26": {
+          "expect": "value",
+          "price": 2280,
+          "currency": "INR",
+          "unitBasis": "per_CBM"
+        },
+        "L27": {
+          "expect": "value",
+          "price": 126,
+          "currency": "INR",
+          "unitBasis": "per_kg"
+        },
+        "L28": {
+          "expect": "value",
+          "price": 171,
+          "currency": "INR",
+          "unitBasis": "per_kg"
+        },
+        "L29": {
+          "expect": "missing"
+        },
+        "L30": {
+          "expect": "value",
+          "price": 318,
+          "currency": "INR",
+          "unitBasis": "per_kg"
+        }
+      },
+      "questionnaire": {
+        "Q1": "yes",
+        "Q2": "partial",
+        "Q3": "partial",
+        "Q4": "yes",
+        "Q5": "partial",
+        "Q6": "partial",
+        "Q7": "partial",
+        "Q8": "partial"
+      },
+      "notes": "Q5 is INR 8 crore against a USD rule: cross-currency, buyer decides."
+    },
+    "vendor-D": {
+      "file": "vendor-D-photo-rate-card.png",
+      "currency": "INR",
+      "basis": "partial",
+      "cells": {
+        "L01": {
+          "expect": "value",
+          "price": 44500,
+          "currency": "INR",
+          "unitBasis": "per_20ft"
+        },
+        "L02": {
+          "expect": "value",
+          "price": 68900,
+          "currency": "INR",
+          "unitBasis": "per_40ft"
+        },
+        "L03": {
+          "expect": "value",
+          "price": 42800,
+          "currency": "INR",
+          "unitBasis": "per_20ft"
+        },
+        "L04": {
+          "expect": "value",
+          "price": 66200,
+          "currency": "INR",
+          "unitBasis": "per_40ft"
+        },
+        "L05": {
+          "expect": "value",
+          "price": 36900,
+          "currency": "INR",
+          "unitBasis": "per_20ft"
+        },
+        "L06": {
+          "expect": "value",
+          "price": 55400,
+          "currency": "INR",
+          "unitBasis": "per_40ft"
+        },
+        "L07": {
+          "expect": "low_confidence",
+          "price": 158000,
+          "currency": "INR",
+          "unitBasis": "per_40ft",
+          "illegible": true
+        },
+        "L08": {
+          "expect": "value",
+          "price": 155500,
+          "currency": "INR",
+          "unitBasis": "per_40ft"
+        },
+        "L09": {
+          "expect": "value",
+          "price": 226000,
+          "currency": "INR",
+          "unitBasis": "per_40ft"
+        },
+        "L10": {
+          "expect": "value",
+          "price": 32500,
+          "currency": "INR",
+          "unitBasis": "per_20ft"
+        },
+        "L11": {
+          "expect": "value",
+          "price": 41500,
+          "currency": "INR",
+          "unitBasis": "per_40ft"
+        },
+        "L12": {
+          "expect": "value",
+          "price": 162000,
+          "currency": "INR",
+          "unitBasis": "per_40ft"
+        },
+        "L13": {
+          "expect": "missing"
+        },
+        "L14": {
+          "expect": "value",
+          "price": 21800,
+          "currency": "INR",
+          "unitBasis": "per_20ft"
+        },
+        "L15": {
+          "expect": "low_confidence",
+          "price": 94800,
+          "currency": "INR",
+          "unitBasis": "per_40ft",
+          "illegible": true
+        },
+        "L16": {
+          "expect": "value",
+          "price": 56500,
+          "currency": "INR",
+          "unitBasis": "per_20ft"
+        },
+        "L17": {
+          "expect": "value",
+          "price": 90500,
+          "currency": "INR",
+          "unitBasis": "per_40ft"
+        },
+        "L18": {
+          "expect": "value",
+          "price": 34200,
+          "currency": "INR",
+          "unitBasis": "per_20ft"
+        },
+        "L19": {
+          "expect": "low_confidence",
+          "price": 1950,
+          "currency": "INR",
+          "unitBasis": "per_wm",
+          "illegible": true
+        },
+        "L20": {
+          "expect": "value",
+          "price": 2450,
+          "currency": "INR",
+          "unitBasis": "per_wm"
+        },
+        "L21": {
+          "expect": "value",
+          "price": 2300,
+          "currency": "INR",
+          "unitBasis": "per_wm"
+        },
+        "L22": {
+          "expect": "value",
+          "price": 3900,
+          "currency": "INR",
+          "unitBasis": "per_wm"
+        },
+        "L23": {
+          "expect": "value",
+          "price": 5400,
+          "currency": "INR",
+          "unitBasis": "per_wm"
+        },
+        "L24": {
+          "expect": "value",
+          "price": 3800,
+          "currency": "INR",
+          "unitBasis": "per_wm"
+        },
+        "L25": {
+          "expect": "value",
+          "price": 2600,
+          "currency": "INR",
+          "unitBasis": "per_wm"
+        },
+        "L26": {
+          "expect": "value",
+          "price": 2250,
+          "currency": "INR",
+          "unitBasis": "per_wm"
+        },
+        "L27": {
+          "expect": "value",
+          "price": 124,
+          "currency": "INR",
+          "unitBasis": "per_kg"
+        },
+        "L28": {
+          "expect": "low_confidence",
+          "price": 168,
+          "currency": "INR",
+          "unitBasis": "per_kg",
+          "illegible": true
+        },
+        "L29": {
+          "expect": "value",
+          "price": 245,
+          "currency": "INR",
+          "unitBasis": "per_kg"
+        },
+        "L30": {
+          "expect": "missing"
+        }
+      },
+      "questionnaire": {
+        "Q1": "unanswered",
+        "Q2": "unanswered",
+        "Q3": "unanswered",
+        "Q4": "unanswered",
+        "Q5": "unanswered",
+        "Q6": "unanswered",
+        "Q7": "unanswered",
+        "Q8": "unanswered"
+      }
+    },
+    "vendor-E": {
+      "file": "vendor-E-email-only.eml",
+      "currency": "USD",
+      "basis": "freight_only",
+      "cells": {
+        "L01": {
+          "expect": "ambiguous_lane_match",
+          "candidates": [
+            "L01",
+            "L03"
+          ]
+        },
+        "L02": {
+          "expect": "ambiguous_lane_match",
+          "candidates": [
+            "L02",
+            "L04"
+          ]
+        },
+        "L03": {
+          "expect": "ambiguous_lane_match",
+          "candidates": [
+            "L01",
+            "L03"
+          ]
+        },
+        "L04": {
+          "expect": "ambiguous_lane_match",
+          "candidates": [
+            "L02",
+            "L04"
+          ]
+        },
+        "L05": {
+          "expect": "prior_rate_reference"
+        },
+        "L06": {
+          "expect": "prior_rate_reference"
+        },
+        "L07": {
+          "expect": "value",
+          "price": 1780,
+          "currency": "USD",
+          "unitBasis": "per_40HC"
+        },
+        "L08": {
+          "expect": "value",
+          "price": 1760,
+          "currency": "USD",
+          "unitBasis": "per_40HC"
+        },
+        "L09": {
+          "expect": "value",
+          "price": 2590,
+          "currency": "USD",
+          "unitBasis": "per_40HC"
+        },
+        "L10": {
+          "expect": "value",
+          "price": 365,
+          "currency": "USD",
+          "unitBasis": "per_20GP"
+        },
+        "L11": {
+          "expect": "value",
+          "price": 470,
+          "currency": "USD",
+          "unitBasis": "per_40HC"
+        },
+        "L12": {
+          "expect": "value",
+          "price": 1860,
+          "currency": "USD",
+          "unitBasis": "per_40HC"
+        },
+        "L13": {
+          "expect": "value",
+          "price": 1900,
+          "currency": "USD",
+          "unitBasis": "per_40HC"
+        },
+        "L14": {
+          "expect": "value",
+          "price": 245,
+          "currency": "USD",
+          "unitBasis": "per_20GP"
+        },
+        "L15": {
+          "expect": "value",
+          "price": 1060,
+          "currency": "USD",
+          "unitBasis": "per_40HC"
+        },
+        "L16": {
+          "expect": "value",
+          "price": 630,
+          "currency": "USD",
+          "unitBasis": "per_20GP"
+        },
+        "L17": {
+          "expect": "value",
+          "price": 1010,
+          "currency": "USD",
+          "unitBasis": "per_40HC"
+        },
+        "L18": {
+          "expect": "value",
+          "price": 390,
+          "currency": "USD",
+          "unitBasis": "per_20GP"
+        },
+        "L19": {
+          "expect": "missing"
+        },
+        "L20": {
+          "expect": "missing"
+        },
+        "L21": {
+          "expect": "missing"
+        },
+        "L22": {
+          "expect": "missing"
+        },
+        "L23": {
+          "expect": "missing"
+        },
+        "L24": {
+          "expect": "missing"
+        },
+        "L25": {
+          "expect": "missing"
+        },
+        "L26": {
+          "expect": "missing"
+        },
+        "L27": {
+          "expect": "value",
+          "price": 1.4,
+          "currency": "USD",
+          "unitBasis": "per_kg"
+        },
+        "L28": {
+          "expect": "value",
+          "price": 1.9,
+          "currency": "USD",
+          "unitBasis": "per_kg"
+        },
+        "L29": {
+          "expect": "value",
+          "price": 2.75,
+          "currency": "USD",
+          "unitBasis": "per_kg"
+        },
+        "L30": {
+          "expect": "value",
+          "price": 3.45,
+          "currency": "USD",
+          "unitBasis": "per_kg"
+        }
+      },
+      "questionnaire": {
+        "Q1": "partial",
+        "Q2": "yes",
+        "Q3": "partial",
+        "Q4": "unanswered",
+        "Q5": "yes",
+        "Q6": "unanswered",
+        "Q7": "unanswered",
+        "Q8": "unanswered"
+      },
+      "notes": "LCL lanes L19–L26 explicitly passed."
+    }
+  }
+}

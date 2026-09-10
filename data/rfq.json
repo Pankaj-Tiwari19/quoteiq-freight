@@ -1,0 +1,467 @@
+{
+  "rfq_id": "RFX-2026-09-FRT",
+  "title": "Annual freight lanes FY27 – FCL / LCL / Air",
+  "category": "Freight lanes (ocean FCL/LCL, air)",
+  "buyer": "Aerchain Procurement, Mumbai",
+  "currency": "INR",
+  "issued_on": "2026-09-10",
+  "due_on": "2026-09-24",
+  "status": "Responses received – under evaluation",
+  "incoterm": "Rates requested all-in, port-to-port, per lane in the stated unit (20GP / 40HC / per CBM at declared density / per kg chargeable). USD accepted; evaluated at the frozen rate below.",
+  "max_transit_days": 40,
+  "fx": {
+    "USD_INR": 84.1,
+    "as_of": "2026-09-10",
+    "source": "RBI reference rate (frozen for evaluation)"
+  },
+  "quality_questionnaire": [
+    {
+      "id": "Q1",
+      "label": "ISO 9001 certified",
+      "mandatory": true,
+      "question": "Do you hold a valid ISO 9001 certificate? Attach a copy.",
+      "pass_rule": {
+        "type": "boolean",
+        "pass": true
+      }
+    },
+    {
+      "id": "Q2",
+      "label": "IATA / FIATA member",
+      "mandatory": false,
+      "question": "Are you an IATA and/or FIATA member? State membership numbers.",
+      "pass_rule": {
+        "type": "boolean",
+        "pass": true
+      }
+    },
+    {
+      "id": "Q3",
+      "label": "Own CFS at Nhava Sheva",
+      "mandatory": false,
+      "question": "Do you operate your own CFS at Nhava Sheva, or use a third party? Name it.",
+      "pass_rule": {
+        "type": "manual"
+      }
+    },
+    {
+      "id": "Q4",
+      "label": "Claims ratio ≤ 2%",
+      "mandatory": false,
+      "question": "What was your cargo claims ratio (claims / shipments) in the last financial year?",
+      "pass_rule": {
+        "type": "ratioLte",
+        "value": 0.02
+      }
+    },
+    {
+      "id": "Q5",
+      "label": "Marine liability cover ≥ USD 1M",
+      "mandatory": true,
+      "question": "What is your marine liability insurance cover? State the amount and currency and attach the certificate.",
+      "pass_rule": {
+        "type": "amountGte",
+        "value": 1000000,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": "Q6",
+      "label": "Escalation SLA stated",
+      "mandatory": false,
+      "question": "What is your escalation SLA for a shipment exception (hours to named manager)?",
+      "pass_rule": {
+        "type": "manual"
+      }
+    },
+    {
+      "id": "Q7",
+      "label": "ESG / emissions reporting",
+      "mandatory": false,
+      "question": "Do you publish ESG / emissions reporting per shipment?",
+      "pass_rule": {
+        "type": "boolean",
+        "pass": true
+      }
+    },
+    {
+      "id": "Q8",
+      "label": "Two references > 500 TEU",
+      "mandatory": false,
+      "question": "Provide two references from Indian exporters with annual volume above 500 TEU.",
+      "pass_rule": {
+        "type": "manual"
+      }
+    }
+  ],
+  "lines": [
+    {
+      "sku": "L01",
+      "description": "Nhava Sheva → Jebel Ali",
+      "quantity": 36,
+      "uom": "20GP",
+      "mode": "FCL",
+      "origin": "INNSA",
+      "origin_name": "Nhava Sheva",
+      "destination": "AEJEA",
+      "destination_name": "Jebel Ali",
+      "direction": "export"
+    },
+    {
+      "sku": "L02",
+      "description": "Nhava Sheva → Jebel Ali",
+      "quantity": 24,
+      "uom": "40HC",
+      "mode": "FCL",
+      "origin": "INNSA",
+      "origin_name": "Nhava Sheva",
+      "destination": "AEJEA",
+      "destination_name": "Jebel Ali",
+      "direction": "export"
+    },
+    {
+      "sku": "L03",
+      "description": "Mundra → Jebel Ali",
+      "quantity": 18,
+      "uom": "20GP",
+      "mode": "FCL",
+      "origin": "INMUN",
+      "origin_name": "Mundra",
+      "destination": "AEJEA",
+      "destination_name": "Jebel Ali",
+      "direction": "export"
+    },
+    {
+      "sku": "L04",
+      "description": "Mundra → Jebel Ali",
+      "quantity": 12,
+      "uom": "40HC",
+      "mode": "FCL",
+      "origin": "INMUN",
+      "origin_name": "Mundra",
+      "destination": "AEJEA",
+      "destination_name": "Jebel Ali",
+      "direction": "export"
+    },
+    {
+      "sku": "L05",
+      "description": "Nhava Sheva → Singapore",
+      "quantity": 12,
+      "uom": "20GP",
+      "mode": "FCL",
+      "origin": "INNSA",
+      "origin_name": "Nhava Sheva",
+      "destination": "SGSIN",
+      "destination_name": "Singapore",
+      "direction": "export"
+    },
+    {
+      "sku": "L06",
+      "description": "Nhava Sheva → Singapore",
+      "quantity": 18,
+      "uom": "40HC",
+      "mode": "FCL",
+      "origin": "INNSA",
+      "origin_name": "Nhava Sheva",
+      "destination": "SGSIN",
+      "destination_name": "Singapore",
+      "direction": "export"
+    },
+    {
+      "sku": "L07",
+      "description": "Nhava Sheva → Rotterdam",
+      "quantity": 20,
+      "uom": "40HC",
+      "mode": "FCL",
+      "origin": "INNSA",
+      "origin_name": "Nhava Sheva",
+      "destination": "NLRTM",
+      "destination_name": "Rotterdam",
+      "direction": "export"
+    },
+    {
+      "sku": "L08",
+      "description": "Mundra → Rotterdam",
+      "quantity": 16,
+      "uom": "40HC",
+      "mode": "FCL",
+      "origin": "INMUN",
+      "origin_name": "Mundra",
+      "destination": "NLRTM",
+      "destination_name": "Rotterdam",
+      "direction": "export"
+    },
+    {
+      "sku": "L09",
+      "description": "Nhava Sheva → Los Angeles",
+      "quantity": 14,
+      "uom": "40HC",
+      "mode": "FCL",
+      "origin": "INNSA",
+      "origin_name": "Nhava Sheva",
+      "destination": "USLAX",
+      "destination_name": "Los Angeles",
+      "direction": "export"
+    },
+    {
+      "sku": "L10",
+      "description": "Chennai → Singapore",
+      "quantity": 10,
+      "uom": "20GP",
+      "mode": "FCL",
+      "origin": "INMAA",
+      "origin_name": "Chennai",
+      "destination": "SGSIN",
+      "destination_name": "Singapore",
+      "direction": "export"
+    },
+    {
+      "sku": "L11",
+      "description": "Chennai → Port Klang",
+      "quantity": 8,
+      "uom": "40HC",
+      "mode": "FCL",
+      "origin": "INMAA",
+      "origin_name": "Chennai",
+      "destination": "MYPKG",
+      "destination_name": "Port Klang",
+      "direction": "export"
+    },
+    {
+      "sku": "L12",
+      "description": "Nhava Sheva → Hamburg",
+      "quantity": 10,
+      "uom": "40HC",
+      "mode": "FCL",
+      "origin": "INNSA",
+      "origin_name": "Nhava Sheva",
+      "destination": "DEHAM",
+      "destination_name": "Hamburg",
+      "direction": "export"
+    },
+    {
+      "sku": "L13",
+      "description": "Nhava Sheva → Felixstowe",
+      "quantity": 8,
+      "uom": "40HC",
+      "mode": "FCL",
+      "origin": "INNSA",
+      "origin_name": "Nhava Sheva",
+      "destination": "GBFXT",
+      "destination_name": "Felixstowe",
+      "direction": "export"
+    },
+    {
+      "sku": "L14",
+      "description": "Nhava Sheva → Colombo",
+      "quantity": 12,
+      "uom": "20GP",
+      "mode": "FCL",
+      "origin": "INNSA",
+      "origin_name": "Nhava Sheva",
+      "destination": "LKCMB",
+      "destination_name": "Colombo",
+      "direction": "export"
+    },
+    {
+      "sku": "L15",
+      "description": "Shanghai → Nhava Sheva (import)",
+      "quantity": 24,
+      "uom": "40HC",
+      "mode": "FCL",
+      "origin": "CNSHA",
+      "origin_name": "Shanghai",
+      "destination": "INNSA",
+      "destination_name": "Nhava Sheva",
+      "direction": "import"
+    },
+    {
+      "sku": "L16",
+      "description": "Shanghai → Nhava Sheva (import)",
+      "quantity": 12,
+      "uom": "20GP",
+      "mode": "FCL",
+      "origin": "CNSHA",
+      "origin_name": "Shanghai",
+      "destination": "INNSA",
+      "destination_name": "Nhava Sheva",
+      "direction": "import"
+    },
+    {
+      "sku": "L17",
+      "description": "Busan → Chennai (import)",
+      "quantity": 8,
+      "uom": "40HC",
+      "mode": "FCL",
+      "origin": "KRPUS",
+      "origin_name": "Busan",
+      "destination": "INMAA",
+      "destination_name": "Chennai",
+      "direction": "import"
+    },
+    {
+      "sku": "L18",
+      "description": "Jebel Ali → Mundra (import)",
+      "quantity": 10,
+      "uom": "20GP",
+      "mode": "FCL",
+      "origin": "AEJEA",
+      "origin_name": "Jebel Ali",
+      "destination": "INMUN",
+      "destination_name": "Mundra",
+      "direction": "import"
+    },
+    {
+      "sku": "L19",
+      "description": "Nhava Sheva → Jebel Ali",
+      "quantity": 240,
+      "uom": "CBM",
+      "mode": "LCL",
+      "origin": "INNSA",
+      "origin_name": "Nhava Sheva",
+      "destination": "AEJEA",
+      "destination_name": "Jebel Ali",
+      "direction": "export",
+      "cargo_density_kg_per_cbm": 350
+    },
+    {
+      "sku": "L20",
+      "description": "Nhava Sheva → Singapore",
+      "quantity": 180,
+      "uom": "CBM",
+      "mode": "LCL",
+      "origin": "INNSA",
+      "origin_name": "Nhava Sheva",
+      "destination": "SGSIN",
+      "destination_name": "Singapore",
+      "direction": "export",
+      "cargo_density_kg_per_cbm": 420
+    },
+    {
+      "sku": "L21",
+      "description": "Chennai → Singapore",
+      "quantity": 120,
+      "uom": "CBM",
+      "mode": "LCL",
+      "origin": "INMAA",
+      "origin_name": "Chennai",
+      "destination": "SGSIN",
+      "destination_name": "Singapore",
+      "direction": "export",
+      "cargo_density_kg_per_cbm": 300
+    },
+    {
+      "sku": "L22",
+      "description": "Nhava Sheva → Rotterdam",
+      "quantity": 160,
+      "uom": "CBM",
+      "mode": "LCL",
+      "origin": "INNSA",
+      "origin_name": "Nhava Sheva",
+      "destination": "NLRTM",
+      "destination_name": "Rotterdam",
+      "direction": "export",
+      "cargo_density_kg_per_cbm": 380
+    },
+    {
+      "sku": "L23",
+      "description": "Nhava Sheva → Los Angeles",
+      "quantity": 90,
+      "uom": "CBM",
+      "mode": "LCL",
+      "origin": "INNSA",
+      "origin_name": "Nhava Sheva",
+      "destination": "USLAX",
+      "destination_name": "Los Angeles",
+      "direction": "export",
+      "cargo_density_kg_per_cbm": 450
+    },
+    {
+      "sku": "L24",
+      "description": "Mundra → Hamburg",
+      "quantity": 110,
+      "uom": "CBM",
+      "mode": "LCL",
+      "origin": "INMUN",
+      "origin_name": "Mundra",
+      "destination": "DEHAM",
+      "destination_name": "Hamburg",
+      "direction": "export",
+      "cargo_density_kg_per_cbm": 330
+    },
+    {
+      "sku": "L25",
+      "description": "Singapore → Nhava Sheva (import)",
+      "quantity": 200,
+      "uom": "CBM",
+      "mode": "LCL",
+      "origin": "SGSIN",
+      "origin_name": "Singapore",
+      "destination": "INNSA",
+      "destination_name": "Nhava Sheva",
+      "direction": "import",
+      "cargo_density_kg_per_cbm": 400
+    },
+    {
+      "sku": "L26",
+      "description": "Shanghai → Nhava Sheva (import)",
+      "quantity": 260,
+      "uom": "CBM",
+      "mode": "LCL",
+      "origin": "CNSHA",
+      "origin_name": "Shanghai",
+      "destination": "INNSA",
+      "destination_name": "Nhava Sheva",
+      "direction": "import",
+      "cargo_density_kg_per_cbm": 500
+    },
+    {
+      "sku": "L27",
+      "description": "Mumbai (BOM) → Dubai (DXB)",
+      "quantity": 18000,
+      "uom": "KG",
+      "mode": "AIR",
+      "origin": "INBOM",
+      "origin_name": "Mumbai (BOM)",
+      "destination": "AEDXB",
+      "destination_name": "Dubai (DXB)",
+      "direction": "export"
+    },
+    {
+      "sku": "L28",
+      "description": "Mumbai (BOM) → Singapore",
+      "quantity": 12000,
+      "uom": "KG",
+      "mode": "AIR",
+      "origin": "INBOM",
+      "origin_name": "Mumbai (BOM)",
+      "destination": "SGSIN",
+      "destination_name": "Singapore",
+      "direction": "export"
+    },
+    {
+      "sku": "L29",
+      "description": "Mumbai (BOM) → Amsterdam (AMS)",
+      "quantity": 9000,
+      "uom": "KG",
+      "mode": "AIR",
+      "origin": "INBOM",
+      "origin_name": "Mumbai (BOM)",
+      "destination": "NLAMS",
+      "destination_name": "Amsterdam (AMS)",
+      "direction": "export"
+    },
+    {
+      "sku": "L30",
+      "description": "Mumbai (BOM) → Chicago (ORD)",
+      "quantity": 6000,
+      "uom": "KG",
+      "mode": "AIR",
+      "origin": "INBOM",
+      "origin_name": "Mumbai (BOM)",
+      "destination": "USORD",
+      "destination_name": "Chicago (ORD)",
+      "direction": "export"
+    }
+  ]
+}
