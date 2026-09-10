@@ -50,7 +50,8 @@ fs.writeFileSync(path.join(DATA, "vendors.json"), JSON.stringify({ vendors }, nu
 
 // ---------- Vendor A: nice Excel, own layout, own lane codes, INR, all-in, all 30 ----------
 const CODE: Record<string, string> = { INNSA: "NSA", INMUN: "MUN", INMAA: "MAA", INBOM: "BOM", AEJEA: "JEA", SGSIN: "SIN", NLRTM: "RTM", USLAX: "LAX", MYPKG: "PKG", DEHAM: "HAM", GBFXT: "FXT", LKCMB: "CMB", CNSHA: "SHA", KRPUS: "PUS", AEDXB: "DXB", NLAMS: "AMS", USORD: "ORD" };
-const A_PRICES: Record<string, number> = { L01: 43800, L02: 66500, L03: 41900, L04: 64200, L05: 36200, L06: 53900, L07: 155000, L08: 152500, L09: 222000, L10: 31800, L11: 40200, L12: 159500, L13: 163000, L14: 21500, L15: 92500, L16: 54800, L17: 88900, L18: 33600, L19: 1880, L20: 2380, L21: 2210, L22: 3820, L23: 5250, L24: 3700, L25: 2540, L26: 2190, L27: 121, L28: 163, L29: 239, L30: 302 };
+// Bluewater is strongest on Gulf/Asia FCL and air; weaker on Europe/US FCL and Europe LCL (so a lane-by-lane split beats any single award).
+const A_PRICES: Record<string, number> = { L01: 43800, L02: 66500, L03: 41900, L04: 64200, L05: 37500, L06: 56200, L07: 161000, L08: 158500, L09: 231000, L10: 31800, L11: 40200, L12: 166000, L13: 169500, L14: 22100, L15: 92500, L16: 54800, L17: 88900, L18: 33600, L19: 1880, L20: 2380, L21: 2210, L22: 4050, L23: 5600, L24: 3950, L25: 2540, L26: 2190, L27: 126, L28: 163, L29: 239, L30: 302 };
 const A_TRANSIT: Record<string, number> = { L01: 7, L02: 7, L03: 6, L04: 6, L05: 12, L06: 12, L07: 26, L08: 27, L09: 34, L10: 9, L11: 7, L12: 28, L13: 27, L14: 4, L15: 14, L16: 14, L17: 16, L18: 8, L19: 10, L20: 15, L21: 12, L22: 30, L23: 38, L24: 32, L25: 17, L26: 18, L27: 2, L28: 3, L29: 3, L30: 4 };
 {
   const wb = XLSX.utils.book_new();
@@ -67,7 +68,8 @@ const A_TRANSIT: Record<string, number> = { L01: 7, L02: 7, L03: 6, L04: 6, L05:
 
 // ---------- Vendor C: Word prose, INR, includes THC at origin only (partial basis), quotes 27/30, silently skips 3 ----------
 const C_SKIP = ["L11", "L23", "L29"];
-const C_PRICES: Record<string, number> = { L01: 45200, L02: 69800, L03: 43500, L04: 67100, L05: 37400, L06: 56100, L07: 159800, L08: 157000, L09: 229000, L10: 33100, L12: 164000, L13: 167500, L14: 22300, L15: 95900, L16: 57200, L17: 91800, L18: 34900, L19: 1990, L20: 2490, L21: 2320, L22: 3950, L24: 3860, L25: 2640, L26: 2280, L27: 126, L28: 171, L30: 318 };
+// CorriGlobe is strongest on Europe/US FCL, Europe LCL and imports; weaker on the Gulf and air.
+const C_PRICES: Record<string, number> = { L01: 45200, L02: 69800, L03: 43500, L04: 67100, L05: 37800, L06: 56500, L07: 152000, L08: 149500, L09: 218000, L10: 33100, L12: 156500, L13: 160000, L14: 22300, L15: 91000, L16: 57200, L17: 87500, L18: 34900, L19: 1990, L20: 2490, L21: 2320, L22: 3750, L24: 3600, L25: 2640, L26: 2280, L27: 127, L28: 171, L30: 318 };
 {
   const paras: Paragraph[] = [
     new Paragraph({ text: "CorriGlobe Freight Services", heading: HeadingLevel.TITLE }),

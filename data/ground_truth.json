@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T18:42:51.045Z",
+  "generated_at": "2026-09-10T18:44:38.795Z",
   "programme_teu": 434,
   "vendors": {
     "vendor-A": {
@@ -33,31 +33,31 @@
         },
         "L05": {
           "expect": "value",
-          "price": 36200,
+          "price": 37500,
           "currency": "INR",
           "unitBasis": "per_20GP"
         },
         "L06": {
           "expect": "value",
-          "price": 53900,
+          "price": 56200,
           "currency": "INR",
           "unitBasis": "per_40HC"
         },
         "L07": {
           "expect": "value",
-          "price": 155000,
+          "price": 161000,
           "currency": "INR",
           "unitBasis": "per_40HC"
         },
         "L08": {
           "expect": "value",
-          "price": 152500,
+          "price": 158500,
           "currency": "INR",
           "unitBasis": "per_40HC"
         },
         "L09": {
           "expect": "value",
-          "price": 222000,
+          "price": 231000,
           "currency": "INR",
           "unitBasis": "per_40HC"
         },
@@ -75,19 +75,19 @@
         },
         "L12": {
           "expect": "value",
-          "price": 159500,
+          "price": 166000,
           "currency": "INR",
           "unitBasis": "per_40HC"
         },
         "L13": {
           "expect": "value",
-          "price": 163000,
+          "price": 169500,
           "currency": "INR",
           "unitBasis": "per_40HC"
         },
         "L14": {
           "expect": "value",
-          "price": 21500,
+          "price": 22100,
           "currency": "INR",
           "unitBasis": "per_20GP"
         },
@@ -135,19 +135,19 @@
         },
         "L22": {
           "expect": "value",
-          "price": 3820,
+          "price": 4050,
           "currency": "INR",
           "unitBasis": "per_CBM"
         },
         "L23": {
           "expect": "value",
-          "price": 5250,
+          "price": 5600,
           "currency": "INR",
           "unitBasis": "per_CBM"
         },
         "L24": {
           "expect": "value",
-          "price": 3700,
+          "price": 3950,
           "currency": "INR",
           "unitBasis": "per_CBM"
         },
@@ -165,7 +165,7 @@
         },
         "L27": {
           "expect": "value",
-          "price": 121,
+          "price": 126,
           "currency": "INR",
           "unitBasis": "per_kg"
         },
@@ -436,31 +436,31 @@
         },
         "L05": {
           "expect": "value",
-          "price": 37400,
+          "price": 37800,
           "currency": "INR",
           "unitBasis": "per_20GP"
         },
         "L06": {
           "expect": "value",
-          "price": 56100,
+          "price": 56500,
           "currency": "INR",
           "unitBasis": "per_40HC"
         },
         "L07": {
           "expect": "value",
-          "price": 159800,
+          "price": 152000,
           "currency": "INR",
           "unitBasis": "per_40HC"
         },
         "L08": {
           "expect": "value",
-          "price": 157000,
+          "price": 149500,
           "currency": "INR",
           "unitBasis": "per_40HC"
         },
         "L09": {
           "expect": "value",
-          "price": 229000,
+          "price": 218000,
           "currency": "INR",
           "unitBasis": "per_40HC"
         },
@@ -475,13 +475,13 @@
         },
         "L12": {
           "expect": "value",
-          "price": 164000,
+          "price": 156500,
           "currency": "INR",
           "unitBasis": "per_40HC"
         },
         "L13": {
           "expect": "value",
-          "price": 167500,
+          "price": 160000,
           "currency": "INR",
           "unitBasis": "per_40HC"
         },
@@ -493,7 +493,7 @@
         },
         "L15": {
           "expect": "value",
-          "price": 95900,
+          "price": 91000,
           "currency": "INR",
           "unitBasis": "per_40HC"
         },
@@ -505,7 +505,7 @@
         },
         "L17": {
           "expect": "value",
-          "price": 91800,
+          "price": 87500,
           "currency": "INR",
           "unitBasis": "per_40HC"
         },
@@ -535,7 +535,7 @@
         },
         "L22": {
           "expect": "value",
-          "price": 3950,
+          "price": 3750,
           "currency": "INR",
           "unitBasis": "per_CBM"
         },
@@ -544,7 +544,7 @@
         },
         "L24": {
           "expect": "value",
-          "price": 3860,
+          "price": 3600,
           "currency": "INR",
           "unitBasis": "per_CBM"
         },
@@ -562,7 +562,7 @@
         },
         "L27": {
           "expect": "value",
-          "price": 126,
+          "price": 127,
           "currency": "INR",
           "unitBasis": "per_kg"
         },
