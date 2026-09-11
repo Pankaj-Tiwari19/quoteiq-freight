@@ -1,0 +1,12 @@
+{
+  "run_at": "2026-09-11T07:48:37.490Z",
+  "model": "gemini/gemini-3.6-flash · prompt v0.3.0",
+  "lines": {
+    "ok": 127,
+    "total": 127
+  },
+  "flags": {
+    "ok": 19,
+    "total": 23
+  }
+}

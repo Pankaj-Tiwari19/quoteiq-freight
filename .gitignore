@@ -6,9 +6,10 @@ data/llm_debug
 data/outbox
 data/draft
 data/rfqs
-data/eval
-data/decisions.json
-data/eval/
+data/eval/*
+!data/eval/
+!data/eval/latest.json
+!data/eval/latest.json
 data/decisions.json
 data/draft/
 data/outbox/
