@@ -6,7 +6,7 @@
       "location": "Nhava Sheva, Maharashtra",
       "response_format": "xlsx",
       "file": "vendor-A-excel-ignores-template.xlsx",
-      "received_on": "2026-09-15",
+      "received_on": "2026-09-08",
       "email": "tenders@bluewater.example",
       "attachments": [
         "vendor-A-iso9001-certificate.txt"
@@ -19,7 +19,7 @@
       "location": "Ballard Estate, Mumbai",
       "response_format": "pdf",
       "file": "vendor-B-pdf-footnote-discount.pdf",
-      "received_on": "2026-09-12",
+      "received_on": "2026-09-09",
       "email": "commercial@meridianocean.example",
       "questionnaire_note": "Letter says questionnaire and certificates follow under separate cover; nothing has arrived."
     },
@@ -29,7 +29,7 @@
       "location": "Andheri East, Mumbai",
       "response_format": "docx",
       "file": "vendor-C-word-prose.docx",
-      "received_on": "2026-09-14",
+      "received_on": "2026-09-07",
       "email": "bids@corriglobe.example",
       "attachments": [
         "vendor-C-insurance-cover-note.txt"
@@ -42,7 +42,7 @@
       "location": "Uran, Maharashtra",
       "response_format": "image",
       "file": "vendor-D-photo-rate-card.png",
-      "received_on": "2026-09-16",
+      "received_on": "2026-09-08",
       "email": "seacrest.rates@example.com",
       "questionnaire_note": "Photographed rate card only; no questionnaire."
     },
@@ -52,7 +52,7 @@
       "location": "Mundra, Gujarat",
       "response_format": "email",
       "file": "vendor-E-email-only.eml",
-      "received_on": "2026-09-19",
+      "received_on": "2026-09-10",
       "email": "ops@harbourline.example",
       "attachments": [
         "vendor-E-reference-letter.txt"
