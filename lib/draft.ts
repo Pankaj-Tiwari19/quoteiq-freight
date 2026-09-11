@@ -25,9 +25,11 @@ export interface DraftRfq {
   updated_at: string;
 }
 
-const DRAFT_DIR = path.join(process.cwd(), "data", "draft");
+const RUNTIME_DIR = path.join("/tmp", "quoteiq");
+const DRAFT_DIR = path.join(RUNTIME_DIR, "draft");
 const DRAFT_FILE = path.join(DRAFT_DIR, "rfq_draft.json");
-export const OUTBOX_DIR = path.join(process.cwd(), "data", "outbox");
+export const OUTBOX_DIR = path.join(RUNTIME_DIR, "outbox");
+const RFQ_DIR = path.join(RUNTIME_DIR, "rfqs");
 
 export function emptyDraft(): DraftRfq {
   const n = new Date();
@@ -184,8 +186,8 @@ export function sendDraft(vendorIds?: string[]) {
   const dir = path.join(OUTBOX_DIR, d.rfq_id); fs.mkdirSync(dir, { recursive: true });
   d.sent_to = vendors.map(v => { const file = `${v.id}.eml`; fs.writeFileSync(path.join(dir, file), renderRfqEmail(d, v)); return { vendor_id: v.id, name: v.name, email: v.email ?? `sales@${v.id}.example`, file }; });
   d.status = "issued"; d.issued_on = new Date().toISOString().slice(0, 10);
-  fs.mkdirSync(path.join(process.cwd(), "data", "rfqs"), { recursive: true });
-  fs.writeFileSync(path.join(process.cwd(), "data", "rfqs", `${d.rfq_id}.json`), JSON.stringify(d, null, 2));
+ fs.mkdirSync(RFQ_DIR, { recursive: true });
+fs.writeFileSync(path.join(RFQ_DIR, `${d.rfq_id}.json`), JSON.stringify(d, null, 2));
   return saveDraft(d);
 }
 export function readOutbox(rfqId: string, file: string) { const p = path.join(OUTBOX_DIR, path.basename(rfqId), path.basename(file)); return fs.existsSync(p) ? fs.readFileSync(p, "utf8") : null; }
