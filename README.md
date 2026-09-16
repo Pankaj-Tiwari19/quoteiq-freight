@@ -1,4 +1,4 @@
-# QuoteIQ – freight lanes (Aerchain take-home)
+# QuoteIQ – freight lanes
 
 Draft an RFx by conversation → issue it → read whatever suppliers send back (Excel, PDF, Word, a phone photo, an email) → one normalised comparison in INR per lane unit with every value traceable → ask questions in plain language → resolve what the system isn't sure about → a defensible award.
 **LLM reads, code computes. AI recommends, the buyer approves.**
